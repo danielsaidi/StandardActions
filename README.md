@@ -32,6 +32,17 @@ TBD...
 
 
 
+## Localization
+
+ButtonKit is localized in the following languages:
+
+* 🇺🇸 English (US)
+* 🇸🇪 Swedish
+
+Use `Sources/ButtonKit/Resources/Localizable.xcstrings` to add support for more languages.  
+
+
+
 ## Documentation
 
 The online [documentation][Documentation] has more information, articles, code examples, etc.

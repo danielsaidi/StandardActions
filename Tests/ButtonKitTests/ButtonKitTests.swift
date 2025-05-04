@@ -8,7 +8,7 @@ func assertImage(
     #expect(type.imageName == expectedName)
 }
 
-@Test func testStandardButtonTypeDefinesImage() async throws {
+@Test func standardButtonTypeDefinesImage() async throws {
     try assertImage(for: .add, "plus")
     try assertImage(for: .addToFavorites, "star")
     try assertImage(for: .cancel, "xmark")

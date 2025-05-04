@@ -65,7 +65,7 @@ public extension StandardButtonType {
     var id: String { rawValue }
 
     /// The image to use for the button type.
-    var image: Image? { .init(systemName: imageName) }
+    var image: Image { .init(systemName: imageName) }
 
     /// The image name to use for the button type.
     var imageName: String {

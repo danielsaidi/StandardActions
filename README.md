@@ -28,8 +28,36 @@ https://github.com/danielsaidi/ButtonKit.git
 
 ## Getting Started
 
-TBD...
+For now, this library only contains a `StandardButtonType` with the following types:
 
+```
+add, addToFavorites,
+cancel, call, close, copy,
+delete, deselect, done,
+edit, email, export,
+like,
+ok,
+paste,
+removeFromFavorites, removeLike,
+save, search, select, share
+```
+
+A standard button type defines the following information:
+
+* Title
+* Icon
+* Button Role
+* Keyboard Shortcut
+
+You can use the custom `Button(:action:)` initializer to create a standard button with all those properties applied, for instance:
+
+```swift
+Button(.add) { 
+    // Add your custom add logic here
+}
+```
+
+The button above will render properly on all major Apple platforms, and use proper localization. You can apply any view modifiers and button styles to the button to customize it.
 
 
 ## Localization

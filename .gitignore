@@ -1,8 +1,9 @@
+# SPM defaults
 .DS_Store
 /.build
 /Packages
+.swiftpm/
 xcuserdata/
 DerivedData/
-.swiftpm/configuration/registries.json
-.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
-.netrc
+
+**/*.xcuserstate

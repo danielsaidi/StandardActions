@@ -3,51 +3,32 @@
 </p>
 
 <p align="center">
-    <img src="https://img.shields.io/github/v/release/danielsaidi/ButtonKit?color=%2300550&sort=semver" alt="Version" title="Version" />
+    <img src="https://img.shields.io/github/v/release/danielsaidi/StandardButtons?color=%2300550&sort=semver" alt="Version" title="Version" />
     <img src="https://img.shields.io/badge/swift-6.0-orange.svg" alt="Swift 6.0" />
-    <a href="https://danielsaidi.github.io/ButtonKit"><img src="https://img.shields.io/badge/documentation-web-blue.svg" alt="Documentation" /></a>
-    <img src="https://img.shields.io/github/license/danielsaidi/ButtonKit" alt="MIT License" title="MIT License" />
+    <a href="https://danielsaidi.github.io/StandardButtons"><img src="https://img.shields.io/badge/documentation-web-blue.svg" alt="Documentation" /></a>
+    <img src="https://img.shields.io/github/license/danielsaidi/StandardButtons" alt="MIT License" title="MIT License" />
 </p>
 
 
-# ButtonKit
+# StandardButtons
 
-ButtonKit is a SwiftUI library with button-specific utilities.
+StandardButtons is a SwiftUI library that makes it easy to create standard button types, with localized titles and icons.
 
 
 
 ## Installation
 
-ButtonKit can be installed with the Swift Package Manager:
+StandardButtons can be installed with the Swift Package Manager:
 
 ```
-https://github.com/danielsaidi/ButtonKit.git
+https://github.com/danielsaidi/StandardButtons.git
 ```
 
 
 
 ## Getting Started
 
-For now, this library only contains a `StandardButtonType` with the following types:
-
-```
-add, addToFavorites,
-cancel, call, close, copy,
-delete, deselect, done,
-edit, email, export,
-like,
-ok,
-paste,
-removeFromFavorites, removeLike,
-save, search, select, share
-```
-
-A standard button type defines the following information:
-
-* Title
-* Icon
-* Button Role
-* Keyboard Shortcut
+This library contains a ``StandardButtonType`` with a bunch of predefined types, like ``.add``, ``.delete``, ``.edit``, ``.done``, etc. Each button type defines a localized ``.title``, as well as an  ``.image``, a ``.role``, and an optional ``.keyboardShortcut``.
 
 You can use the custom `Button(:action:)` initializer to create a standard button with all those properties applied, for instance:
 
@@ -57,17 +38,18 @@ Button(.add) {
 }
 ```
 
-The button above will render properly on all major Apple platforms, and use proper localization. You can apply any view modifiers and button styles to the button to customize it.
+The code above will render correctly on all major Apple platforms. You can use view modifiers and button styles to customize it further.
+
 
 
 ## Localization
 
-ButtonKit is localized in the following languages:
+This library is localized in the following languages:
 
 * 🇺🇸 English (US)
 * 🇸🇪 Swedish
 
-Use `Sources/ButtonKit/Resources/Localizable.xcstrings` to add support for more languages.  
+Use `Sources/StandardButtons/Resources/Localizable.xcstrings` to add support for more languages.  
 
 
 
@@ -104,7 +86,7 @@ Feel free to reach out if you have questions, or want to contribute in any way:
 
 ## License
 
-ButtonKit is available under the MIT license. See the [LICENSE][License] file for more info.
+StandardButtons is available under the MIT license. See the [LICENSE][License] file for more info.
 
 
 
@@ -118,6 +100,5 @@ ButtonKit is available under the MIT license. See the [LICENSE][License] file fo
 [Mastodon]: https://mastodon.social/@danielsaidi
 [Twitter]: https://twitter.com/danielsaidi
 
-[Documentation]: https://danielsaidi.github.io/ButtonKit
-[Getting-Started]: https://danielsaidi.github.io/ButtonKit/documentation/ButtonKit/getting-started
-[License]: https://github.com/danielsaidi/ButtonKit/blob/master/LICENSE
+[Documentation]: https://danielsaidi.github.io/StandardButtons
+[License]: https://github.com/danielsaidi/StandardButtons/blob/master/LICENSE

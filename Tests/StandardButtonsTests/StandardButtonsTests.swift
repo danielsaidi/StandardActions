@@ -1,5 +1,5 @@
 import Testing
-@testable import ButtonKit
+@testable import StandardButtons
 
 func assertImage(
     for type: StandardButtonType,

@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "ButtonKit",
+    name: "StandardButtons",
     defaultLocalization: "en",
     platforms: [
         .iOS(.v15),
@@ -14,18 +14,18 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "ButtonKit",
-            targets: ["ButtonKit"]
+            name: "StandardButtons",
+            targets: ["StandardButtons"]
         )
     ],
     targets: [
         .target(
-            name: "ButtonKit",
+            name: "StandardButtons",
             resources: [.process("Resources")]
         ),
         .testTarget(
-            name: "ButtonKitTests",
-            dependencies: ["ButtonKit"]
+            name: "StandardButtonsTests",
+            dependencies: ["StandardButtons"]
         )
     ]
 )

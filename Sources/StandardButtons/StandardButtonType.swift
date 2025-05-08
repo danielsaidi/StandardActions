@@ -128,12 +128,12 @@ public extension StandardButtonType {
         case .cancel: "Button.Cancel"
         case .close: "Button.Close"
         case .copy: "Button.Copy"
+        case .delete: "Button.Delete"
         case .deselect: "Button.Deselect"
+        case .done: "Button.Done"
         case .edit: "Button.Edit"
         case .email: "Button.Email"
         case .export: "Button.Export"
-        case .delete: "Button.Delete"
-        case .done: "Button.Done"
         case .like: "Button.Like"
         case .ok: "Button.OK"
         case .paste: "Button.Paste"
@@ -170,15 +170,44 @@ public extension View {
     }
 }
 
+struct MyLabelStyle: LabelStyle {
+
+    func makeBody(configuration: Configuration) -> some View {
+        VStack(spacing: 5) {
+            configuration.icon.font(.headline)
+            configuration.title.font(.footnote)
+        }
+    }
+}
+
 
 #Preview {
     
     @ViewBuilder
+    @MainActor
     func buttons() -> some View {
         Section {
-            ForEach(StandardButtonType.allCases) { type in
-                Button(type) { print("Tapped \(type.title)") }
-            }
+            Button(.add) {} // .tint(.orange)
+            Button(.addToFavorites) {} // .buttonStyle(.bordered)
+            Button(.cancel) {} // .buttonStyle(.borderedProminent)
+            Button(.close) {} // .labelStyle(MyLabelStyle()).buttonStyle(.bordered)
+            Button(.call) {}
+            Button(.copy) {}
+            Button(.delete) {}
+            Button(.deselect) {}
+            Button(.done) {}
+            Button(.edit) {}
+            Button(.email) {}
+            Button(.export) {}
+            Button(.like) {}
+            Button(.ok) {}
+            Button(.paste) {}
+            Button(.removeFromFavorites) {}
+            Button(.removeLike) {}
+            Button(.save) {}
+            Button(.search) {}
+            Button(.select) {}
+            Button(.share) {}
         }
         Section {
             Button(.toggleFavorite(isFavorite: false)) {}
@@ -189,7 +218,7 @@ public extension View {
             Button(.toggleSelect(isSelected: true)) {}
         }
     }
-    
+
     return List {
         buttons().labelStyle(.titleAndIcon)
         buttons().labelStyle(.titleOnly)

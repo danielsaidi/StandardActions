@@ -1,14 +1,15 @@
 # ``StandardButtons``
 
-StandardButtons is a SwiftUI library that makes it easy to create standard button types, with localized titles and icons.
+StandardButtons is a SwiftUI library that makes it easy to create standard button types.
 
 
 ## Overview
 
 ![Library logotype](Logo.png)
 
-StandardButtons has a ``StandardButtonType`` that can be used to create standard buttons with a localized title, icon, role, etc.   
+StandardButtons is a SwiftUI library that lets you create standard button types, with localized titles, icons, roles and keyboard shortcuts.
 
+StandardButtons has many predefined types, like ``StandardButtonType/add``, ``StandardButtonType/delete``, ``StandardButtonType/edit``, ``StandardButtonType/done``, etc. Each button type has a localized ``StandardButtonType/title``, an ``StandardButtonType/image``, and a ``StandardButtonType/role``, as well as an optional ``StandardButtonType/keyboardShortcut``.
 
 
 ## Installation
@@ -23,9 +24,7 @@ https://github.com/danielsaidi/StandardButtons.git
 
 ## Getting started
 
-This library contains a ``StandardButtonType`` with a bunch of predefined types, like ``StandardButtonType/add``, ``StandardButtonType/delete``, ``StandardButtonType/edit``, ``StandardButtonType/done``, etc. Each button type defines a localized ``StandardButtonType/title``, as well as an  ``StandardButtonType/image``, a ``StandardButtonType/role``, and an optional ``StandardButtonType/keyboardShortcut``.
-
-You can use the ``SwiftUI/Button``. ``SwiftUI/Button/init(_:action:)``  initializer to create a standard button with all those properties applied, for instance:
+With StandardButtons, just `import StandardButtons` and use ``SwiftUI/Button``. ``SwiftUI/Button/init(_:action:)`` to create a standard button view:
 
 ```swift
 Button(.add) { 
@@ -33,7 +32,7 @@ Button(.add) {
 }
 ```
 
-The code above will render correctly on all major Apple platforms. You can use view modifiers and button styles to customize it further.
+The code above will render a regular SwiftUI ``SwiftUI/Button`` on all major Apple platforms. You can use view modifiers, as well as button & label styles to customize it further.
 
 
 
@@ -44,7 +43,7 @@ This library is localized in the following languages:
 * 🇺🇸 English (US)
 * 🇸🇪 Swedish
 
-Use `Sources/StandardButtons/Resources/Localizable.xcstrings` to add support for more languages.  
+You can add more locales to the `Localizable.xcstrings` file in the `Resources` folder.  
 
 
 

@@ -2,7 +2,6 @@
   "sourceLanguage" : "en",
   "strings" : {
     "Button.Add" : {
-      "comment" : "Lägg till",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -15,11 +14,16 @@
             "state" : "translated",
             "value" : "Add"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg till"
+          }
         }
       }
     },
     "Button.AddToFavorites" : {
-      "comment" : "Lägg till favorit",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -32,11 +36,16 @@
             "state" : "translated",
             "value" : "Add To Favorites"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg till favorit"
+          }
         }
       }
     },
     "Button.Call" : {
-      "comment" : "Ring upp",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -49,11 +58,16 @@
             "state" : "translated",
             "value" : "Call"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ring upp"
+          }
         }
       }
     },
     "Button.Cancel" : {
-      "comment" : "Avbryt",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -66,11 +80,16 @@
             "state" : "translated",
             "value" : "Cancel"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt"
+          }
         }
       }
     },
     "Button.Close" : {
-      "comment" : "Stäng",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -83,11 +102,16 @@
             "state" : "translated",
             "value" : "Close"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stäng"
+          }
         }
       }
     },
     "Button.Copy" : {
-      "comment" : "Kopiera",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -100,11 +124,16 @@
             "state" : "translated",
             "value" : "Copy"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiera"
+          }
         }
       }
     },
     "Button.Delete" : {
-      "comment" : "Ta bort",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -117,11 +146,16 @@
             "state" : "translated",
             "value" : "Delete"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta bort"
+          }
         }
       }
     },
     "Button.Deselect" : {
-      "comment" : "Avmarkera",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -134,11 +168,16 @@
             "state" : "translated",
             "value" : "Deselect"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avmarkera"
+          }
         }
       }
     },
     "Button.Done" : {
-      "comment" : "Klar",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -151,11 +190,16 @@
             "state" : "translated",
             "value" : "Done"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klar"
+          }
         }
       }
     },
     "Button.Edit" : {
-      "comment" : "Ändra",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -168,11 +212,16 @@
             "state" : "translated",
             "value" : "Edit"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ändra"
+          }
         }
       }
     },
     "Button.Email" : {
-      "comment" : "E-post",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -185,11 +234,16 @@
             "state" : "translated",
             "value" : "Email"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E-post"
+          }
         }
       }
     },
     "Button.Export" : {
-      "comment" : "Exportera",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -202,11 +256,16 @@
             "state" : "translated",
             "value" : "Export"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exportera"
+          }
         }
       }
     },
     "Button.Like" : {
-      "comment" : "Gilla",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -219,11 +278,16 @@
             "state" : "translated",
             "value" : "Like"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gilla"
+          }
         }
       }
     },
     "Button.OK" : {
-      "comment" : "OK",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -232,6 +296,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -240,7 +310,6 @@
       }
     },
     "Button.Paste" : {
-      "comment" : "Klistra in",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -253,11 +322,16 @@
             "state" : "translated",
             "value" : "Paste"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klistra in"
+          }
         }
       }
     },
     "Button.RemoveFromFavorites" : {
-      "comment" : "Ta bort favorit",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -270,11 +344,16 @@
             "state" : "translated",
             "value" : "Remove From Favorites"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta bort favorit"
+          }
         }
       }
     },
     "Button.RemoveLike" : {
-      "comment" : "Ta bort gilla",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -287,11 +366,16 @@
             "state" : "translated",
             "value" : "Remove Like"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta bort gilla"
+          }
         }
       }
     },
     "Button.Save" : {
-      "comment" : "Spara",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -304,11 +388,16 @@
             "state" : "translated",
             "value" : "Save"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara"
+          }
         }
       }
     },
     "Button.Search" : {
-      "comment" : "Sök",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -321,11 +410,16 @@
             "state" : "translated",
             "value" : "Search"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sök"
+          }
         }
       }
     },
     "Button.Select" : {
-      "comment" : "Välj",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -338,11 +432,16 @@
             "state" : "translated",
             "value" : "Select"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj"
+          }
         }
       }
     },
     "Button.Share" : {
-      "comment" : "Dela",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -354,6 +453,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Share"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dela"
           }
         }
       }

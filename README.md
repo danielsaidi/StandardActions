@@ -51,8 +51,8 @@ The code above will render a regular SwiftUI `Button` on all major Apple platfor
 This library is localized in the following languages:
 
 * 🇺🇸 English (US)
-* 🇸🇪 Swedish
 * 🇩🇪 German
+* 🇸🇪 Swedish
 
 You can add more locales to the `Localizable.xcstrings` file in the `Resources` folder.  
 

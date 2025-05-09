@@ -21,7 +21,6 @@ https://github.com/danielsaidi/StandardButtons.git
 ```
 
 
-
 ## Getting started
 
 With StandardButtons, just `import StandardButtons` and use ``SwiftUI/Button``. ``SwiftUI/Button/init(_:action:)`` to create a standard button view:
@@ -41,6 +40,7 @@ The code above will render a regular SwiftUI ``SwiftUI/Button`` on all major App
 This library is localized in the following languages:
 
 * 🇺🇸 English (US)
+* 🇩🇪 German
 * 🇸🇪 Swedish
 
 You can add more locales to the `Localizable.xcstrings` file in the `Resources` folder.  

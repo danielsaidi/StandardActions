@@ -5,6 +5,13 @@ StandardButtons will use semver after 1.0.
 Until then, breaking changes can happen in any version, and deprecated features may be removed in any minor version bump.
 
 
+## 0.2.1
+
+### 🌐 Localization
+
+* This version adds German translations, thanks to [@nidegen](https://github.com/nidegen). 
+
+
 ## 0.2
 
 This version renames the library to `StandardButtons`. 

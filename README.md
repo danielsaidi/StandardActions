@@ -52,6 +52,7 @@ This library is localized in the following languages:
 
 * 🇺🇸 English (US)
 * 🇸🇪 Swedish
+* 🇩🇪 German
 
 You can add more locales to the `Localizable.xcstrings` file in the `Resources` folder.  
 

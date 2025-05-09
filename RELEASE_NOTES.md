@@ -5,11 +5,18 @@ StandardButtons will use semver after 1.0.
 Until then, breaking changes can happen in any version, and deprecated features may be removed in any minor version bump.
 
 
-## 0.2.1
+## 0.3
+
+This version supports 110 standard button types and adds support for German and Spanish. 
+
+### ✨ Features
+
+* This version adds MANY new standard button types.
 
 ### 🌐 Localization
 
-* This version adds German translations, thanks to [@nidegen](https://github.com/nidegen). 
+* 🇩🇪 This version adds German translations, thanks to [@nidegen](https://github.com/nidegen). 
+* 🇪🇸 This version adds Spanish translations. 
 
 
 ## 0.2

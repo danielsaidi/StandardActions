@@ -18,7 +18,7 @@ StandardButtons is a SwiftUI library that lets you create standard button types,
     <img src="Resources/Preview.jpg" alt="StandardButtons preview" />
 </p>
 
-StandardButtons has many predefined types, like ``.add``, ``.delete``, ``.edit``, ``.done``, etc. Each button type has a localized ``.title``, an ``.image``, a ``.role``, and an optional ``.keyboardShortcut``.
+StandardButtons defines **110** standard button types, like ``.add``, ``.delete``, ``.edit``, ``.done``, etc. Each button type has a localized ``.title``, an ``.image``, a ``.role``, and an optional ``.keyboardShortcut``.
 
 
 
@@ -42,7 +42,7 @@ Button(.add) {
 }
 ```
 
-The code above will render a regular SwiftUI `Button` on all major Apple platforms. You can use view modifiers and button styles to customize it further.
+The code above will render a regular SwiftUI ``Button`` and works on all major Apple platforms (iOS, macOS, tvOS, watchOS, visionOS).
 
 
 
@@ -52,6 +52,7 @@ This library is localized in the following languages:
 
 * 🇺🇸 English (US)
 * 🇩🇪 German
+* 🇪🇸 Spanish
 * 🇸🇪 Swedish
 
 You can add more locales to the `Localizable.xcstrings` file in the `Resources` folder.  

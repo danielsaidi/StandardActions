@@ -21,6 +21,12 @@
             "value" : "Añadir"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -53,6 +59,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aplicar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appliquer"
           }
         },
         "ka" : {
@@ -89,6 +101,12 @@
             "value" : "Archivar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archiver"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -121,6 +139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Adjuntar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attacher"
           }
         },
         "ka" : {
@@ -157,6 +181,12 @@
             "value" : "Atrás"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retour"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -189,6 +219,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Marcar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marque page"
           }
         },
         "ka" : {
@@ -225,6 +261,12 @@
             "value" : "Explorar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parcourir"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -257,6 +299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Llamar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appeler"
           }
         },
         "ka" : {
@@ -293,6 +341,12 @@
             "value" : "Cancelar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuler"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -325,6 +379,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cerrar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fermer"
           }
         },
         "ka" : {
@@ -361,6 +421,12 @@
             "value" : "Contraer"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réduire"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -393,6 +459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Confirmar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confirmer"
           }
         },
         "ka" : {
@@ -429,6 +501,12 @@
             "value" : "Conectar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connexion"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -461,6 +539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Copiar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copier"
           }
         },
         "ka" : {
@@ -497,6 +581,12 @@
             "value" : "Crear"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Créer"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -529,6 +619,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Personalizar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Personnaliser"
           }
         },
         "ka" : {
@@ -565,6 +661,12 @@
             "value" : "Eliminar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -597,6 +699,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Deseleccionar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Désélectionner"
           }
         },
         "ka" : {
@@ -633,6 +741,12 @@
             "value" : "Desconectar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Déconnexion"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -665,6 +779,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Descartar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fermer"
           }
         },
         "ka" : {
@@ -701,6 +821,12 @@
             "value" : "Listo"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -733,6 +859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Descargar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Télécharger"
           }
         },
         "ka" : {
@@ -769,6 +901,12 @@
             "value" : "Descargado"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Téléchargé"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -801,6 +939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Editar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifier"
           }
         },
         "ka" : {
@@ -837,6 +981,12 @@
             "value" : "Correo electrónico"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -869,6 +1019,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Finalizar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finir"
           }
         },
         "ka" : {
@@ -905,6 +1061,12 @@
             "value" : "Ingresar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entrer"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -937,6 +1099,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ejecutar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exécuter"
           }
         },
         "ka" : {
@@ -973,6 +1141,12 @@
             "value" : "Salir"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sortir"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1005,6 +1179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Expandir"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agrandir"
           }
         },
         "ka" : {
@@ -1041,6 +1221,12 @@
             "value" : "Exportar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exporter"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1073,6 +1259,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Favorito"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter aux favoris"
           }
         },
         "ka" : {
@@ -1109,6 +1301,12 @@
             "value" : "Filtrar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filtrer"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1141,6 +1339,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reenviar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suivant"
           }
         },
         "ka" : {
@@ -1177,6 +1381,12 @@
             "value" : "Ayuda"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aide"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1209,6 +1419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ocultar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cacher"
           }
         },
         "ka" : {
@@ -1245,6 +1461,12 @@
             "value" : "Importar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importer"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1277,6 +1499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Información"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Infos"
           }
         },
         "ka" : {
@@ -1313,6 +1541,12 @@
             "value" : "Instalar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Installer"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1345,6 +1579,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Me gusta"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "J’aime"
           }
         },
         "ka" : {
@@ -1381,6 +1621,12 @@
             "value" : "Cargar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charger"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1413,6 +1659,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bloquear"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verrouiller"
           }
         },
         "ka" : {
@@ -1449,6 +1701,12 @@
             "value" : "Iniciar sesión"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se connecter"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1481,6 +1739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cerrar sesión"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se déconnecter"
           }
         },
         "ka" : {
@@ -1517,6 +1781,12 @@
             "value" : "Menú"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menu"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1549,6 +1819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Minimizar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minimiser"
           }
         },
         "ka" : {
@@ -1585,6 +1861,12 @@
             "value" : "Silenciar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muet"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1619,6 +1901,12 @@
             "value" : "Nuevo"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nouveau"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1651,6 +1939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siguiente"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suivant"
           }
         },
         "ka" : {
@@ -1688,6 +1982,12 @@
             "value" : "No"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1717,6 +2017,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -1756,6 +2062,12 @@
             "value" : "Abrir"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ouvrir"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1788,6 +2100,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pegar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coller"
           }
         },
         "ka" : {
@@ -1824,6 +2142,12 @@
             "value" : "Pausar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pause"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1856,6 +2180,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fijar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marquer"
           }
         },
         "ka" : {
@@ -1892,6 +2222,12 @@
             "value" : "Reproducir"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lecture"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1924,6 +2260,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Publicar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Publier"
           }
         },
         "ka" : {
@@ -1960,6 +2302,12 @@
             "value" : "Vista previa"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aperçu"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1992,6 +2340,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anterior"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Précédent"
           }
         },
         "ka" : {
@@ -2028,6 +2382,12 @@
             "value" : "Imprimir"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imprimer"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2060,6 +2420,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Continuar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poursuivre"
           }
         },
         "ka" : {
@@ -2096,6 +2462,12 @@
             "value" : "Comprar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acheter"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2128,6 +2500,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Valorar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noter"
           }
         },
         "ka" : {
@@ -2164,6 +2542,12 @@
             "value" : "Grabar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enregistrer"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2196,6 +2580,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rehacer"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Refaire"
           }
         },
         "ka" : {
@@ -2232,6 +2622,12 @@
             "value" : "Actualizar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rafraîchir"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2264,6 +2660,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rechazar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rejeter"
           }
         },
         "ka" : {
@@ -2300,6 +2702,12 @@
             "value" : "Recargar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recharger"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2332,6 +2740,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quitar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retirer"
           }
         },
         "ka" : {
@@ -2368,6 +2782,12 @@
             "value" : "Quitar favorito"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retirer des favoris"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2400,6 +2820,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quitar me gusta"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je n’aime plus"
           }
         },
         "ka" : {
@@ -2436,6 +2862,12 @@
             "value" : "Renombrar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renommer"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2468,6 +2900,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Responder"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Répondre"
           }
         },
         "ka" : {
@@ -2504,6 +2942,12 @@
             "value" : "Reportar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Signaler"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2536,6 +2980,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Restablecer"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réinitialiser"
           }
         },
         "ka" : {
@@ -2572,6 +3022,12 @@
             "value" : "Redimensionar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Redimensionner"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2604,6 +3060,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reiniciar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recommencer"
           }
         },
         "ka" : {
@@ -2640,6 +3102,12 @@
             "value" : "Restaurar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restaurer"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2672,6 +3140,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reanudar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reprendre"
           }
         },
         "ka" : {
@@ -2708,6 +3182,12 @@
             "value" : "Reintentar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réessayer"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2740,6 +3220,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Volver"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retour"
           }
         },
         "ka" : {
@@ -2776,6 +3262,12 @@
             "value" : "Guardar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enregistrer"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2808,6 +3300,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Buscar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher"
           }
         },
         "ka" : {
@@ -2844,6 +3342,12 @@
             "value" : "Seleccionar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sélectionner"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2876,6 +3380,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enviar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Envoyer"
           }
         },
         "ka" : {
@@ -2912,6 +3422,12 @@
             "value" : "Configuración"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réglages"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2944,6 +3460,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Compartir"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Partager"
           }
         },
         "ka" : {
@@ -2980,6 +3502,12 @@
             "value" : "Mostrar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voir"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3012,6 +3540,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aleatorio"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mélanger"
           }
         },
         "ka" : {
@@ -3048,6 +3582,12 @@
             "value" : "Firmar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Signer"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3080,6 +3620,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Omitir"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passer"
           }
         },
         "ka" : {
@@ -3116,6 +3662,12 @@
             "value" : "Ordenar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trier"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3148,6 +3700,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Iniciar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commencer"
           }
         },
         "ka" : {
@@ -3184,6 +3742,12 @@
             "value" : "Detener"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arrêter"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3216,6 +3780,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enviar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Envoyer"
           }
         },
         "ka" : {
@@ -3252,6 +3822,12 @@
             "value" : "Suscribirse"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "S'abonner"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3284,6 +3860,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sincronizar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Synchroniser"
           }
         },
         "ka" : {
@@ -3320,6 +3902,12 @@
             "value" : "Etiquetar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tagger"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3352,6 +3940,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Traducir"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traduire"
           }
         },
         "ka" : {
@@ -3388,6 +3982,12 @@
             "value" : "Deshacer"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Défaire"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3420,6 +4020,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ya no me gusta"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je n’aime pas"
           }
         },
         "ka" : {
@@ -3456,6 +4062,12 @@
             "value" : "Desbloquear"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Déverrouiller"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3488,6 +4100,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Activar sonido"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rétablir le son"
           }
         },
         "ka" : {
@@ -3524,6 +4142,12 @@
             "value" : "Cancelar suscripción"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se désabonner"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3556,6 +4180,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Actualizar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mettre à jour"
           }
         },
         "ka" : {
@@ -3592,6 +4222,12 @@
             "value" : "Subir"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Téléverser"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3624,6 +4260,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verificar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vérifier"
           }
         },
         "ka" : {
@@ -3660,6 +4302,12 @@
             "value" : "Ver"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voir"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3689,6 +4337,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoom"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zoom"
@@ -3728,6 +4382,12 @@
             "value" : "Acercar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoomer"
+          }
+        },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3760,6 +4420,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alejar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dézoomer"
           }
         },
         "ka" : {

@@ -5,6 +5,15 @@ StandardButtons will use semver after 1.0.
 Until then, breaking changes can happen in any version, and deprecated features may be removed in any minor version bump.
 
 
+## 0.4
+
+This version adds support for Georgian. 
+
+### 🌐 Localization
+
+* 🇩🇪 This version adds Georgian translations, thanks to [@desp0o](https://github.com/desp0o). 
+
+
 ## 0.3
 
 This version supports 110 standard button types and adds support for German and Spanish. 

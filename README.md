@@ -6,7 +6,8 @@
     <img src="https://img.shields.io/github/v/release/danielsaidi/StandardButtons?color=%2300550&sort=semver" alt="Version" title="Version" />
     <img src="https://img.shields.io/badge/swift-6.0-orange.svg" alt="Swift 6.0" />
     <a href="https://danielsaidi.github.io/StandardButtons"><img src="https://img.shields.io/badge/documentation-web-blue.svg" alt="Documentation" /></a>
-    <img src="https://img.shields.io/github/license/danielsaidi/StandardButtons" alt="MIT License" title="MIT License" />
+    <a href="https://github.com/danielsaidi/StandardButtons/blob/master/LICENSE"><img src="https://img.shields.io/github/license/danielsaidi/StandardButtons" alt="MIT License" /></a>
+    <a href="https://github.com/sponsors/danielsaidi"><img src="https://img.shields.io/badge/sponsor-GitHub-red.svg" alt="Sponsor my work" /></a>
 </p>
 
 
@@ -29,6 +30,11 @@ StandardButtons can be installed with the Swift Package Manager:
 ```
 https://github.com/danielsaidi/StandardButtons.git
 ```
+
+
+## Support My Work
+
+You can [become a sponsor][Sponsors] to help me dedicate more time on my various [open-source tools][OpenSource]. Every contribution, no matter the size, makes a real difference in keeping these tools free and actively developed.
 
 
 
@@ -70,14 +76,6 @@ The online [documentation][Documentation] has more information, articles, code e
 ## Demo Application
 
 This repository will get a demo app after it reaches 100 stars.
-
-
-
-## Support my work 
-
-You can [sponsor me][Sponsors] on GitHub Sponsors or [reach out][Email] for paid support, to help support my [open-source projects][OpenSource].
-
-Your support makes it possible for me to put more work into these projects and make them the best they can be.
 
 
 

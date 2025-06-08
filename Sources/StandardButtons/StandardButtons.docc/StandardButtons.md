@@ -45,10 +45,12 @@ The code above will render a regular SwiftUI ``SwiftUI/Button`` and works on all
 
 This library is localized in the following languages:
 
+* 🇩🇰 Danish 
 * 🇺🇸 English (US)
 * 🇫🇷 French
 * 🇬🇪 Georgian
 * 🇩🇪 German
+* 🇳🇴 Norwegian Bokmål
 * 🇪🇸 Spanish
 * 🇸🇪 Swedish
 

@@ -13,6 +13,11 @@ This version adds more button types and localized support.
 
 * `StandardButtonType` has new `.learn`, `.openInSafari`, and `.readMore` types.
 
+### 🌐 New Localization
+
+* 🇩🇰 Danish 
+* 🇳🇴 Norwegian Bokmål 
+
 
 
 ## 0.5
@@ -25,6 +30,7 @@ This version adds improved label support.
 * `Link` can now be created with a standard button type. 
 
 
+
 ## 0.4.1
 
 This version adds support for French. 
@@ -34,6 +40,7 @@ This version adds support for French.
 * 🇫🇷 French, thanks to [@Dean151](https://github.com/Dean151). 
 
 
+
 ## 0.4
 
 This version adds support for Georgian. 
@@ -41,6 +48,7 @@ This version adds support for Georgian.
 ### 🌐 New Localization
 
 * 🇬🇪 Georgian, thanks to [@desp0o](https://github.com/desp0o). 
+
 
 
 ## 0.3
@@ -57,9 +65,11 @@ This version supports 110 standard button types and adds support for German and 
 * 🇪🇸 Spanish. 
 
 
+
 ## 0.2
 
 This version renames the library to `StandardButtons`. 
+
 
 
 ## 0.1

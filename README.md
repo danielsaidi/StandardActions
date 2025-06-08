@@ -56,10 +56,12 @@ The code above will render a regular SwiftUI ``Button`` and works on all major A
 
 This library is localized in the following languages:
 
+* 🇩🇰 Danish 
 * 🇺🇸 English (US)
 * 🇫🇷 French
 * 🇬🇪 Georgian
 * 🇩🇪 German
+* 🇳🇴 Norwegian Bokmål
 * 🇪🇸 Spanish
 * 🇸🇪 Swedish
 

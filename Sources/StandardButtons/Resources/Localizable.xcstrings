@@ -39,6 +39,12 @@
             "value" : "დამატება"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Legg til"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -83,6 +89,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "დათანხმება"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bruk"
           }
         },
         "sv" : {
@@ -131,6 +143,12 @@
             "value" : "არქივი"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arkiver"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -175,6 +193,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "მიმაგრება"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Legg ved"
           }
         },
         "sv" : {
@@ -223,6 +247,12 @@
             "value" : "უკან"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilbake"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -267,6 +297,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ჩანიშნვა"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bokmerke"
           }
         },
         "sv" : {
@@ -315,6 +351,12 @@
             "value" : "დათვალიერება"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bla gjennom"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -359,6 +401,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "დარეკვა"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ring"
           }
         },
         "sv" : {
@@ -407,6 +455,12 @@
             "value" : "გაუქმება"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -451,6 +505,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "დახურვა"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lukk"
           }
         },
         "sv" : {
@@ -499,6 +559,12 @@
             "value" : "ჩაკეცვა"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skjul"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -543,6 +609,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "დადასტურება"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekreft"
           }
         },
         "sv" : {
@@ -591,6 +663,12 @@
             "value" : "დაკავშირება"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koble til"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -635,6 +713,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "დაკოპირება"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopier"
           }
         },
         "sv" : {
@@ -683,6 +767,12 @@
             "value" : "შექმნა"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opprett"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -727,6 +817,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "მორგება"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilpass"
           }
         },
         "sv" : {
@@ -775,6 +871,12 @@
             "value" : "წაშლა"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slett"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -819,6 +921,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "მონიშნულის გაუქმება"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjern valg"
           }
         },
         "sv" : {
@@ -867,6 +975,12 @@
             "value" : "კავშირის შეწყვეტ"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koble fra"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -911,6 +1025,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "გაუქმება"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avvis"
           }
         },
         "sv" : {
@@ -959,6 +1079,12 @@
             "value" : "დასრულება"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ferdig"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1003,6 +1129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "გადმოწერა"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last ned"
           }
         },
         "sv" : {
@@ -1051,6 +1183,12 @@
             "value" : "გადმოწერილია"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lastet ned"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1095,6 +1233,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ჩასწორება"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rediger"
           }
         },
         "sv" : {
@@ -1143,6 +1287,12 @@
             "value" : "ელ. ფოსტა"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E-post"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1187,6 +1337,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "დასრულება"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slutt"
           }
         },
         "sv" : {
@@ -1235,6 +1391,12 @@
             "value" : "შეყვანა"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv inn"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1279,6 +1441,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "შესრულება"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utfør"
           }
         },
         "sv" : {
@@ -1327,6 +1495,12 @@
             "value" : "გამოსვლა"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avslutt"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1371,6 +1545,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "გაშლა"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utvid"
           }
         },
         "sv" : {
@@ -1419,6 +1599,12 @@
             "value" : "ექსპორტი"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksporter"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1463,6 +1649,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "რჩეული"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favoritt"
           }
         },
         "sv" : {
@@ -1511,6 +1703,12 @@
             "value" : "ფილტრი"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filtrer"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1555,6 +1753,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "გადაგზავნა"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Videresend"
           }
         },
         "sv" : {
@@ -1603,6 +1807,12 @@
             "value" : "დახმარება"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hjelp"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1647,6 +1857,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "დამალვა"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skjul"
           }
         },
         "sv" : {
@@ -1695,6 +1911,12 @@
             "value" : "იმპორტი"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importer"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1739,6 +1961,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ინფო"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Info"
           }
         },
         "sv" : {
@@ -1787,6 +2015,12 @@
             "value" : "დაყენება"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Installer"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1831,6 +2065,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "სწავლა"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lær"
           }
         },
         "sv" : {
@@ -1879,6 +2119,12 @@
             "value" : "მოწონება"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lik"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1923,6 +2169,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ჩატვირთვა"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last inn"
           }
         },
         "sv" : {
@@ -1971,6 +2223,12 @@
             "value" : "ჩაკეტვა"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lås"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2015,6 +2273,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ავტორიზაცია"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logg inn"
           }
         },
         "sv" : {
@@ -2063,6 +2327,12 @@
             "value" : "გამოსვლა"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logg ut"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2107,6 +2377,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ძებნა"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slå opp"
           }
         },
         "sv" : {
@@ -2155,6 +2431,12 @@
             "value" : "მენიუ"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meny"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2199,6 +2481,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ჩაკეცვა"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minimer"
           }
         },
         "sv" : {
@@ -2247,6 +2535,12 @@
             "value" : "გაჩუმება"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Demp"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2291,6 +2585,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ახალი"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ny"
           }
         },
         "sv" : {
@@ -2339,6 +2639,12 @@
             "value" : "შემდეგი"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neste"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2380,6 +2686,12 @@
           }
         },
         "ka" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -2431,6 +2743,12 @@
             "value" : "გახსნა"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åpne"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2475,6 +2793,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Safari-ში გახსნა"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åpne i Safari"
           }
         },
         "sv" : {
@@ -2523,6 +2847,12 @@
             "value" : "ჩასმა"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lim inn"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2567,6 +2897,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "შეჩერება"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pause"
           }
         },
         "sv" : {
@@ -2615,6 +2951,12 @@
             "value" : "პინი"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fest"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2659,6 +3001,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "თამაში"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spill av"
           }
         },
         "sv" : {
@@ -2707,6 +3055,12 @@
             "value" : "დაპოსტვა"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Publiser"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2751,6 +3105,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "გადახედვა"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forhåndsvis"
           }
         },
         "sv" : {
@@ -2799,6 +3159,12 @@
             "value" : "წინა"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forrige"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2843,6 +3209,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "დაპრინტვა"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv ut"
           }
         },
         "sv" : {
@@ -2891,6 +3263,12 @@
             "value" : "პროცესშია"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsett"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2935,6 +3313,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "შესყიდვა"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kjøp"
           }
         },
         "sv" : {
@@ -2983,6 +3367,12 @@
             "value" : "შეფასება"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vurder"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3027,6 +3417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "მეტი"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les mer"
           }
         },
         "sv" : {
@@ -3075,6 +3471,12 @@
             "value" : "ჩაწერა"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta opp"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3119,6 +3521,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "წინსვლა"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gjør om"
           }
         },
         "sv" : {
@@ -3167,6 +3575,12 @@
             "value" : "განახლება"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oppdater"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3211,6 +3625,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "უარყოფა"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avslå"
           }
         },
         "sv" : {
@@ -3259,6 +3679,12 @@
             "value" : "ჩატვირთვა"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last inn på nytt"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3303,6 +3729,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "წაშლა"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjern"
           }
         },
         "sv" : {
@@ -3351,6 +3783,12 @@
             "value" : "რჩეულებიდან წაშლა"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjern favoritt"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3395,6 +3833,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "მოწონების გაუქმება"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjern like"
           }
         },
         "sv" : {
@@ -3443,6 +3887,12 @@
             "value" : "გადარქმევა"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gi nytt navn"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3487,6 +3937,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "პასუხი"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svar"
           }
         },
         "sv" : {
@@ -3535,6 +3991,12 @@
             "value" : "რეპორტი"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rapporter"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3579,6 +4041,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "გადატვირთვა"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilbakestill"
           }
         },
         "sv" : {
@@ -3627,6 +4095,12 @@
             "value" : "ზომის შეცვლა"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Endre størrelse"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3671,6 +4145,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "გადატვირთვა"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start på nytt"
           }
         },
         "sv" : {
@@ -3719,6 +4199,12 @@
             "value" : "აღდგენა"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gjenopprett"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3763,6 +4249,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "გაგრძელება"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gjenoppta"
           }
         },
         "sv" : {
@@ -3811,6 +4303,12 @@
             "value" : "ახლიდან ცდა"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prøv igjen"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3855,6 +4353,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "დაბრუნება"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gå tilbake"
           }
         },
         "sv" : {
@@ -3903,6 +4407,12 @@
             "value" : "შენახვა"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lagre"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3947,6 +4457,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ძებნა"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Søk"
           }
         },
         "sv" : {
@@ -3995,6 +4511,12 @@
             "value" : "მონიშვნა"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velg"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4039,6 +4561,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "გაგზავნა"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send"
           }
         },
         "sv" : {
@@ -4087,6 +4615,12 @@
             "value" : "პარამეტრები"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Innstillinger"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4131,6 +4665,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "გაზიარება"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del"
           }
         },
         "sv" : {
@@ -4179,6 +4719,12 @@
             "value" : "ჩვენება"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vis"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4223,6 +4769,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "შაფლი"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bland"
           }
         },
         "sv" : {
@@ -4271,6 +4823,12 @@
             "value" : "შესვლა"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Signer"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4315,6 +4873,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "გამოტოვება"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hopp over"
           }
         },
         "sv" : {
@@ -4363,6 +4927,12 @@
             "value" : "სორტირება"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sorter"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4407,6 +4977,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "დაწება"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start"
           }
         },
         "sv" : {
@@ -4455,6 +5031,12 @@
             "value" : "გაჩერება"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stopp"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4499,6 +5081,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "გაგზავნა"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send inn"
           }
         },
         "sv" : {
@@ -4547,6 +5135,12 @@
             "value" : "გამოწერა"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abonner"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4591,6 +5185,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "სინქი"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Synkroniser"
           }
         },
         "sv" : {
@@ -4639,6 +5239,12 @@
             "value" : "ტეგი"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Merk"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4683,6 +5289,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "თარგმნა"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oversett"
           }
         },
         "sv" : {
@@ -4731,6 +5343,12 @@
             "value" : "უკუსვლა"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Angre"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4775,6 +5393,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "მოწონების გაუქმება"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjern like"
           }
         },
         "sv" : {
@@ -4823,6 +5447,12 @@
             "value" : "გახსნა"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lås opp"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4867,6 +5497,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ხმის ჩართვა"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slå på lyd"
           }
         },
         "sv" : {
@@ -4915,6 +5551,12 @@
             "value" : "გამოწერის გაუქმება"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avslutt abonnement"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4959,6 +5601,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "განახლება"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oppdater"
           }
         },
         "sv" : {
@@ -5007,6 +5655,12 @@
             "value" : "ატვირთვა"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last opp"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5051,6 +5705,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ვერიფიკაცია"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verifiser"
           }
         },
         "sv" : {
@@ -5099,6 +5759,12 @@
             "value" : "ნახვა"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vis"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5143,6 +5809,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ფოკუსი"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoom"
           }
         },
         "sv" : {
@@ -5191,6 +5863,12 @@
             "value" : "მიახლოება"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoom inn"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5235,6 +5913,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "დაშორება"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoom ut"
           }
         },
         "sv" : {

@@ -21,9 +21,26 @@ public extension Button {
     }
 }
 
+struct PreviewContainer<Content: View>: View {
+
+    let content: () -> Content
+
+    var body: some View {
+        NavigationView {
+            #if os(macOS) || os(xrOS)
+            EmptyView()
+            #endif
+            content()
+        }
+        #if os(iOS)
+        .navigationViewStyle(.stack)
+        #endif
+    }
+}
+
 #Preview {
 
-    NavigationView {
+    PreviewContainer {
         List {
             Section {
                 ForEach(StandardButtonType.allCases) { type in
@@ -33,6 +50,5 @@ public extension Button {
             .labelStyle(.titleAndIcon)
         }
         .navigationTitle("Buttons")
-        .navigationViewStyle(.stack)
     }
 }

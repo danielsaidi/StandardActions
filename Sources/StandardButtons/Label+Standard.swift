@@ -23,7 +23,7 @@ public extension Label {
 
 #Preview {
 
-    NavigationView {
+    PreviewContainer {
         List {
             Section {
                 ForEach(StandardButtonType.allCases) {
@@ -33,6 +33,5 @@ public extension Label {
             .labelStyle(.titleAndIcon)
         }
         .navigationTitle("Labels")
-        .navigationViewStyle(.stack)
     }
 }

@@ -23,7 +23,7 @@ public extension Link {
 
 #Preview {
 
-    NavigationView {
+    PreviewContainer {
         List {
             if let url = URL(string: "https://danielsaidi.com") {
                 Section {
@@ -35,6 +35,5 @@ public extension Link {
             }
         }
         .navigationTitle("Links")
-        .navigationViewStyle(.stack)
     }
 }

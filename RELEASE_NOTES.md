@@ -5,6 +5,16 @@ StandardButtons will use semver after 1.0.
 Until then, breaking changes can happen in any version, and deprecated features may be removed in any minor version bump.
 
 
+## 0.5
+
+This version adds improved label support. 
+
+### ✨ Features
+
+* `Label` can now be created with a standard button type.
+* `Link` can now be created with a standard button type. 
+
+
 ## 0.4.1
 
 This version adds support for French. 

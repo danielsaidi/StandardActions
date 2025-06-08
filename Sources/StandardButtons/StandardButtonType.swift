@@ -36,25 +36,6 @@ public enum StandardButtonType: String, CaseIterable, Identifiable, Sendable {
          zoom, zoomIn, zoomOut
 }
 
-public extension Button {
-    
-    /// Create a ``StandardButtonType``-based button.
-    init(
-        _ type: StandardButtonType,
-        action: @escaping () -> Void
-    ) where Label == SwiftUI.Label<Text, Image?> {
-        self.init(
-            role: type.role,
-            action: action
-        ) {
-            Label(
-                title: { Text(type.title, bundle: .module) },
-                icon: { type.image }
-            )
-        }
-    }
-}
-
 public extension StandardButtonType {
 
     /// A button to toggle a downloaded state.

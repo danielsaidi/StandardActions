@@ -9,7 +9,7 @@ StandardButtons is a SwiftUI library that makes it easy to create standard butto
 
 StandardButtons is a SwiftUI library that lets you create standard button types, with localized titles, icons, roles and keyboard shortcuts.
 
-StandardButtons defines **110** standard button types, like ``StandardButtonType/add``, ``StandardButtonType/delete``, ``StandardButtonType/edit``, ``StandardButtonType/done``, etc. Each button type has a localized ``StandardButtonType/title``, an ``StandardButtonType/image``, and a ``StandardButtonType/role``, as well as an optional ``StandardButtonType/keyboardShortcut``.
+StandardButtons defines **110+** standard button types, like ``StandardButtonType/add``, ``StandardButtonType/delete``, ``StandardButtonType/edit``, ``StandardButtonType/done``, etc. Each button type has a localized ``StandardButtonType/title``, an ``StandardButtonType/image``, and a ``StandardButtonType/role``, as well as an optional ``StandardButtonType/keyboardShortcut``.
 
 
 ## Installation

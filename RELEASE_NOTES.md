@@ -5,6 +5,16 @@ StandardButtons will use semver after 1.0.
 Until then, breaking changes can happen in any version, and deprecated features may be removed in any minor version bump.
 
 
+## 0.6
+
+This version adds more button types and localized support. 
+
+### ✨ Features
+
+* `StandardButtonType` has new `.learn`, `.openInSafari`, and `.readMore` types.
+
+
+
 ## 0.5
 
 This version adds improved label support. 

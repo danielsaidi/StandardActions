@@ -9,7 +9,7 @@ func assertImage(
 }
 
 @Test func standardButtonTypeDefinesCorrectNumberOfTypes() async throws {
-    #expect(StandardButtonType.allCases.count == 110)
+    #expect(StandardButtonType.allCases.count == 114)
 }
 
 @Test func standardButtonTypeDefinesImage() async throws {

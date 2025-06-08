@@ -19,7 +19,7 @@ StandardButtons is a SwiftUI library that lets you create standard button types,
     <img src="Resources/Preview.jpg" alt="StandardButtons preview" />
 </p>
 
-StandardButtons defines **110** standard button types, like ``.add``, ``.delete``, ``.edit``, ``.done``, etc. Each button type has a localized ``.title``, an ``.image``, a ``.role``, and an optional ``.keyboardShortcut``.
+StandardButtons defines **110+** standard button types, like ``.add``, ``.delete``, ``.edit``, ``.done``, etc. Each button type has a localized ``.title``, an ``.image``, a ``.role``, and an optional ``.keyboardShortcut``.
 
 
 

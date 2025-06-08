@@ -21,12 +21,12 @@ public enum StandardButtonType: String, CaseIterable, Identifiable, Sendable {
          favorite, filter, forward,
          help, hide,
          `import`, info, install,
-         like, load, lock, login, logout,
+         learn, like, load, lock, login, logout, lookup,
          menu, minimize, mute,
          new, next,
-         ok, open,
+         ok, open, openInSafari,
          paste, pause, pin, play, post, preview, previous, print, proceed, purchase,
-         rate, record, redo, refresh, reject, reload, remove, removeFavorite, removeLike, rename,
+         rate, readMore, record, redo, refresh, reject, reload, remove, removeFavorite, removeLike, rename,
          reply, report, reset, resize, restart, restore, resume, retry, `return`,
          save, search, select, send, settings, share, show, shuffle, sign, skip, sort, start,
          stop, submit, subscribe, sync,
@@ -109,11 +109,13 @@ public extension StandardButtonType {
         case .import: "square.and.arrow.down"
         case .info: "info.circle"
         case .install: "arrow.down.app"
+        case .learn: "lightbulb"
         case .like: "heart"
         case .load: "arrow.clockwise"
         case .lock: "lock"
         case .login: "person.crop.circle"
         case .logout: "rectangle.portrait.and.arrow.forward"
+        case .lookup: "magnifyingglass"
         case .menu: "list.bullet"
         case .minimize: "minus.circle"
         case .mute: "speaker.slash"
@@ -121,6 +123,7 @@ public extension StandardButtonType {
         case .next: "arrow.right"
         case .ok: "checkmark"
         case .open: "folder"
+        case .openInSafari: "safari"
         case .paste: "clipboard"
         case .pause: "pause.circle"
         case .pin: "pin"
@@ -132,6 +135,7 @@ public extension StandardButtonType {
         case .proceed: "arrow.right.circle"
         case .purchase: "cart"
         case .rate: "star"
+        case .readMore: "ellipsis"
         case .record: "record.circle"
         case .redo: "arrow.clockwise"
         case .refresh: "arrow.clockwise"
@@ -252,11 +256,13 @@ public extension StandardButtonType {
         case .import: "Button.Import"
         case .info: "Button.Info"
         case .install: "Button.Install"
+        case .learn: "Button.Learn"
         case .like: "Button.Like"
         case .load: "Button.Load"
         case .lock: "Button.Lock"
         case .login: "Button.Login"
         case .logout: "Button.Logout"
+        case .lookup: "Button.Lookup"
         case .menu: "Button.Menu"
         case .minimize: "Button.Minimize"
         case .mute: "Button.Mute"
@@ -264,6 +270,7 @@ public extension StandardButtonType {
         case .next: "Button.Next"
         case .ok: "Button.OK"
         case .open: "Button.Open"
+        case .openInSafari: "Button.OpenInSafari"
         case .paste: "Button.Paste"
         case .pause: "Button.Pause"
         case .pin: "Button.Pin"
@@ -275,6 +282,7 @@ public extension StandardButtonType {
         case .proceed: "Button.Proceed"
         case .purchase: "Button.Purchase"
         case .rate: "Button.Rate"
+        case .readMore: "Button.ReadMore"
         case .record: "Button.Record"
         case .redo: "Button.Redo"
         case .refresh: "Button.Refresh"

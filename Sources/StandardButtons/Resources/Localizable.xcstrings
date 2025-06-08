@@ -3,6 +3,12 @@
   "strings" : {
     "Button.Add" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilføj"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43,6 +49,12 @@
     },
     "Button.Apply" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anvend"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -83,6 +95,12 @@
     },
     "Button.Archive" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arkivér"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -123,6 +141,12 @@
     },
     "Button.Attach" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vedhæft"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -163,6 +187,12 @@
     },
     "Button.Back" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilbage"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -203,6 +233,12 @@
     },
     "Button.Bookmark" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bogmærke"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -243,6 +279,12 @@
     },
     "Button.Browse" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gennemse"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -283,6 +325,12 @@
     },
     "Button.Call" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ring"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -323,6 +371,12 @@
     },
     "Button.Cancel" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuller"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -363,6 +417,12 @@
     },
     "Button.Close" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luk"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -403,6 +463,12 @@
     },
     "Button.Collapse" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skjul"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -443,6 +509,12 @@
     },
     "Button.Confirm" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekræft"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -483,6 +555,12 @@
     },
     "Button.Connect" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forbind"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -523,6 +601,12 @@
     },
     "Button.Copy" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiér"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -563,6 +647,12 @@
     },
     "Button.Create" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opret"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -603,6 +693,12 @@
     },
     "Button.Customize" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilpas"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -643,6 +739,12 @@
     },
     "Button.Delete" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slet"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -683,6 +785,12 @@
     },
     "Button.Deselect" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fravælg"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -723,6 +831,12 @@
     },
     "Button.Disconnect" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afbryd"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -763,6 +877,12 @@
     },
     "Button.Dismiss" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afvis"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -803,6 +923,12 @@
     },
     "Button.Done" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Færdig"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -843,6 +969,12 @@
     },
     "Button.Download" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -883,6 +1015,12 @@
     },
     "Button.Downloaded" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Downloadet"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -923,6 +1061,12 @@
     },
     "Button.Edit" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rediger"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -963,6 +1107,12 @@
     },
     "Button.Email" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E-mail"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1003,6 +1153,12 @@
     },
     "Button.End" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afslut"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1043,6 +1199,12 @@
     },
     "Button.Enter" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indtast"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1083,6 +1245,12 @@
     },
     "Button.Execute" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udfør"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1123,6 +1291,12 @@
     },
     "Button.Exit" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afslut"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1163,6 +1337,12 @@
     },
     "Button.Expand" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udvid"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1203,6 +1383,12 @@
     },
     "Button.Export" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksportér"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1243,6 +1429,12 @@
     },
     "Button.Favorite" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favorit"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1283,6 +1475,12 @@
     },
     "Button.Filter" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filtrer"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1323,6 +1521,12 @@
     },
     "Button.Forward" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Videresend"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1363,6 +1567,12 @@
     },
     "Button.Help" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hjælp"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1403,6 +1613,12 @@
     },
     "Button.Hide" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skjul"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1443,6 +1659,12 @@
     },
     "Button.Import" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importér"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1483,6 +1705,12 @@
     },
     "Button.Info" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Info"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1523,6 +1751,12 @@
     },
     "Button.Install" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Installer"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1563,6 +1797,12 @@
     },
     "Button.Learn" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lær"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1603,6 +1843,12 @@
     },
     "Button.Like" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Synes godt om"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1643,6 +1889,12 @@
     },
     "Button.Load" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indlæs"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1683,6 +1935,12 @@
     },
     "Button.Lock" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lås"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1723,6 +1981,12 @@
     },
     "Button.Login" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log ind"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1763,6 +2027,12 @@
     },
     "Button.Logout" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log ud"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1803,6 +2073,12 @@
     },
     "Button.Lookup" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opslag"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1843,6 +2119,12 @@
     },
     "Button.Menu" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menu"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1883,6 +2165,12 @@
     },
     "Button.Minimize" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minimer"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1923,6 +2211,12 @@
     },
     "Button.Mute" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slå lyd fra"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1963,6 +2257,12 @@
     },
     "Button.New" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ny"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2003,6 +2303,12 @@
     },
     "Button.Next" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Næste"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2043,6 +2349,12 @@
     },
     "Button.OK" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2083,6 +2395,12 @@
     },
     "Button.Open" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åbn"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2123,6 +2441,12 @@
     },
     "Button.OpenInSafari" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åbn i Safari"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2163,6 +2487,12 @@
     },
     "Button.Paste" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indsæt"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2203,6 +2533,12 @@
     },
     "Button.Pause" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pause"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2243,6 +2579,12 @@
     },
     "Button.Pin" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fastgør"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2283,6 +2625,12 @@
     },
     "Button.Play" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afspil"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2323,6 +2671,12 @@
     },
     "Button.Post" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opslag"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2363,6 +2717,12 @@
     },
     "Button.Preview" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forhåndsvis"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2403,6 +2763,12 @@
     },
     "Button.Previous" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forrige"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2443,6 +2809,12 @@
     },
     "Button.Print" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udskriv"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2483,6 +2855,12 @@
     },
     "Button.Proceed" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsæt"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2523,6 +2901,12 @@
     },
     "Button.Purchase" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Køb"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2563,6 +2947,12 @@
     },
     "Button.Rate" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bedøm"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2603,6 +2993,12 @@
     },
     "Button.ReadMore" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Læs mere"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2643,6 +3039,12 @@
     },
     "Button.Record" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Optag"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2683,6 +3085,12 @@
     },
     "Button.Redo" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Omgør"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2723,6 +3131,12 @@
     },
     "Button.Refresh" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opdater"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2763,6 +3177,12 @@
     },
     "Button.Reject" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afvis"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2803,6 +3223,12 @@
     },
     "Button.Reload" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Genindlæs"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2843,6 +3269,12 @@
     },
     "Button.Remove" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjern"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2883,6 +3315,12 @@
     },
     "Button.RemoveFavorite" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjern favorit"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2923,6 +3361,12 @@
     },
     "Button.RemoveLike" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjern synes godt om"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2963,6 +3407,12 @@
     },
     "Button.Rename" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Omdøb"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3003,6 +3453,12 @@
     },
     "Button.Reply" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svar"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3043,6 +3499,12 @@
     },
     "Button.Report" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rapportér"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3083,6 +3545,12 @@
     },
     "Button.Reset" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nulstil"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3123,6 +3591,12 @@
     },
     "Button.Resize" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ændr størrelse"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3163,6 +3637,12 @@
     },
     "Button.Restart" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Genstart"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3203,6 +3683,12 @@
     },
     "Button.Restore" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gendan"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3243,6 +3729,12 @@
     },
     "Button.Resume" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Genoptag"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3283,6 +3775,12 @@
     },
     "Button.Retry" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prøv igen"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3323,6 +3821,12 @@
     },
     "Button.Return" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retur"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3363,6 +3867,12 @@
     },
     "Button.Save" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gem"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3403,6 +3913,12 @@
     },
     "Button.Search" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Søg"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3443,6 +3959,12 @@
     },
     "Button.Select" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3483,6 +4005,12 @@
     },
     "Button.Send" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3523,6 +4051,12 @@
     },
     "Button.Settings" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indstillinger"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3563,6 +4097,12 @@
     },
     "Button.Share" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3603,6 +4143,12 @@
     },
     "Button.Show" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vis"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3643,6 +4189,12 @@
     },
     "Button.Shuffle" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bland"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3683,6 +4235,12 @@
     },
     "Button.Sign" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underskriv"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3723,6 +4281,12 @@
     },
     "Button.Skip" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spring over"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3763,6 +4327,12 @@
     },
     "Button.Sort" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sorter"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3803,6 +4373,12 @@
     },
     "Button.Start" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3843,6 +4419,12 @@
     },
     "Button.Stop" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3883,6 +4465,12 @@
     },
     "Button.Submit" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indsend"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3923,6 +4511,12 @@
     },
     "Button.Subscribe" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abonner"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3963,6 +4557,12 @@
     },
     "Button.Sync" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Synkroniser"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4003,6 +4603,12 @@
     },
     "Button.Tag" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mærk"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4043,6 +4649,12 @@
     },
     "Button.Translate" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oversæt"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4083,6 +4695,12 @@
     },
     "Button.Undo" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortryd"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4123,6 +4741,12 @@
     },
     "Button.Unlike" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjern synes godt om"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4163,6 +4787,12 @@
     },
     "Button.Unlock" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lås op"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4203,6 +4833,12 @@
     },
     "Button.Unmute" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slå lyd til"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4243,6 +4879,12 @@
     },
     "Button.Unsubscribe" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afmeld"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4283,6 +4925,12 @@
     },
     "Button.Update" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opdater"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4323,6 +4971,12 @@
     },
     "Button.Upload" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upload"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4363,6 +5017,12 @@
     },
     "Button.Verify" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verificér"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4403,6 +5063,12 @@
     },
     "Button.View" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vis"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4443,6 +5109,12 @@
     },
     "Button.Zoom" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoom"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4483,6 +5155,12 @@
     },
     "Button.ZoomIn" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoom ind"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4523,6 +5201,12 @@
     },
     "Button.ZoomOut" : {
       "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoom ud"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",

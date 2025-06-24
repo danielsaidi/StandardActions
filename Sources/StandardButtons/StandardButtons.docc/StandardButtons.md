@@ -29,15 +29,24 @@ You can [become a sponsor][Sponsors] to help me dedicate more time on my various
 
 ## Getting started
 
-With StandardButtons, just `import StandardButtons` and use ``SwiftUI/Button``. ``SwiftUI/Button/init(_:action:)`` to create a standard button view:
+StandardButtons has ``StandardButtonType``-based  ``SwiftUI/Button``, ``SwiftUI/Label``, and ``SwiftUI/Link`` initializers to let you create standard control views:
 
 ```swift
-Button(.add) { 
-    // Add your custom add logic here
-}
+Button(.add) { ... }
+Label(.add) { ... }
+Link(.email, destination: .email(...))
 ```
 
-The code above will render a regular SwiftUI ``SwiftUI/Button`` and works on all major Apple platforms (iOS, macOS, tvOS, watchOS, visionOS).
+This will render regular controls that works on all major Apple platforms (iOS, macOS, tvOS, watchOS, visionOS), that applies a proper icon, localized title, role, accessibility traits, etc for the providd button type.
+
+You can use the ``StandardAction`` enum to generate a ``StandardAction/control`` for common actions, like ``StandardAction/call(phoneNumber:)``, ``StandardAction/copy(_:)``, ``StandardAction/email(address:)``, and ``StandardAction/openUrl(_:)``.
+
+```swift
+StandardAction.email(address: "daniel@gmail.com")
+```
+
+You can also use URL extensions like ``Foundation/URL/call(number:)`` and ``Foundation/URL/email(address:)`` to generate URLs for common actions. These are used by the ``StandardAction`` when generating call and email action controls. 
+
 
 
 

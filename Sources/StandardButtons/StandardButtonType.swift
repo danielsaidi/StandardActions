@@ -370,31 +370,52 @@ struct MyLabelStyle: LabelStyle {
 
 
 #Preview {
-    
-    @ViewBuilder
-    @MainActor
-    func buttons() -> some View {
-        Section {
-            ForEach(StandardButtonType.allCases) { type in
-                Button(type) { print(type.title) }
+
+    struct Preview: View {
+
+        @State var isFavorite: Bool = false
+        @State var isLiked: Bool = false
+        @State var isSelected: Bool = false
+
+        @ViewBuilder
+        @MainActor
+        func buttons() -> some View {
+            Section {
+                ForEach(StandardButtonType.allCases) { type in
+                    Button(type) { print(type.title) }
+                }
+            }
+            Section {
+                Button(.toggleFavorite(isFavorite: isFavorite)) {
+                    isFavorite.toggle()
+                }
+                Button(.toggleLike(isLiked: isLiked)) {
+                    isLiked.toggle()
+                }
+                Button(.toggleSelect(isSelected: isSelected)) {
+                    isSelected.toggle()
+                }
             }
         }
-        Section {
-            Button(.toggleFavorite(isFavorite: false)) {}
-            Button(.toggleFavorite(isFavorite: true)) {}
-            Button(.toggleLike(isLiked: false)) {}
-            Button(.toggleLike(isLiked: true)) {}
-            Button(.toggleSelect(isSelected: false)) {}
-            Button(.toggleSelect(isSelected: true)) {}
+
+        var body: some View {
+            if #available(iOS 16.0, *) {
+                return NavigationStack {
+                    List {
+                        buttons().labelStyle(.titleAndIcon)
+                    }
+                    .navigationTitle("Button Types")
+                    .toolbar {
+                        ToolbarItemGroup {
+                            buttons()
+                        }
+                    }
+                }
+            } else {
+                return Color.clear
+            }
         }
     }
 
-    return List {
-        buttons().labelStyle(.titleAndIcon)
-    }
-    .toolbar {
-        ToolbarItemGroup {
-            buttons()
-        }
-    }
+    return Preview()
 }

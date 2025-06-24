@@ -69,7 +69,7 @@ public struct StandardActionListItem: View {
         title: LocalizedStringKey?,
         text: LocalizedStringKey,
         bundle: Bundle = .main,
-        action: StandardAction
+        action: StandardAction?
     ) {
         self.title = title
         self.text = text
@@ -80,7 +80,7 @@ public struct StandardActionListItem: View {
     private let title: LocalizedStringKey?
     private let text: LocalizedStringKey
     private let bundle: Bundle
-    private let action: StandardAction
+    private let action: StandardAction?
 
     public var body: some View {
         HStack {
@@ -94,8 +94,10 @@ public struct StandardActionListItem: View {
                 Text(text, bundle: bundle)
             }
             Spacer()
-            action
-                .labelStyle(.iconOnly)
+            if let action {
+                action
+                    .labelStyle(.iconOnly)
+            }
         }
     }
 }

@@ -6,6 +6,14 @@ Until then, breaking changes can happen in any version, and deprecated features 
 
 
 
+## 0.7.2
+
+### ✨ Features
+
+* `StandardActionListItem` now has an optional action.
+
+
+
 ## 0.7.1
 
 ### ✨ Features

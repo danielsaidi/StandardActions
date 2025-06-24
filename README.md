@@ -40,7 +40,7 @@ You can [become a sponsor][Sponsors] to help me dedicate more time on my various
 
 ## Getting Started
 
-This library has ``StandardButtonType``-based ``Button``, ``Label`` & ``Link`` initializers for creating standard controls:
+StandardButtons has ``StandardButtonType``-based  ``Button``, ``Label``, and ``Link`` initializers for creating standard controls that work on all major Apple platforms and applies an icon, title, role, etc. for the provided button type:
 
 ```swift
 Button(.add) { ... }
@@ -48,15 +48,13 @@ Label(.add) { ... }
 Link(.email, destination: .email(...))
 ```
 
-This will render regular views that work on all major Apple platforms (iOS, macOS, tvOS, watchOS, visionOS), and that applies a proper icon, localized title, role, accessibility traits, etc for the provided button type.
-
-You can use the ``StandardAction`` enum to generate a ``control`` for common actions, like ``.call(phoneNumber:)``, ``.copy(_:)``, ``.email(address:)``, and ``.openUrl(_:)``.
+You can use ``StandardAction`` to generate a standard control for common actions, like ``.call(phoneNumber:)``, ``.copy(_:)``, ``.email(address:)``, and ``.openUrl(_:)``.
 
 ```swift
-StandardAction.email(address: "daniel@gmail.com").control
+StandardAction.email(address: "daniel@gmail.com")
 ```
 
-You can also use URL extensions like ``.call(number:)`` and ``.email(address:)`` for common actions. These are used by the ``StandardAction`` when generating call and email action controls.
+You can use URL extensions like ``.call(number:)`` and ``.email(address:)`` to generate URLs for common actions.
 
 
 

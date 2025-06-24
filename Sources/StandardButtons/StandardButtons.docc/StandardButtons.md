@@ -29,7 +29,7 @@ You can [become a sponsor][Sponsors] to help me dedicate more time on my various
 
 ## Getting started
 
-StandardButtons has ``StandardButtonType``-based  ``SwiftUI/Button``, ``SwiftUI/Label``, and ``SwiftUI/Link`` initializers to let you create standard control views:
+StandardButtons has ``StandardButtonType``-based  ``SwiftUI/Button``, ``SwiftUI/Label``, and ``SwiftUI/Link`` initializers for creating standard controls that work on all major Apple platforms and applies a proper icon, title, role, etc. for the provided button type:
 
 ```swift
 Button(.add) { ... }
@@ -37,16 +37,13 @@ Label(.add) { ... }
 Link(.email, destination: .email(...))
 ```
 
-This will render regular controls that works on all major Apple platforms (iOS, macOS, tvOS, watchOS, visionOS), that applies a proper icon, localized title, role, accessibility traits, etc for the providd button type.
-
-You can use the ``StandardAction`` enum to generate a ``StandardAction/control`` for common actions, like ``StandardAction/call(phoneNumber:)``, ``StandardAction/copy(_:)``, ``StandardAction/email(address:)``, and ``StandardAction/openUrl(_:)``.
+You can also use ``StandardAction`` to generate a standard control for common actions, like ``StandardAction/call(phoneNumber:)``, ``StandardAction/copy(_:)``, ``StandardAction/email(address:)``, and ``StandardAction/openUrl(_:)``.
 
 ```swift
 StandardAction.email(address: "daniel@gmail.com")
 ```
 
-You can also use URL extensions like ``Foundation/URL/call(number:)`` and ``Foundation/URL/email(address:)`` to generate URLs for common actions. These are used by the ``StandardAction`` when generating call and email action controls. 
-
+You can also use URL extensions like ``Foundation/URL/call(number:)`` and ``Foundation/URL/email(address:)`` to generate URLs for common URL-based actions.
 
 
 

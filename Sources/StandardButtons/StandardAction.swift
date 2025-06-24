@@ -13,7 +13,7 @@ import SwiftUI
 ///
 /// You can use ``trigger()`` to trigger the standard action
 /// for a certain action type.
-public enum StandardAction: Sendable {
+public enum StandardAction: Sendable, View {
 
     /// Call a phone number.
     case call(phoneNumber: String)
@@ -29,17 +29,8 @@ public enum StandardAction: Sendable {
 
     /// Open a certain URL.
     case openUrl(_ url: String)
-}
 
-@MainActor
-public extension StandardAction {
-
-    /// Generate a control for the action.
-    ///
-    /// The generated control can be a `Button`, a `Link` or
-    /// any kind of view that fits the action.
-    @ViewBuilder
-    var control: some View {
+    public var body: some View {
         switch self {
         case .call(let number):
             if let url = URL.call(number: number) {
@@ -102,22 +93,15 @@ private extension StandardAction {
     }
 }
 
-@MainActor
-private func control(
-    for action: StandardAction
-) -> some View {
-    action.control
-}
-
 #Preview {
     if #available(iOS 16.0, *) {
         NavigationStack {
             List {
-                control(for: .call(phoneNumber: "+46730787048"))
-                control(for: .copy("foo"))
-                control(for: .copy(.init()))
-                control(for: .email(address: "daniel@kankoda.com"))
-                control(for: .openUrl("https://danielsaidi.com"))
+                StandardAction.call(phoneNumber: "+46730787048")
+                StandardAction.copy("foo")
+                StandardAction.copy(.init())
+                StandardAction.email(address: "daniel@kankoda.com")
+                StandardAction.openUrl("https://danielsaidi.com")
             }
             .navigationTitle("Standard Actions")
         }

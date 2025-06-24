@@ -399,20 +399,16 @@ struct MyLabelStyle: LabelStyle {
         }
 
         var body: some View {
-            if #available(iOS 16.0, *) {
-                return NavigationStack {
-                    List {
-                        buttons().labelStyle(.titleAndIcon)
-                    }
-                    .navigationTitle("Button Types")
-                    .toolbar {
-                        ToolbarItemGroup {
-                            buttons()
-                        }
+            NavigationView {
+                List {
+                    buttons().labelStyle(.titleAndIcon)
+                }
+                .navigationTitle("Button Types")
+                .toolbar {
+                    ToolbarItemGroup {
+                        buttons()
                     }
                 }
-            } else {
-                return Color.clear
             }
         }
     }

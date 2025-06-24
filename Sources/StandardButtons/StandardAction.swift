@@ -64,9 +64,9 @@ public extension StandardAction {
     typealias ImageRepresentable = NSImage
     #endif
 
-    #if canImport(UIKit) || targetEnvironment(macCatalyst)
+    #if os(iOS) || os(visionOS) || targetEnvironment(macCatalyst)
     typealias Pasteboard = UIPasteboard
-    #else
+    #elseif os(macOS)
     typealias Pasteboard = NSPasteboard
     #endif
 }
@@ -74,36 +74,32 @@ public extension StandardAction {
 @MainActor
 private extension StandardAction {
 
-    var pasteboard: Pasteboard { .general }
-
     func copyImage(_ image: ImageRepresentable) {
         #if os(macOS)
-        pasteboard.writeObjects([image])
-        #elseif os(iOS)
-        pasteboard.image = image
+        Pasteboard.general.writeObjects([image])
+        #elseif os(iOS) || os(visionOS) || targetEnvironment(macCatalyst)
+        Pasteboard.general.image = image
         #endif
     }
 
     func copyString(_ string: String) {
         #if os(macOS)
-        pasteboard.setString(string, forType: .string)
-        #elseif os(iOS)
-        pasteboard.string = string
+        Pasteboard.general.setString(string, forType: .string)
+        #elseif os(iOS) || os(visionOS) || targetEnvironment(macCatalyst)
+        Pasteboard.general.string = string
         #endif
     }
 }
 
 #Preview {
-    if #available(iOS 16.0, *) {
-        NavigationStack {
-            List {
-                StandardAction.call(phoneNumber: "+46730787048")
-                StandardAction.copy("foo")
-                StandardAction.copy(.init())
-                StandardAction.email(address: "daniel@kankoda.com")
-                StandardAction.openUrl("https://danielsaidi.com")
-            }
-            .navigationTitle("Standard Actions")
+    NavigationView {
+        List {
+            StandardAction.call(phoneNumber: "+46730787048")
+            StandardAction.copy("foo")
+            StandardAction.copy(.init())
+            StandardAction.email(address: "daniel@kankoda.com")
+            StandardAction.openUrl("https://danielsaidi.com")
         }
+        .navigationTitle("Standard Actions")
     }
 }

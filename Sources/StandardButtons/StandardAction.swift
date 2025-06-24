@@ -15,7 +15,7 @@ import SwiftUI
 /// it directly as renderable content. It will render a view
 /// that fits the action. For instance, ``call(phoneNumber:)``
 /// renders a `Link`, ``copy(_:)`` a `Button`, etc.
-public enum StandardAction: Sendable {
+public enum StandardAction {
 
     /// Call a phone number.
     case call(phoneNumber: String)

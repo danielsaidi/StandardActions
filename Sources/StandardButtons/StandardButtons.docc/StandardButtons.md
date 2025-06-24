@@ -82,6 +82,11 @@ StandardButtons is available under the MIT license.
 
 - ``StandardButtonType``
 
+### Actions
+
+- ``StandardAction``
+- ``StandardActionListItem``
+
 
 
 [Repository]: https://github.com/danielsaidi/StandardButtons

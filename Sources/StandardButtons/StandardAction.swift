@@ -11,9 +11,11 @@ import SwiftUI
 /// This enum defines common button actions, with a standard
 /// implementation for each action.
 ///
-/// You can use ``trigger()`` to trigger the standard action
-/// for a certain action type.
-public enum StandardAction: Sendable, View {
+/// This type implements `View` which means that you can use
+/// it directly as renderable content. It will render a view
+/// that fits the action. For instance, ``call(phoneNumber:)``
+/// renders a `Link`, ``copy(_:)`` a `Button`, etc.
+public enum StandardAction: Sendable {
 
     /// Call a phone number.
     case call(phoneNumber: String)
@@ -29,6 +31,9 @@ public enum StandardAction: Sendable, View {
 
     /// Open a certain URL.
     case openUrl(_ url: String)
+}
+
+extension StandardAction: View {
 
     public var body: some View {
         switch self {
@@ -52,6 +57,45 @@ public enum StandardAction: Sendable, View {
             if let url = URL(string: url) {
                 Link(.openInSafari, destination: url)
             }
+        }
+    }
+}
+
+/// This view renders a ``StandardAction`` for use in a list,
+/// with the standard action as a trailing button.
+public struct StandardActionListItem: View {
+
+    public init(
+        title: LocalizedStringKey?,
+        text: LocalizedStringKey,
+        bundle: Bundle = .main,
+        action: StandardAction
+    ) {
+        self.title = title
+        self.text = text
+        self.bundle = bundle
+        self.action = action
+    }
+
+    private let title: LocalizedStringKey?
+    private let text: LocalizedStringKey
+    private let bundle: Bundle
+    private let action: StandardAction
+
+    public var body: some View {
+        HStack {
+            VStack(alignment: .leading, spacing: 5) {
+                if let title {
+                    Text(title, bundle: bundle)
+                        .lineLimit(1)
+                        .font(.footnote)
+                        .foregroundColor(.secondary)
+                }
+                Text(text, bundle: bundle)
+            }
+            Spacer()
+            action
+                .labelStyle(.iconOnly)
         }
     }
 }
@@ -94,11 +138,20 @@ private extension StandardAction {
 #Preview {
     NavigationView {
         List {
-            StandardAction.call(phoneNumber: "+46730787048")
-            StandardAction.copy("foo")
-            StandardAction.copy(.init())
-            StandardAction.email(address: "daniel@kankoda.com")
-            StandardAction.openUrl("https://danielsaidi.com")
+            Section("Actions") {
+                StandardAction.call(phoneNumber: "+46730787048")
+                StandardAction.copy("foo")
+                StandardAction.copy(.init())
+                StandardAction.email(address: "daniel@kankoda.com")
+                StandardAction.openUrl("https://danielsaidi.com")
+            }
+            Section("List Item") {
+                StandardActionListItem(
+                    title: "Title",
+                    text: "Text",
+                    action: .copy("")
+                )
+            }
         }
         .navigationTitle("Standard Actions")
     }

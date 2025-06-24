@@ -5,6 +5,15 @@ StandardButtons will use semver after 1.0.
 Until then, breaking changes can happen in any version, and deprecated features may be removed in any minor version bump.
 
 
+
+## 0.7.1
+
+### ✨ Features
+
+* `StandardActionListItem` is a new view for rendering list items.
+
+
+
 ## 0.7
 
 This version adds standard actions and URLs. 
@@ -28,7 +37,7 @@ This version adds more button types and localized support.
 ### 🌐 New Localization
 
 * 🇩🇰 Danish 
-* 🇳🇴 Norwegian Bokmål 
+* 🇳🇴 Norwegian Bokmål
 
 
 

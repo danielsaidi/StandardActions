@@ -1,9 +1,9 @@
 //
 //  StandardButtonType.swift
-//  SwiftUIKit
+//  StandardButtons
 //
 //  Created by Daniel Saidi on 2024-04-30.
-//  Copyright © 2024-2025 Daniel Saidi. All rights reserved.
+//  Copyright © 2025 Daniel Saidi. All rights reserved.
 //
 
 import SwiftUI

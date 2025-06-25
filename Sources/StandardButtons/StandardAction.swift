@@ -28,6 +28,7 @@ public enum StandardAction {
 
     /// Copy an image.
     case copyImage(ImageRepresentable)
+    
 
     /// Send an e-mail.
     case email(address: String)

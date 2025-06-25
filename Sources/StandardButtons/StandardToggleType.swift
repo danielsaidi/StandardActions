@@ -97,24 +97,55 @@ public extension StandardToggleType {
     func buttonType(
         for isOn: Bool
     ) -> StandardButtonType {
+        isOn ? buttonTypeForOn : buttonTypeForOff
+    }
+}
+
+private extension StandardToggleType {
+
+    /// Resolve a standard button type for the toggle type.
+    var buttonTypeForOff: StandardButtonType {
         switch self {
-        case .isBookmarked: isOn ? .removeBookmark : .bookmark
-        case .isConnected: isOn ? .disconnect : .connect
-        case .isDownloaded: isOn ? .removeDownload : .download
-        case .isExpanded(let direction): direction.buttonType(for: isOn)
-        case .isFavorite: isOn ? .removeFavorite : .favorite
-        case .isInstalled: isOn ? .uninstall : .install
-        case .isLearned: isOn ? .unlearn : .learn
-        case .isLiked: isOn ? .removeLike : .like
-        case .isLoggedIn: isOn ? .logout : .logout
-        case .isLocked: isOn ? .unlock : .like
-        case .isMuted: isOn ? .unmute : .mute
-        case .isPinned: isOn ? .unpin : .pin
-        case .isPlayingWithPause: isOn ? .pause : .play
-        case .isPlayingWithStop: isOn ? .stop : .play
-        case .isSelected: isOn ? .deselect : .select
-        case .isSubscribed: isOn ? .unsubscribe : .subscribe
-        case .isVisible: isOn ? .hide : .show
+        case .isBookmarked: .bookmark
+        case .isConnected: .connect
+        case .isDownloaded: .download
+        case .isExpanded(let direction): direction.buttonType(for: false)
+        case .isFavorite: .favorite
+        case .isInstalled: .install
+        case .isLearned: .learn
+        case .isLiked: .like
+        case .isLoggedIn: .logout
+        case .isLocked: .like
+        case .isMuted: .mute
+        case .isPinned: .pin
+        case .isPlayingWithPause: .play
+        case .isPlayingWithStop: .play
+        case .isSelected: .select
+        case .isSubscribed: .subscribe
+        case .isVisible: .show
+        }
+    }
+
+    /// Resolve a standard button type for the toggle type.
+    var buttonTypeForOn: StandardButtonType {
+        switch self {
+        case .isBookmarked: .removeBookmark
+        case .isConnected: .disconnect
+        case .isDownloaded: .removeDownload
+        case .isExpanded(let direction): direction.buttonType(for: false)
+        case .isFavorite: .removeFavorite
+        case .isInstalled: .uninstall
+        case .isLearned: .unlearn
+        case .isLiked: .removeLike
+        case .isLoggedIn: .logout
+        case .isLocked: .unlock
+        case .isMuted: .unmute
+        case .isPinned: .unpin
+        case .isPlayingWithPause: .pause
+        case .isPlayingWithStop: .stop
+        case .isSelected: .deselect
+        case .isSubscribed: .unsubscribe
+        case .isVisible: .hide
         }
     }
 }

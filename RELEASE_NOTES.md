@@ -23,7 +23,7 @@ As such, the project has now been renamed to StandardActions.
 ### ✨ Features
 
 * `StandardActionControl` is a new view for rendering actions.
-* `StandardButtonType` has new types and renames some button types.
+* `StandardActionType` has new types and renames some button types.
 * `StandardToggleType` is a new type for handling common toggle values.
 
 
@@ -62,7 +62,7 @@ This version adds more button types and localized support.
 
 ### ✨ Features
 
-* `StandardButtonType` has new `.learn`, `.openInSafari`, and `.readMore` types.
+* `StandardActionType` has new `.learn`, `.openInSafari`, and `.readMore` types.
 
 ### 🌐 New Localization
 
@@ -125,6 +125,6 @@ This version renames the library to `StandardButtons`.
 
 ## 0.1
 
-This version adds a new `StandardButtonType`.
+This version adds a new `StandardActionType`.
 
 You can use this with the `Button` initializer, to create a standard button. 

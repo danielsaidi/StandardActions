@@ -1,6 +1,6 @@
 //
 //  StandardToggleType.swift
-//  StandardButtons
+//  StandardActions
 //
 //  Created by Daniel Saidi on 2025-06-25.
 //  Copyright © 2025 Daniel Saidi. All rights reserved.
@@ -10,7 +10,7 @@ import SwiftUI
 
 /// This enum defines standard toggle types.
 ///
-/// Each type can be resolved to a ``buttonType`` based on a
+/// Each type can be resolved to a ``actionType`` based on a
 /// boolean binding or state.
 ///
 /// ``SwiftUI/Toggle`` can be created with a standard toggle.
@@ -73,9 +73,9 @@ public enum StandardToggleType {
     public enum ExpandDirection {
         case up, down
 
-        func buttonType(
+        func actionType(
             for isOn: Bool
-        ) -> StandardButtonType {
+        ) -> StandardActionType {
             switch self {
             case .down: isOn ? .collapseUp : .expandDown
             case .up: isOn ? .collapseDown : .expandUp
@@ -86,30 +86,29 @@ public enum StandardToggleType {
 
 public extension StandardToggleType {
 
-    /// Resolve a standard button type for the toggle type.
-    func buttonType(
+    /// Resolve an action type for the toggle type and state.
+    func actionType(
         for binding: Binding<Bool>
-    ) -> StandardButtonType {
-        buttonType(for: binding.wrappedValue)
+    ) -> StandardActionType {
+        actionType(for: binding.wrappedValue)
     }
 
-    /// Resolve a standard button type for the toggle type.
-    func buttonType(
+    /// Resolve an action type for the toggle type and state.
+    func actionType(
         for isOn: Bool
-    ) -> StandardButtonType {
-        isOn ? buttonTypeForOn : buttonTypeForOff
+    ) -> StandardActionType {
+        isOn ? actionTypeOn : actionTypeOff
     }
 }
 
 private extension StandardToggleType {
 
-    /// Resolve a standard button type for the toggle type.
-    var buttonTypeForOff: StandardButtonType {
+    var actionTypeOff: StandardActionType {
         switch self {
         case .isBookmarked: .bookmark
         case .isConnected: .connect
         case .isDownloaded: .download
-        case .isExpanded(let direction): direction.buttonType(for: false)
+        case .isExpanded(let direction): direction.actionType(for: false)
         case .isFavorite: .favorite
         case .isInstalled: .install
         case .isLearned: .learn
@@ -126,13 +125,12 @@ private extension StandardToggleType {
         }
     }
 
-    /// Resolve a standard button type for the toggle type.
-    var buttonTypeForOn: StandardButtonType {
+    var actionTypeOn: StandardActionType {
         switch self {
         case .isBookmarked: .removeBookmark
         case .isConnected: .disconnect
         case .isDownloaded: .removeDownload
-        case .isExpanded(let direction): direction.buttonType(for: false)
+        case .isExpanded(let direction): direction.actionType(for: false)
         case .isFavorite: .removeFavorite
         case .isInstalled: .uninstall
         case .isLearned: .unlearn
@@ -158,7 +156,7 @@ public extension Toggle {
         isOn: Binding<Bool>
     ) where Label == SwiftUI.Label<Text, Image?> {
         self.init(isOn: isOn) {
-            Label(type.buttonType(for: isOn))
+            Label(type.actionType(for: isOn))
         }
     }
 }

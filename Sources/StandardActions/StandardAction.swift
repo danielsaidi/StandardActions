@@ -1,6 +1,6 @@
 //
 //  StandardAction.swift
-//  StandardButtons
+//  StandardActions
 //
 //  Created by Daniel Saidi on 2024-04-30.
 //  Copyright © 2025 Daniel Saidi. All rights reserved.
@@ -8,16 +8,15 @@
 
 import SwiftUI
 
-/// This enum defines common button actions, with a standard
-/// implementation for each action.
+/// This enum defines common actions, with an implementation
+/// for each action.
 ///
-/// You can use a ``StandardActionControl`` to render a view
-/// for a certain action, or a ``StandardActionListItem`` to
-/// render an action list item.
+/// You can use a ``StandardActionControl`` to render action
+/// views or ``StandardActionListItem`` to render list items.
 ///
-/// Every action will render a control that fits each action.
-/// For instance, ``call(phoneNumber:)`` renders links while
-/// ``copy(_:)`` renders regular buttons.
+/// Each action will render a specific control. For instance,
+/// ``call(phoneNumber:)`` renders a `Link` while ``copy(_:)``
+/// renders a regular `Button`.
 public enum StandardAction {
 
     /// Call a phone number.

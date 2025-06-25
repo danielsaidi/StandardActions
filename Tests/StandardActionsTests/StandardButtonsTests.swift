@@ -1,23 +1,23 @@
-import StandardButtons
+import StandardActions
 import SwiftUI
 import Testing
 
-class StandardButtonsTests {
+class StandardActionsTests {
 
     func assertImage(
-        for type: StandardButtonType,
+        for type: StandardActionType,
         _ expectedName: String
     ) throws {
         #expect(type.imageName == expectedName)
     }
 
     @Test
-    func standardButtonTypeDefinesCorrectNumberOfTypes() async throws {
-        #expect(StandardButtonType.allCases.count == 120)
+    func StandardActionTypeDefinesCorrectNumberOfTypes() async throws {
+        #expect(StandardActionType.allCases.count == 120)
     }
 
     @Test
-    func standardButtonTypeDefinesImage() async throws {
+    func StandardActionTypeDefinesImage() async throws {
         try assertImage(for: .add, "plus")
         try assertImage(for: .removeLike, "heart.fill")
         try assertImage(for: .save, "checkmark")
@@ -27,11 +27,11 @@ class StandardButtonsTests {
     }
 
     @Test
-    func nativeViewsHaveStandardButtonTypeInitializers() {
-        _ = Button(StandardButtonType.copy) {}
-        _ = Label(StandardButtonType.copy)
+    func nativeViewsHaveStandardActionTypeInitializers() {
+        _ = Button(StandardActionType.copy) {}
+        _ = Label(StandardActionType.copy)
         _ = Link(
-            StandardButtonType.copy,
+            StandardActionType.copy,
             destination: URL(string: "https://example.com")!
         )
     }

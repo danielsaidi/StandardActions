@@ -3,34 +3,34 @@
 </p>
 
 <p align="center">
-    <img src="https://img.shields.io/github/v/release/danielsaidi/StandardButtons?color=%2300550&sort=semver" alt="Version" title="Version" />
+    <img src="https://img.shields.io/github/v/release/danielsaidi/StandardActions?color=%2300550&sort=semver" alt="Version" title="Version" />
     <img src="https://img.shields.io/badge/swift-6.0-orange.svg" alt="Swift 6.0" />
-    <a href="https://danielsaidi.github.io/StandardButtons"><img src="https://img.shields.io/badge/documentation-web-blue.svg" alt="Documentation" /></a>
-    <a href="https://github.com/danielsaidi/StandardButtons/blob/master/LICENSE"><img src="https://img.shields.io/github/license/danielsaidi/StandardButtons" alt="MIT License" /></a>
+    <a href="https://danielsaidi.github.io/StandardActions"><img src="https://img.shields.io/badge/documentation-web-blue.svg" alt="Documentation" /></a>
+    <a href="https://github.com/danielsaidi/StandardActions/blob/master/LICENSE"><img src="https://img.shields.io/github/license/danielsaidi/StandardActions" alt="MIT License" /></a>
     <a href="https://github.com/sponsors/danielsaidi"><img src="https://img.shields.io/badge/sponsor-GitHub-red.svg" alt="Sponsor my work" /></a>
 </p>
 
 
-# StandardButtons
+# StandardActions
 
-StandardButtons is a SwiftUI library that lets you create standard button types, with localized titles, icons & roles.
+StandardActions is a SwiftUI library that defines standard action types, with localized titles, icons, shortcuts, etc.
 
 <p align="center">
-    <img src="Resources/Preview.jpg" alt="StandardButtons preview" />
+    <img src="Resources/Preview.jpg" alt="StandardActions preview" />
 </p>
 
-StandardButtons has a ``StandardButtonType`` enum that defines **120** common actions, like ``.add``, ``.remove``, etc., as well as a ``StandardToggleType`` enum with common values, and ``StandardAction`` with common actions, etc.
+StandardActions has a ``StandardActionType`` enum that defines **120** common actions, like ``.add``, ``.remove``, etc., as well as a ``StandardToggleType`` enum with common values, a ``StandardAction`` with common actions, etc.
 
-Each ``StandardButtonType`` has a localized ``.title``, an ``.image``, a ``.role``, and an optional ``.keyboardShortcut``. These properties will automatically be applied when you create type-based buttons, labels, links, and toggles.
+Each ``StandardActionType`` has a localized ``.title``, an ``.image``, a ``.role``, and an optional ``.keyboardShortcut``. These properties will automatically be applied when you create type-based buttons, labels, links, and toggles.
 
 
 
 ## Installation
 
-StandardButtons can be installed with the Swift Package Manager:
+StandardActions can be installed with the Swift Package Manager:
 
 ```
-https://github.com/danielsaidi/StandardButtons.git
+https://github.com/danielsaidi/StandardActions.git
 ```
 
 
@@ -42,7 +42,7 @@ You can [become a sponsor][Sponsors] to help me dedicate more time on my various
 
 ## Getting Started
 
-You can create ``Button``, ``Label`` and ``Link`` views for any ``StandardButtonType``. This automatically applies the localized title, icon, role, shortcut, accessibility, etc. for the provided button type:
+You can create ``Button``, ``Label`` and ``Link`` views for any ``StandardActionType``. This will automatically apply a localized title, icon, etc.
 
 ```swift
 Button(.add) { ... }
@@ -117,8 +117,7 @@ Feel free to reach out if you have questions, or want to contribute in any way:
 
 ## License
 
-StandardButtons is available under the MIT license. See the [LICENSE][License] file for more info.
-
+StandardActions is available under the MIT license. See the [LICENSE][License] file for more info.
 
 
 [Email]: mailto:daniel.saidi@gmail.com
@@ -131,5 +130,5 @@ StandardButtons is available under the MIT license. See the [LICENSE][License] f
 [Mastodon]: https://mastodon.social/@danielsaidi
 [Twitter]: https://twitter.com/danielsaidi
 
-[Documentation]: https://danielsaidi.github.io/StandardButtons
-[License]: https://github.com/danielsaidi/StandardButtons/blob/master/LICENSE
+[Documentation]: https://danielsaidi.github.io/StandardActions
+[License]: https://github.com/danielsaidi/StandardActions/blob/master/LICENSE

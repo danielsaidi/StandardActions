@@ -1,6 +1,6 @@
 //
-//  StandardButtonType.swift
-//  StandardButtons
+//  StandardActionType.swift
+//  StandardActions
 //
 //  Created by Daniel Saidi on 2024-04-30.
 //  Copyright © 2025 Daniel Saidi. All rights reserved.
@@ -14,10 +14,10 @@ import SwiftUI
 /// well as a button role, and an optional keyboard shortcut.
 ///
 /// ``SwiftUI/Button``, ``SwiftUI/Label`` and ``SwiftUI/Link``
-/// can be created with a ``StandardButtonType``. The custom
+/// can be created with a ``StandardActionType``. The custom
 /// initializer will automatically apply the localized title,
 /// icon, traits, etc. to the view.
-public enum StandardButtonType: String, CaseIterable, Identifiable, Sendable {
+public enum StandardActionType: String, CaseIterable, Identifiable, Sendable {
     case add, apply, archive, attach,
          back, bookmark, browse,
          cancel, call, close, collapseDown, collapseUp,
@@ -47,7 +47,7 @@ public enum StandardButtonType: String, CaseIterable, Identifiable, Sendable {
          zoom, zoomIn, zoomOut
 }
 
-public extension StandardButtonType {
+public extension StandardActionType {
 
     /// The button type's unique ID.
     var id: String { rawValue }
@@ -340,7 +340,7 @@ public extension View {
     @ViewBuilder
     /// Apply a keyboard shortcut for a certain button type.
     func keyboardShortcut(
-        _ button: StandardButtonType
+        _ button: StandardActionType
     ) -> some View {
         #if os(iOS) || os(macOS) || os(visionOS)
         if let shortcut = button.keyboardShortcut {
@@ -360,9 +360,9 @@ public extension View {
 
 public extension Button {
 
-    /// Create a button for a certain ``StandardButtonType``.
+    /// Create a button for a certain ``StandardActionType``.
     init(
-        _ type: StandardButtonType,
+        _ type: StandardActionType,
         action: @escaping () -> Void
     ) where Label == SwiftUI.Label<Text, Image?> {
         self.init(role: type.role, action: action) {
@@ -373,9 +373,9 @@ public extension Button {
 
 public extension Label {
 
-    /// Create a label for a certain ``StandardButtonType``.
+    /// Create a label for a certain ``StandardActionType``.
     init(
-        _ type: StandardButtonType
+        _ type: StandardActionType
     ) where Label == SwiftUI.Label<Text, Image?> {
         self.init(
             title: { Text(type.title, bundle: .module) },
@@ -386,9 +386,9 @@ public extension Label {
 
 public extension Link {
 
-    /// Create a link for a certain ``StandardButtonType``.
+    /// Create a link for a certain ``StandardActionType``.
     init(
-        _ type: StandardButtonType,
+        _ type: StandardActionType,
         destination: URL
     ) where Label == SwiftUI.Label<Text, Image?> {
         self.init(destination: destination) {
@@ -404,7 +404,7 @@ public extension Link {
         @ViewBuilder
         @MainActor
         func buttons() -> some View {
-            ForEach(StandardButtonType.allCases) { type in
+            ForEach(StandardActionType.allCases) { type in
                 Button(type) { print(type.title) }
             }
         }

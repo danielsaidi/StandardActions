@@ -1,6 +1,6 @@
 //
 //  URL+Standard.swift
-//  StandardButtons
+//  StandardActions
 //
 //  Created by Daniel Saidi on 2025-06-24.
 //  Copyright © 2025 Daniel Saidi. All rights reserved.

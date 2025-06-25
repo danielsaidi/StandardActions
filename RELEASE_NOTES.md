@@ -6,6 +6,14 @@ Until then, breaking changes can happen in any version, and deprecated features 
 
 
 
+## 0.7.3
+
+### ✨ Features
+
+* `StandardButtonType` has new types and renames some types and toggles.
+
+
+
 ## 0.7.2
 
 ### ✨ Features

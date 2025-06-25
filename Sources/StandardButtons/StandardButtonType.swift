@@ -12,11 +12,18 @@ import SwiftUI
 ///
 /// Each button type defines a localized title, an image, as
 /// well as a button role, and an optional keyboard shortcut.
+///
+/// ``SwiftUI/Button``, ``SwiftUI/Label`` and ``SwiftUI/Link``
+/// can be created with a ``StandardButtonType``. The custom
+/// initializer will automatically apply the localized title,
+/// icon, traits, etc. to the view.
 public enum StandardButtonType: String, CaseIterable, Identifiable, Sendable {
     case add, apply, archive, attach,
          back, bookmark, browse,
-         cancel, call, close, collapse, confirm, copy, connect, create, customize,
-         delete, deselect, disconnect, dismiss, done, download, downloaded,
+         cancel, call, close, collapse, confirm, copy,
+         connect, create, customize,
+         delete, deselect, disconnect, dismiss, done,
+         download,
          edit, email, end, enter, execute, exit, expand, export,
          favorite, filter, forward,
          help, hide,
@@ -25,11 +32,14 @@ public enum StandardButtonType: String, CaseIterable, Identifiable, Sendable {
          menu, minimize, mute,
          new, next,
          ok, open, openInSafari,
-         paste, pause, pin, play, post, preview, previous, print, proceed, purchase,
-         rate, readMore, record, redo, refresh, reject, reload, remove, removeFavorite, removeLike, rename,
-         reply, report, reset, resize, restart, restore, resume, retry, `return`,
-         save, search, select, send, settings, share, show, shuffle, sign, skip, sort, start,
-         stop, submit, subscribe, sync,
+         paste, pause, pin, play, post, preview, previous,
+         print, proceed, purchase,
+         rate, readMore, record, redo, refresh, reject, reload,
+         remove, removeBookmark, removeDownload, removeFavorite, removeLike,
+         rename, reply, report, reset, resize, restart,
+         restore, resume, retry, `return`,
+         save, search, select, send, settings, share, show, shuffle,
+         sign, skip, sort, start, stop, submit, subscribe, sync,
          tag, translate,
          undo, unlike, unlock, unmute, unsubscribe, update, upload,
          verify, view,
@@ -38,22 +48,25 @@ public enum StandardButtonType: String, CaseIterable, Identifiable, Sendable {
 
 public extension StandardButtonType {
 
-    /// A button to toggle a downloaded state.
+    @available(*, deprecated, renamed: "removeDownload")
+    static var downloaded: Self { .removeDownload }
+}
+
+@available(*, deprecated, message: "Use StandardToggleType instead.")
+public extension StandardButtonType {
+
     static func toggleDownload(isDownloaded: Bool) -> StandardButtonType {
         isDownloaded ? .downloaded : .download
     }
 
-    /// A button to toggle a favorite state.
     static func toggleFavorite(isFavorite: Bool) -> StandardButtonType {
         isFavorite ? .removeFavorite : .favorite
     }
 
-    /// A button to toggle a liked state.
     static func toggleLike(isLiked: Bool) -> StandardButtonType {
         isLiked ? .removeLike : .like
     }
 
-    /// A button to toggle a selected state.
     static func toggleSelect(isSelected: Bool) -> StandardButtonType {
         isSelected ? .deselect : .select
     }
@@ -92,7 +105,6 @@ public extension StandardButtonType {
         case .dismiss: "xmark"
         case .done: "checkmark"
         case .download: "arrow.down.circle"
-        case .downloaded: "arrow.down.circle.fill"
         case .edit: "pencil"
         case .email: "envelope"
         case .end: "stop.circle"
@@ -142,6 +154,8 @@ public extension StandardButtonType {
         case .reject: "xmark.circle"
         case .reload: "arrow.clockwise.circle"
         case .remove: "trash"
+        case .removeBookmark: "bookmark.fill"
+        case .removeDownload: "arrow.down.circle.fill"
         case .removeFavorite: "star.fill"
         case .removeLike: "heart.fill"
         case .rename: "pencil"
@@ -239,7 +253,6 @@ public extension StandardButtonType {
         case .dismiss: "Button.Dismiss"
         case .done: "Button.Done"
         case .download: "Button.Download"
-        case .downloaded: "Button.Downloaded"
         case .edit: "Button.Edit"
         case .email: "Button.Email"
         case .end: "Button.End"
@@ -289,6 +302,8 @@ public extension StandardButtonType {
         case .reject: "Button.Reject"
         case .reload: "Button.Reload"
         case .remove: "Button.Remove"
+        case .removeBookmark: "Button.RemoveBookmark"
+        case .removeDownload: "Button.Downloaded"
         case .removeFavorite: "Button.RemoveFavorite"
         case .removeLike: "Button.RemoveLike"
         case .rename: "Button.Rename"
@@ -358,43 +373,54 @@ public extension View {
     }
 }
 
-struct MyLabelStyle: LabelStyle {
+public extension Button {
 
-    func makeBody(configuration: Configuration) -> some View {
-        VStack(spacing: 5) {
-            configuration.icon.font(.headline)
-            configuration.title.font(.footnote)
+    /// Create a button for a certain ``StandardButtonType``.
+    init(
+        _ type: StandardButtonType,
+        action: @escaping () -> Void
+    ) where Label == SwiftUI.Label<Text, Image?> {
+        self.init(role: type.role, action: action) {
+            Label(type)
         }
     }
 }
 
+public extension Label {
+
+    /// Create a label for a certain ``StandardButtonType``.
+    init(
+        _ type: StandardButtonType
+    ) where Label == SwiftUI.Label<Text, Image?> {
+        self.init(
+            title: { Text(type.title, bundle: .module) },
+            icon: { type.image }
+        )
+    }
+}
+
+public extension Link {
+
+    /// Create a link for a certain ``StandardButtonType``.
+    init(
+        _ type: StandardButtonType,
+        destination: URL
+    ) where Label == SwiftUI.Label<Text, Image?> {
+        self.init(destination: destination) {
+            Label(type)
+        }
+    }
+}
 
 #Preview {
 
     struct Preview: View {
 
-        @State var isFavorite: Bool = false
-        @State var isLiked: Bool = false
-        @State var isSelected: Bool = false
-
         @ViewBuilder
         @MainActor
         func buttons() -> some View {
-            Section {
-                ForEach(StandardButtonType.allCases) { type in
-                    Button(type) { print(type.title) }
-                }
-            }
-            Section {
-                Button(.toggleFavorite(isFavorite: isFavorite)) {
-                    isFavorite.toggle()
-                }
-                Button(.toggleLike(isLiked: isLiked)) {
-                    isLiked.toggle()
-                }
-                Button(.toggleSelect(isSelected: isSelected)) {
-                    isSelected.toggle()
-                }
+            ForEach(StandardButtonType.allCases) { type in
+                Button(type) { print(type.title) }
             }
         }
 

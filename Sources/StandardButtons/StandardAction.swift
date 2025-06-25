@@ -12,9 +12,10 @@ import SwiftUI
 /// implementation for each action.
 ///
 /// This type implements `View` which means that you can use
-/// it directly as renderable content. It will render a view
-/// that fits the action. For instance, ``call(phoneNumber:)``
-/// renders a `Link`, ``copy(_:)`` a `Button`, etc.
+/// it directly to render a custom view that fits the action.
+///
+/// For instance, ``call(phoneNumber:)`` renders links while
+/// ``copy(_:)`` renders regular buttons.
 public enum StandardAction {
 
     /// Call a phone number.

@@ -20,11 +20,11 @@ import SwiftUI
 public enum StandardButtonType: String, CaseIterable, Identifiable, Sendable {
     case add, apply, archive, attach,
          back, bookmark, browse,
-         cancel, call, close, collapse, confirm, copy,
-         connect, create, customize,
-         delete, deselect, disconnect, dismiss, done,
-         download,
-         edit, email, end, enter, execute, exit, expand, export,
+         cancel, call, close, collapseDown, collapseUp,
+         confirm, copy, connect, create, customize,
+         delete, deselect, disconnect, dismiss, done, download,
+         edit, email, end, enter, execute, exit,
+         expandDown, expandUp, export,
          favorite, filter, forward,
          help, hide,
          `import`, info, install,
@@ -41,7 +41,8 @@ public enum StandardButtonType: String, CaseIterable, Identifiable, Sendable {
          save, search, select, send, settings, share, show, shuffle,
          sign, skip, sort, start, stop, submit, subscribe, sync,
          tag, translate,
-         undo, unlike, unlock, unmute, unsubscribe, update, upload,
+         undo, uninstall, unlike, unlearn, unlock, unmute, unpin, unsubscribe,
+         update, upload,
          verify, view,
          zoom, zoomIn, zoomOut
 }
@@ -93,7 +94,8 @@ public extension StandardButtonType {
         case .call: "phone"
         case .cancel: "xmark"
         case .close: "xmark.circle"
-        case .collapse: "chevron.up"
+        case .collapseDown: "chevron.down"
+        case .collapseUp: "chevron.up"
         case .confirm: "checkmark.circle"
         case .connect: "link"
         case .copy: "doc.on.doc"
@@ -101,7 +103,7 @@ public extension StandardButtonType {
         case .customize: "slider.horizontal.3"
         case .delete: "trash"
         case .deselect: "checkmark.circle.fill"
-        case .disconnect: "link.badge.minus"
+        case .disconnect: "xmark"
         case .dismiss: "xmark"
         case .done: "checkmark"
         case .download: "arrow.down.circle"
@@ -111,7 +113,8 @@ public extension StandardButtonType {
         case .enter: "return"
         case .execute: "play.circle"
         case .exit: "rectangle.portrait.and.arrow.right"
-        case .expand: "chevron.down"
+        case .expandDown: "chevron.down"
+        case .expandUp: "chevron.up"
         case .export: "square.and.arrow.up"
         case .favorite: "star"
         case .filter: "line.3.horizontal.decrease.circle"
@@ -187,9 +190,12 @@ public extension StandardButtonType {
         case .tag: "tag"
         case .translate: "character.bubble"
         case .undo: "arrow.uturn.backward"
+        case .uninstall: "arrow.down.app.fill"
+        case .unlearn: "lightbulb.fill"
         case .unlike: "hand.thumbsdown"
         case .unlock: "lock.open"
         case .unmute: "speaker.wave.2"
+        case .unpin: "pin.slash"
         case .unsubscribe: "bell.slash"
         case .update: "arrow.triangle.2.circlepath"
         case .upload: "arrow.up.circle"
@@ -241,7 +247,7 @@ public extension StandardButtonType {
         case .call: "Button.Call"
         case .cancel: "Button.Cancel"
         case .close: "Button.Close"
-        case .collapse: "Button.Collapse"
+        case .collapseDown, .collapseUp: "Button.Collapse"
         case .confirm: "Button.Confirm"
         case .connect: "Button.Connect"
         case .copy: "Button.Copy"
@@ -259,7 +265,7 @@ public extension StandardButtonType {
         case .enter: "Button.Enter"
         case .execute: "Button.Execute"
         case .exit: "Button.Exit"
-        case .expand: "Button.Expand"
+        case .expandDown, .expandUp: "Button.Expand"
         case .export: "Button.Export"
         case .favorite: "Button.Favorite"
         case .filter: "Button.Filter"
@@ -335,9 +341,12 @@ public extension StandardButtonType {
         case .tag: "Button.Tag"
         case .translate: "Button.Translate"
         case .undo: "Button.Undo"
+        case .uninstall: "Button.Uninstall"
+        case .unlearn: "Button.Unlearn"
         case .unlike: "Button.Unlike"
         case .unlock: "Button.Unlock"
         case .unmute: "Button.Unmute"
+        case .unpin: "Button.Unpin"
         case .unsubscribe: "Button.Unsubscribe"
         case .update: "Button.Update"
         case .upload: "Button.Upload"

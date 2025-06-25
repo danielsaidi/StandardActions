@@ -21,20 +21,67 @@ public enum StandardToggleType {
     /// Toggle a bookmarked state.
     case isBookmarked
 
+    /// Toggle a connected state.
+    case isConnected
+
     /// Toggle a downloaded state.
     case isDownloaded
 
     /// Toggle an expanded state.
-    case isExpanded
+    case isExpanded(ExpandDirection)
 
     /// Toggle a favorite state.
     case isFavorite
 
+    /// Toggle an installed state.
+    case isInstalled
+
+    /// Toggle a learned state.
+    case isLearned
+
     /// Toggle a liked state.
     case isLiked
 
+    /// Toggle a locked state.
+    case isLocked
+
+    /// Toggle a logged in state.
+    case isLoggedIn
+
+    /// Toggle a pinned state.
+    case isPinned
+
+    /// Toggle a playing state with pause as counter state.
+    case isPlayingWithPause
+
+    /// Toggle a playing state with stop as counter state.
+    case isPlayingWithStop
+
+    /// Toggle a muted state.
+    case isMuted
+
     /// Toggle a selected state.
     case isSelected
+
+    /// Toggle a subscribed state.
+    case isSubscribed
+
+    /// Toggle a visible state.
+    case isVisible
+
+    /// This type is used to handle many expand directions.
+    public enum ExpandDirection {
+        case up, down
+
+        func buttonType(
+            for isOn: Bool
+        ) -> StandardButtonType {
+            switch self {
+            case .down: isOn ? .collapseUp : .expandDown
+            case .up: isOn ? .collapseDown : .expandUp
+            }
+        }
+    }
 }
 
 public extension StandardToggleType {
@@ -52,11 +99,22 @@ public extension StandardToggleType {
     ) -> StandardButtonType {
         switch self {
         case .isBookmarked: isOn ? .removeBookmark : .bookmark
+        case .isConnected: isOn ? .disconnect : .connect
         case .isDownloaded: isOn ? .removeDownload : .download
-        case .isExpanded: isOn ? .collapse : .expand
+        case .isExpanded(let direction): direction.buttonType(for: isOn)
         case .isFavorite: isOn ? .removeFavorite : .favorite
+        case .isInstalled: isOn ? .uninstall : .install
+        case .isLearned: isOn ? .unlearn : .learn
         case .isLiked: isOn ? .removeLike : .like
+        case .isLoggedIn: isOn ? .logout : .logout
+        case .isLocked: isOn ? .unlock : .like
+        case .isMuted: isOn ? .unmute : .mute
+        case .isPinned: isOn ? .unpin : .pin
+        case .isPlayingWithPause: isOn ? .pause : .play
+        case .isPlayingWithStop: isOn ? .stop : .play
         case .isSelected: isOn ? .deselect : .select
+        case .isSubscribed: isOn ? .unsubscribe : .subscribe
+        case .isVisible: isOn ? .hide : .show
         }
     }
 }
@@ -78,22 +136,44 @@ public extension Toggle {
 
     struct Preview: View {
 
-        @State var isBookmarked = false
-        @State var isDownloaded = false
-        @State var isExpanded = false
-        @State var isFavorite = false
-        @State var isLiked = false
-        @State var isSelected = false
+        static let prefix = "com.danielsaidi.StandardButtons."
+
+        @AppStorage("\(Self.prefix).isBookmarked") var isBookmarked = false
+        @AppStorage("\(Self.prefix).isConnected") var isConnected = false
+        @AppStorage("\(Self.prefix).isDownloaded") var isDownloaded = false
+        @AppStorage("\(Self.prefix).isExpandedDown") var isExpandedDown = false
+        @AppStorage("\(Self.prefix).isExpandedUp") var isExpandedUp = false
+        @AppStorage("\(Self.prefix).isFavorite") var isFavorite = false
+        @AppStorage("\(Self.prefix).isInstalled") var isInstalled = false
+        @AppStorage("\(Self.prefix).isLearned") var isLearned = false
+        @AppStorage("\(Self.prefix).isLiked") var isLiked = false
+        @AppStorage("\(Self.prefix).isLocked") var isLocked = false
+        @AppStorage("\(Self.prefix).isPinned") var isPinned = false
+        @AppStorage("\(Self.prefix).isPlayingWithPause") var isPlayingWithPause = false
+        @AppStorage("\(Self.prefix).isPlayingWithStop") var isPlayingWithStop = false
+        @AppStorage("\(Self.prefix).isSelected") var isSelected = false
+        @AppStorage("\(Self.prefix).isSubscribed") var isSubscribed = false
+        @AppStorage("\(Self.prefix).isVisible") var isVisible = false
 
         @ViewBuilder
         @MainActor
         func buttons() -> some View {
             Toggle(.isBookmarked, isOn: $isBookmarked)
+            Toggle(.isConnected, isOn: $isConnected)
             Toggle(.isDownloaded, isOn: $isDownloaded)
-            Toggle(.isExpanded, isOn: $isExpanded)
+            Toggle(.isExpanded(.down), isOn: $isExpandedDown)
+            Toggle(.isExpanded(.up), isOn: $isExpandedUp)
             Toggle(.isFavorite, isOn: $isFavorite)
+            Toggle(.isInstalled, isOn: $isInstalled)
+            Toggle(.isLearned, isOn: $isLearned)
             Toggle(.isLiked, isOn: $isLiked)
+            Toggle(.isLocked, isOn: $isLocked)
+            Toggle(.isPinned, isOn: $isPinned)
+            Toggle(.isPlayingWithPause, isOn: $isPlayingWithPause)
+            Toggle(.isPlayingWithStop, isOn: $isPlayingWithStop)
             Toggle(.isSelected, isOn: $isSelected)
+            Toggle(.isSubscribed, isOn: $isSubscribed)
+            Toggle(.isVisible, isOn: $isVisible)
         }
 
         var body: some View {
@@ -101,7 +181,7 @@ public extension Toggle {
                 List {
                     buttons().labelStyle(.titleAndIcon)
                 }
-                .navigationTitle("Button Types")
+                .navigationTitle("Toggle Types")
                 .toolbar {
                     ToolbarItemGroup {
                         buttons()

@@ -22,7 +22,7 @@ public enum StandardButtonType: String, CaseIterable, Identifiable, Sendable {
          back, bookmark, browse,
          cancel, call, close, collapseDown, collapseUp,
          confirm, copy, connect, create, customize,
-         delete, deselect, disconnect, dismiss, done, download,
+         delete, deselect, disconnect, dismiss, done, download, duplicate,
          edit, email, end, enter, execute, exit,
          expandDown, expandUp, export,
          favorite, filter, forward,
@@ -45,32 +45,6 @@ public enum StandardButtonType: String, CaseIterable, Identifiable, Sendable {
          update, upload,
          verify, view,
          zoom, zoomIn, zoomOut
-}
-
-public extension StandardButtonType {
-
-    @available(*, deprecated, renamed: "removeDownload")
-    static var downloaded: Self { .removeDownload }
-}
-
-@available(*, deprecated, message: "Use StandardToggleType instead.")
-public extension StandardButtonType {
-
-    static func toggleDownload(isDownloaded: Bool) -> StandardButtonType {
-        isDownloaded ? .downloaded : .download
-    }
-
-    static func toggleFavorite(isFavorite: Bool) -> StandardButtonType {
-        isFavorite ? .removeFavorite : .favorite
-    }
-
-    static func toggleLike(isLiked: Bool) -> StandardButtonType {
-        isLiked ? .removeLike : .like
-    }
-
-    static func toggleSelect(isSelected: Bool) -> StandardButtonType {
-        isSelected ? .deselect : .select
-    }
 }
 
 public extension StandardButtonType {
@@ -107,6 +81,7 @@ public extension StandardButtonType {
         case .dismiss: "xmark"
         case .done: "checkmark"
         case .download: "arrow.down.circle"
+        case .duplicate: "doc.on.doc"
         case .edit: "pencil"
         case .email: "envelope"
         case .end: "stop.circle"
@@ -259,6 +234,7 @@ public extension StandardButtonType {
         case .dismiss: "Button.Dismiss"
         case .done: "Button.Done"
         case .download: "Button.Download"
+        case .duplicate: "Button.Duplicate"
         case .edit: "Button.Edit"
         case .email: "Button.Email"
         case .end: "Button.End"

@@ -6,6 +6,18 @@ Until then, breaking changes can happen in any version, and deprecated features 
 
 
 
+## 0.9
+
+After the new additions, the name StandardButtons felt wrong.
+
+As such, the project has now been renamed to StandardActions.
+
+### ✨ Features
+
+* `StandardActionType` has a new `.duplicate` type.
+
+
+
 ## 0.8
 
 ### ✨ Features

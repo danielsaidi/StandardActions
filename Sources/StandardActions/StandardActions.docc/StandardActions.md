@@ -9,7 +9,7 @@ A SwiftUI library with standard action types.
 
 StandardActions is a SwiftUI library that defines standard action types with localized titles, icons, button roles, keyboard shortcuts, etc.
 
-StandardActions has a ``StandardActionType`` enum that defines **120** actions, like ``StandardActionType/add``, ``StandardActionType/remove``, etc., a ``StandardToggleType`` enum with common toggle values, and a ``StandardAction`` with common actions, etc.
+StandardActions has a ``StandardActionType`` enum that defines **121** actions, like ``StandardActionType/add``, ``StandardActionType/remove``, etc., a ``StandardToggleType`` enum with common toggle values, and a ``StandardAction`` with common actions, etc.
 
 Each ``StandardActionType`` has a localized ``StandardActionType/title``, an ``StandardActionType/image``, a ``StandardActionType/role``, and an optional ``StandardActionType/keyboardShortcut``. These properties will automatically be applied when you create type-based buttons, labels, links, and toggles.
 

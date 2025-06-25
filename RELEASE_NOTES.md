@@ -10,7 +10,8 @@ Until then, breaking changes can happen in any version, and deprecated features 
 
 ### ✨ Features
 
-* `StandardButtonType` has new types and renames some types.
+* `StandardActionControl` is a new view for rendering actions.
+* `StandardButtonType` has new types and renames some button types.
 * `StandardToggleType` is a new type for handling common toggle values.
 
 

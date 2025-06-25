@@ -19,7 +19,9 @@ StandardButtons is a SwiftUI library that lets you create standard button types,
     <img src="Resources/Preview.jpg" alt="StandardButtons preview" />
 </p>
 
-StandardButtons defines **110+** standard button types, like ``.add``, ``.delete``, ``.edit``, ``.done``, etc. Each type has a localized ``.title``, ``.image``, ``.role``, and (optional) ``.keyboardShortcut``.
+StandardButtons has a ``StandardButtonType`` enum that defines **120** common actions, like ``.add``, ``.remove``, etc., as well as a ``StandardToggleType`` enum with common values, and ``StandardAction`` with common actions, etc.
+
+Each ``StandardButtonType`` has a localized ``.title``, an ``.image``, a ``.role``, and an optional ``.keyboardShortcut``. These properties will automatically be applied when you create type-based buttons, labels, links, and toggles.
 
 
 
@@ -40,7 +42,7 @@ You can [become a sponsor][Sponsors] to help me dedicate more time on my various
 
 ## Getting Started
 
-StandardButtons has ``StandardButtonType``-based  ``Button``, ``Label``, and ``Link`` initializers for creating standard controls that work on all major Apple platforms and applies an icon, title, role, etc. for the provided button type:
+You can create ``Button``, ``Label`` and ``Link`` views for any ``StandardButtonType``. This automatically applies the localized title, icon, role, shortcut, accessibility, etc. for the provided button type:
 
 ```swift
 Button(.add) { ... }
@@ -48,13 +50,27 @@ Label(.add) { ... }
 Link(.email, destination: .email(...))
 ```
 
+You can create ``Toggle`` views for any ``StandardToggleType`` and a boolean binding. This automatically applies the localized title, icon, role, shortcut, accessibility, etc. for the provided toggle type, based on the toggle state:
+
+```swift
+Toggle(.isVisible, isOn: $isVisible)
+```
+
 You can use ``StandardAction`` to generate a standard control for common actions, like ``.call(phoneNumber:)``, ``.copy(_:)``, ``.email(address:)``, and ``.openUrl(_:)``.
 
 ```swift
-StandardAction.email(address: "daniel@gmail.com")
+/// Render a control for the provided action
+StandardActionControl(.email(address: "daniel@gmail.com"))
+
+/// Render a list item with the action as a trailing action
+StandardActionListItem(
+    title: ..., 
+    text: ..., 
+    action: .email(address: "daniel@gmail.com")
+)
 ```
 
-You can use URL extensions like ``.call(number:)`` and ``.email(address:)`` to generate URLs for common actions.
+You can also use URL extensions like ``.call(number:)`` and ``.email(address:)`` to generate URLs for common URL-based actions.
 
 
 

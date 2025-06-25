@@ -13,7 +13,7 @@ class StandardButtonsTests {
 
     @Test
     func standardButtonTypeDefinesCorrectNumberOfTypes() async throws {
-        #expect(StandardButtonType.allCases.count == 114)
+        #expect(StandardButtonType.allCases.count == 120)
     }
 
     @Test

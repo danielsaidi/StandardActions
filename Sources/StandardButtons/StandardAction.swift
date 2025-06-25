@@ -11,9 +11,11 @@ import SwiftUI
 /// This enum defines common button actions, with a standard
 /// implementation for each action.
 ///
-/// This type implements `View` which means that you can use
-/// it directly to render a custom view that fits the action.
+/// You can use a ``StandardActionControl`` to render a view
+/// for a certain action, or a ``StandardActionListItem`` to
+/// render an action list item.
 ///
+/// Every action will render a control that fits each action.
 /// For instance, ``call(phoneNumber:)`` renders links while
 /// ``copy(_:)`` renders regular buttons.
 public enum StandardAction {
@@ -34,10 +36,23 @@ public enum StandardAction {
     case openUrl(_ url: String)
 }
 
-extension StandardAction: View {
+/// This view can be used to render any ``StandardAction``.
+///
+/// The ``StandardAction`` already implements `View` so this
+/// view is just provided for extra discoverability.
+public struct StandardActionControl: View {
+
+    /// Create a standard action control.
+    public init(
+        _ action: StandardAction
+    ) {
+        self.action = action
+    }
+
+    private let action: StandardAction
 
     public var body: some View {
-        switch self {
+        switch action {
         case .call(let number):
             if let url = URL.call(number: number) {
                 Link(.call, destination: url)
@@ -96,7 +111,7 @@ public struct StandardActionListItem: View {
             }
             Spacer()
             if let action {
-                action
+                StandardActionControl(action)
                     .labelStyle(.iconOnly)
             }
         }
@@ -110,18 +125,18 @@ public extension StandardAction {
     #else
     typealias ImageRepresentable = NSImage
     #endif
+}
+
+@MainActor
+private extension StandardActionControl {
 
     #if os(iOS) || os(visionOS) || targetEnvironment(macCatalyst)
     typealias Pasteboard = UIPasteboard
     #elseif os(macOS)
     typealias Pasteboard = NSPasteboard
     #endif
-}
 
-@MainActor
-private extension StandardAction {
-
-    func copyImage(_ image: ImageRepresentable) {
+    func copyImage(_ image: StandardAction.ImageRepresentable) {
         #if os(macOS)
         Pasteboard.general.writeObjects([image])
         #elseif os(iOS) || os(visionOS) || targetEnvironment(macCatalyst)
@@ -142,11 +157,11 @@ private extension StandardAction {
     NavigationView {
         List {
             Section("Actions") {
-                StandardAction.call(phoneNumber: "+46730787048")
-                StandardAction.copy("foo")
-                StandardAction.copy(.init())
-                StandardAction.email(address: "daniel@kankoda.com")
-                StandardAction.openUrl("https://danielsaidi.com")
+                StandardActionControl(.call(phoneNumber: "+46730787048"))
+                StandardActionControl(.copy("foo"))
+                StandardActionControl(.copy(.init()))
+                StandardActionControl(.email(address: "daniel@kankoda.com"))
+                StandardActionControl(.openUrl("https://danielsaidi.com"))
             }
             Section("List Item") {
                 StandardActionListItem(

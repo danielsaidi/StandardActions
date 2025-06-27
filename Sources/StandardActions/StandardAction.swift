@@ -22,12 +22,11 @@ public enum StandardAction {
     /// Call a phone number.
     case call(phoneNumber: String)
 
-    /// Copy a text.
-    case copy(String)
+    /// Copy an image to the pasteboard.
+    case copyImageToPasteboard(ImageRepresentable)
 
-    /// Copy an image.
-    case copyImage(ImageRepresentable)
-
+    /// Copy a string to the pasteboard.
+    case copyStringToPasteboard(String)
 
     /// Send an e-mail.
     case email(address: String)
@@ -36,6 +35,16 @@ public enum StandardAction {
     case openUrl(_ url: String)
 }
 
+public extension StandardAction {
+
+    @available(*, deprecated, renamed: "copyToPasteboard")
+    func copy(_ str: String) -> StandardAction { .copyStringToPasteboard(str) }
+
+    @available(*, deprecated, renamed: "copyImageToPasteboard")
+    func copyImage(_ img: ImageRepresentable) -> StandardAction { .copyImageToPasteboard(img) }
+}
+
+
 /// This view can be used to render any ``StandardAction``.
 ///
 /// The ``StandardAction`` already implements `View` so this
@@ -43,36 +52,64 @@ public enum StandardAction {
 public struct StandardActionControl: View {
 
     /// Create a standard action control.
+    ///
+    /// The additional action will only be triggered for the
+    /// actions that render a button.
+    ///
+    /// - Parameters:
+    ///   - action: The action to trigger.
+    ///   - title: An optional, custom title.
+    ///   - bundle: An optional, custom title bundle.
+    ///   - additionalAction: An optional, additional action.
     public init(
-        _ action: StandardAction
+        _ action: StandardAction,
+        title: LocalizedStringKey? = nil,
+        bundle: Bundle? = nil,
+        additionalAction: @escaping () -> Void = {}
     ) {
         self.action = action
+        self.title = title
+        self.bundle = bundle
+        self.additionalAction = additionalAction
     }
 
     private let action: StandardAction
+    private let title: LocalizedStringKey?
+    private let bundle: Bundle?
+    private let additionalAction: () -> Void
 
     public var body: some View {
         switch action {
         case .call(let number):
-            if let url = URL.call(number: number) {
-                Link(.call, destination: url)
-            }
-        case .copy(let string):
-            Button(.copy) {
-                copyString(string)
-            }
-        case .copyImage(let image):
-            Button(.copy) {
-                copyImage(image)
-            }
+            link(.call, url: .call(number: number))
+        case .copyImageToPasteboard(let image):
+            button(.copy) { copyImage(image) }
+        case .copyStringToPasteboard(let string):
+            button(.copy) { copyString(string) }
         case .email(let address):
-            if let url = URL.email(address: address) {
-                Link(.email, destination: url)
-            }
+            link(.email, url: .email(address: address))
         case .openUrl(let url):
-            if let url = URL(string: url) {
-                Link(.openInSafari, destination: url)
-            }
+            link(.openInSafari, url: URL(string: url))
+        }
+    }
+
+    private func button(
+        _ actionType: StandardActionType,
+        action: @escaping () -> Void
+    ) -> some View {
+        Button(actionType, title: title, bundle: bundle) {
+            action()
+            additionalAction()
+        }
+    }
+
+    @ViewBuilder
+    private func link(
+        _ actionType: StandardActionType,
+        url: URL?
+    ) -> some View {
+        if let url {
+            Link(actionType, title: title, bundle: bundle, destination: url)
         }
     }
 }
@@ -81,22 +118,36 @@ public struct StandardActionControl: View {
 /// with the standard action as a trailing button.
 public struct StandardActionListItem: View {
 
+    /// Create a standard action list item.
+    ///
+    /// The additional action will only be triggered for the
+    /// actions that render a button.
+    ///
+    /// - Parameters:
+    ///   - action: The action to trigger.
+    ///   - title: An optional list item title.
+    ///   - text: A list item text.
+    ///   - bundle: An optional, custom title bundle.
+    ///   - additionalAction: An optional, additional action.
     public init(
-        title: LocalizedStringKey?,
+        action: StandardAction?,
+        title: LocalizedStringKey? = nil,
         text: LocalizedStringKey,
         bundle: Bundle = .main,
-        action: StandardAction?
+        additionalAction: @escaping () -> Void = {}
     ) {
         self.title = title
         self.text = text
         self.bundle = bundle
         self.action = action
+        self.additionalAction = additionalAction
     }
 
+    private let action: StandardAction?
     private let title: LocalizedStringKey?
     private let text: LocalizedStringKey
     private let bundle: Bundle
-    private let action: StandardAction?
+    private let additionalAction: () -> Void
 
     public var body: some View {
         HStack {
@@ -111,8 +162,11 @@ public struct StandardActionListItem: View {
             }
             Spacer()
             if let action {
-                StandardActionControl(action)
-                    .labelStyle(.iconOnly)
+                StandardActionControl(
+                    action,
+                    additionalAction: additionalAction
+                )
+                .labelStyle(.iconOnly)
             }
         }
     }
@@ -158,16 +212,16 @@ private extension StandardActionControl {
         List {
             Section("Actions") {
                 StandardActionControl(.call(phoneNumber: "+46730787048"))
-                StandardActionControl(.copy("foo"))
-                StandardActionControl(.copy(.init()))
+                StandardActionControl(.copyImageToPasteboard(.init()))
+                StandardActionControl(.copyStringToPasteboard("foo"))
                 StandardActionControl(.email(address: "daniel@kankoda.com"))
                 StandardActionControl(.openUrl("https://danielsaidi.com"))
             }
             Section("List Item") {
                 StandardActionListItem(
+                    action: .copyStringToPasteboard(""),
                     title: "Title",
-                    text: "Text",
-                    action: .copy("")
+                    text: "Text"
                 )
             }
         }

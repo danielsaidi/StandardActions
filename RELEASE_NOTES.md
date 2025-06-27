@@ -6,6 +6,14 @@ Until then, breaking changes can happen in any version, and deprecated features 
 
 
 
+## 0.9.3
+
+### ✨ Features
+
+* `StandardAction` can now trigger an additional action.
+ 
+
+
 ## 0.9.2
 
 ### ✨ Features

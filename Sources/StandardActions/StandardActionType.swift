@@ -434,10 +434,11 @@ public extension Text {
         title: LocalizedStringKey? = nil,
         bundle: Bundle? = nil
     ) {
-        self.init(
-            title ?? type.title,
-            bundle: bundle ?? .module
-        )
+        if let title {
+            self.init(title, bundle: bundle ?? .main)
+        } else {
+            self.init(type.title, bundle: .module)
+        }
     }
 }
 

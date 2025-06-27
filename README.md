@@ -64,9 +64,9 @@ StandardActionControl(.email(address: "daniel@gmail.com"))
 
 /// Render a list item with the action as a trailing action
 StandardActionListItem(
+    actoin: .email(address: "daniel@gmail.com"),
     title: ..., 
-    text: ..., 
-    action: .email(address: "daniel@gmail.com")
+    text: ...
 )
 ```
 

@@ -26,6 +26,7 @@ public enum StandardActionType: String, CaseIterable, Identifiable, Sendable {
          edit, email, end, enter, execute, exit,
          expandDown, expandUp, export,
          favorite, filter, forward,
+         generateBarcode, generateQrCode,
          gitBranch, gitMerge, gitPull, gitPush,
          help, hide,
          `import`, info, install,
@@ -41,8 +42,9 @@ public enum StandardActionType: String, CaseIterable, Identifiable, Sendable {
          remove, removeBookmark, removeDownload, removeFavorite, removeLike,
          rename, reply, report, reset, resize, restart,
          restore, resume, retry, `return`,
-         save, scanDocument, search, select, send, settings, share, show, shuffle,
-         sign, skip, sort, start, stop, submit, subscribe, sync,
+         save, scanDocument, search, select, send, settings,
+         share, shareAsBarcode, shareAsQrCode,
+         show, shuffle, sign, skip, sort, start, stop, submit, subscribe, sync,
          tag, takePhoto, translate,
          undo, uninstall, unlike, unlearn, unlock, unmute, unpin, unsubscribe,
          update, upload, uploadImageFromCamera, uploadImageFromLibrary,
@@ -97,6 +99,8 @@ public extension StandardActionType {
         case .favorite: "star"
         case .filter: "line.3.horizontal.decrease.circle"
         case .forward: "chevron.forward"
+        case .generateBarcode: "barcode"
+        case .generateQrCode: "qrcode"
         case .gitBranch: "arrow.trianglehead.branch"
         case .gitMerge: "arrow.trianglehead.merge"
         case .gitPull: "arrow.trianglehead.pull"
@@ -162,6 +166,8 @@ public extension StandardActionType {
         case .send: "paperplane"
         case .settings: "gearshape"
         case .share: "square.and.arrow.up"
+        case .shareAsBarcode: "barcode"
+        case .shareAsQrCode: "qrcode"
         case .show: "eye"
         case .shuffle: "shuffle"
         case .sign: "signature"
@@ -259,6 +265,8 @@ public extension StandardActionType {
         case .favorite: "Button.Favorite"
         case .filter: "Button.Filter"
         case .forward: "Button.Forward"
+        case .generateBarcode: "Button.GenerateBarcode"
+        case .generateQrCode: "Button.GenerateQrCode"
         case .gitBranch: "Button.GitBranch"
         case .gitMerge: "Button.GitMerge"
         case .gitPull: "Button.GitPull"
@@ -324,6 +332,8 @@ public extension StandardActionType {
         case .send: "Button.Send"
         case .settings: "Button.Settings"
         case .share: "Button.Share"
+        case .shareAsBarcode: "Button.ShareAsBarcode"
+        case .shareAsQrCode: "Button.ShareAsQrCode"
         case .show: "Button.Show"
         case .shuffle: "Button.Shuffle"
         case .sign: "Button.Sign"

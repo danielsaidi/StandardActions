@@ -391,7 +391,7 @@ public extension Button {
         action: @escaping () -> Void
     ) where Label == SwiftUI.Label<Text, Image?> {
         self.init(role: type.role, action: action) {
-            Label(type)
+            Label(type, title: title, bundle: bundle)
         }
     }
 }
@@ -421,7 +421,7 @@ public extension Link {
         destination: URL
     ) where Label == SwiftUI.Label<Text, Image?> {
         self.init(destination: destination) {
-            Label(type, title: title)
+            Label(type, title: title, bundle: bundle)
         }
     }
 }

@@ -6,6 +6,14 @@ Until then, breaking changes can happen in any version, and deprecated features 
 
 
 
+## 0.9.4
+
+### 🐛 Bug Fixes
+
+* `StandardActionType` fixes a few title and bundle bugs.
+ 
+
+
 ## 0.9.3
 
 ### ✨ Features

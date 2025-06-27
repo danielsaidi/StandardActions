@@ -26,23 +26,26 @@ public enum StandardActionType: String, CaseIterable, Identifiable, Sendable {
          edit, email, end, enter, execute, exit,
          expandDown, expandUp, export,
          favorite, filter, forward,
+         gitBranch, gitMerge, gitPull, gitPush,
          help, hide,
          `import`, info, install,
          learn, like, load, lock, login, logout, lookup,
          menu, minimize, mute,
          new, next,
          ok, open, openInSafari,
-         paste, pause, pin, play, post, preview, previous,
+         paste, pause,
+         pickImageFromLibrary, pickImageWithCamera,
+         pin, play, post, preview, previous,
          print, proceed, purchase,
          rate, readMore, record, redo, refresh, reject, reload,
          remove, removeBookmark, removeDownload, removeFavorite, removeLike,
          rename, reply, report, reset, resize, restart,
          restore, resume, retry, `return`,
-         save, search, select, send, settings, share, show, shuffle,
+         save, scanDocument, search, select, send, settings, share, show, shuffle,
          sign, skip, sort, start, stop, submit, subscribe, sync,
-         tag, translate,
+         tag, takePhoto, translate,
          undo, uninstall, unlike, unlearn, unlock, unmute, unpin, unsubscribe,
-         update, upload,
+         update, upload, uploadImageFromCamera, uploadImageFromLibrary,
          verify, view,
          zoom, zoomIn, zoomOut
 }
@@ -94,6 +97,10 @@ public extension StandardActionType {
         case .favorite: "star"
         case .filter: "line.3.horizontal.decrease.circle"
         case .forward: "chevron.forward"
+        case .gitBranch: "arrow.trianglehead.branch"
+        case .gitMerge: "arrow.trianglehead.merge"
+        case .gitPull: "arrow.trianglehead.pull"
+        case .gitPush: "arrow.circle"
         case .help: "questionmark.circle"
         case .hide: "eye.slash"
         case .import: "square.and.arrow.down"
@@ -116,6 +123,8 @@ public extension StandardActionType {
         case .openInSafari: "safari"
         case .paste: "clipboard"
         case .pause: "pause.circle"
+        case .pickImageFromLibrary: "photo.on.rectangle.angled"
+        case .pickImageWithCamera: "camera"
         case .pin: "pin"
         case .play: "play.circle"
         case .post: "paperplane"
@@ -147,6 +156,7 @@ public extension StandardActionType {
         case .retry: "arrow.clockwise"
         case .return: "arrowshape.turn.up.left"
         case .save: "checkmark"
+        case .scanDocument: "document.viewfinder"
         case .search: "magnifyingglass"
         case .select: "checkmark.circle"
         case .send: "paperplane"
@@ -163,6 +173,7 @@ public extension StandardActionType {
         case .subscribe: "bell"
         case .sync: "arrow.triangle.2.circlepath"
         case .tag: "tag"
+        case .takePhoto: "camera"
         case .translate: "character.bubble"
         case .undo: "arrow.uturn.backward"
         case .uninstall: "arrow.down.app.fill"
@@ -174,6 +185,8 @@ public extension StandardActionType {
         case .unsubscribe: "bell.slash"
         case .update: "arrow.triangle.2.circlepath"
         case .upload: "arrow.up.circle"
+        case .uploadImageFromCamera: "camera"
+        case .uploadImageFromLibrary: "photo.on.rectangle.angled"
         case .verify: "checkmark.shield"
         case .view: "eye"
         case .zoom: "magnifyingglass"
@@ -246,6 +259,10 @@ public extension StandardActionType {
         case .favorite: "Button.Favorite"
         case .filter: "Button.Filter"
         case .forward: "Button.Forward"
+        case .gitBranch: "Button.GitBranch"
+        case .gitMerge: "Button.GitMerge"
+        case .gitPull: "Button.GitPull"
+        case .gitPush: "Button.GitPush"
         case .help: "Button.Help"
         case .hide: "Button.Hide"
         case .import: "Button.Import"
@@ -268,6 +285,8 @@ public extension StandardActionType {
         case .openInSafari: "Button.OpenInSafari"
         case .paste: "Button.Paste"
         case .pause: "Button.Pause"
+        case .pickImageFromLibrary: "Button.PickFromLibrary"
+        case .pickImageWithCamera: "Button.PickWithCamera"
         case .pin: "Button.Pin"
         case .play: "Button.Play"
         case .post: "Button.Post"
@@ -300,6 +319,7 @@ public extension StandardActionType {
         case .return: "Button.Return"
         case .save: "Button.Save"
         case .search: "Button.Search"
+        case .scanDocument: "Button.ScanDocument"
         case .select: "Button.Select"
         case .send: "Button.Send"
         case .settings: "Button.Settings"
@@ -315,6 +335,7 @@ public extension StandardActionType {
         case .subscribe: "Button.Subscribe"
         case .sync: "Button.Sync"
         case .tag: "Button.Tag"
+        case .takePhoto: "Button.TakePhoto"
         case .translate: "Button.Translate"
         case .undo: "Button.Undo"
         case .uninstall: "Button.Uninstall"
@@ -326,6 +347,8 @@ public extension StandardActionType {
         case .unsubscribe: "Button.Unsubscribe"
         case .update: "Button.Update"
         case .upload: "Button.Upload"
+        case .uploadImageFromCamera: "Button.UploadFromCamera"
+        case .uploadImageFromLibrary: "Button.UploadFromLibrary"
         case .verify: "Button.Verify"
         case .view: "Button.View"
         case .zoom: "Button.Zoom"

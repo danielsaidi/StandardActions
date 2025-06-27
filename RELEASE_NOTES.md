@@ -1,9 +1,17 @@
 # Release Notes
 
-StandardButtons will use semver after 1.0. 
+[StandardButtons](https://github.com/danielsaidi/StandardActions) will use semver after 1.0. 
 
 Until then, breaking changes can happen in any version, and deprecated features may be removed in any minor version bump.
 
+
+
+## 0.9.1
+
+### ✨ Features
+
+* `StandardAction` gets new image and git-related actions, bringing the total number of actions to 131.
+ 
 
 
 ## 0.9

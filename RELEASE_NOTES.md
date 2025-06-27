@@ -6,6 +6,15 @@ Until then, breaking changes can happen in any version, and deprecated features 
 
 
 
+## 0.9.2
+
+### ✨ Features
+
+* `Text` can now be created with a standard action type.
+* `Button`, `Label` and `Link` can now customize their title.
+ 
+
+
 ## 0.9.1
 
 ### ✨ Features

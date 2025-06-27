@@ -383,9 +383,11 @@ public extension View {
 
 public extension Button {
 
-    /// Create a button for a certain ``StandardActionType``.
+    /// Create a ``StandardActionType``-based button.
     init(
         _ type: StandardActionType,
+        title: LocalizedStringKey? = nil,
+        bundle: Bundle? = nil,
         action: @escaping () -> Void
     ) where Label == SwiftUI.Label<Text, Image?> {
         self.init(role: type.role, action: action) {
@@ -396,12 +398,14 @@ public extension Button {
 
 public extension Label {
 
-    /// Create a label for a certain ``StandardActionType``.
+    /// Create a ``StandardActionType``-based label.
     init(
-        _ type: StandardActionType
+        _ type: StandardActionType,
+        title: LocalizedStringKey? = nil,
+        bundle: Bundle? = nil
     ) where Label == SwiftUI.Label<Text, Image?> {
         self.init(
-            title: { Text(type.title, bundle: .module) },
+            title: { Text(type, title: title, bundle: bundle) },
             icon: { type.image }
         )
     }
@@ -409,14 +413,31 @@ public extension Label {
 
 public extension Link {
 
-    /// Create a link for a certain ``StandardActionType``.
+    /// Create a ``StandardActionType``-based link.
     init(
         _ type: StandardActionType,
+        title: LocalizedStringKey? = nil,
+        bundle: Bundle? = nil,
         destination: URL
     ) where Label == SwiftUI.Label<Text, Image?> {
         self.init(destination: destination) {
-            Label(type)
+            Label(type, title: title)
         }
+    }
+}
+
+public extension Text {
+
+    /// Create a ``StandardActionType``-based text.
+    init(
+        _ type: StandardActionType,
+        title: LocalizedStringKey? = nil,
+        bundle: Bundle? = nil
+    ) {
+        self.init(
+            title ?? type.title,
+            bundle: bundle ?? .module
+        )
     }
 }
 

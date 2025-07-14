@@ -1,9 +1,17 @@
 # Release Notes
 
-[StandardButtons](https://github.com/danielsaidi/StandardActions) will use semver after 1.0. 
+[StandardActions](https://github.com/danielsaidi/StandardActions) will use semver after 1.0. 
 
 Until then, breaking changes can happen in any version, and deprecated features may be removed in any minor version bump.
 
+
+
+## 0.9.6
+
+### ✨ Features
+
+* `StandardActionType` has new expand, collapse, and fullscreen actions.
+ 
 
 
 ## 0.9.5

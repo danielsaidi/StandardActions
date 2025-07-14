@@ -20,12 +20,14 @@ import SwiftUI
 public enum StandardActionType: String, CaseIterable, Identifiable, Sendable {
     case add, apply, archive, attach,
          back, bookmark, browse,
-         cancel, call, close, collapseDown, collapseUp,
+         cancel, call, close,
+         collapse, collapseDown, collapseUp,
          confirm, copy, connect, create, customize,
          delete, deselect, disconnect, dismiss, done, download, duplicate,
          edit, email, end, enter, execute, exit,
-         expandDown, expandUp, export,
-         favorite, filter, forward,
+         expand, expandDown, expandUp,
+         export,
+         favorite, filter, forward, fullscreen,
          generateBarcode, generateQrCode,
          gitBranch, gitMerge, gitPull, gitPush,
          help, hide,
@@ -44,7 +46,8 @@ public enum StandardActionType: String, CaseIterable, Identifiable, Sendable {
          restore, resume, retry, `return`,
          save, scanDocument, search, select, send, settings,
          share, shareAsBarcode, shareAsQrCode,
-         show, shuffle, sign, skip, sort, start, stop, submit, subscribe, sync,
+         show, showDetails,
+         shuffle, sign, skip, sort, start, stop, submit, subscribe, sync,
          tag, takePhoto, translate,
          undo, uninstall, unlike, unlearn, unlock, unmute, unpin, unsubscribe,
          update, upload, uploadImageFromCamera, uploadImageFromLibrary,
@@ -73,6 +76,7 @@ public extension StandardActionType {
         case .call: "phone"
         case .cancel: "xmark"
         case .close: "xmark.circle"
+        case .collapse: "arrow.down.right.and.arrow.up.left.rectangle"
         case .collapseDown: "chevron.down"
         case .collapseUp: "chevron.up"
         case .confirm: "checkmark.circle"
@@ -93,12 +97,14 @@ public extension StandardActionType {
         case .enter: "return"
         case .execute: "play.circle"
         case .exit: "rectangle.portrait.and.arrow.right"
+        case .expand: "arrow.up.left.and.arrow.down.right.rectangle"
         case .expandDown: "chevron.down"
         case .expandUp: "chevron.up"
         case .export: "square.and.arrow.up"
         case .favorite: "star"
         case .filter: "line.3.horizontal.decrease.circle"
         case .forward: "chevron.forward"
+        case .fullscreen: "arrow.up.left.and.arrow.down.right.rectangle"
         case .generateBarcode: "barcode"
         case .generateQrCode: "qrcode"
         case .gitBranch: "arrow.trianglehead.branch"
@@ -169,6 +175,7 @@ public extension StandardActionType {
         case .shareAsBarcode: "barcode"
         case .shareAsQrCode: "qrcode"
         case .show: "eye"
+        case .showDetails: "chevron.forward"
         case .shuffle: "shuffle"
         case .sign: "signature"
         case .skip: "forward"
@@ -241,7 +248,7 @@ public extension StandardActionType {
         case .call: "Button.Call"
         case .cancel: "Button.Cancel"
         case .close: "Button.Close"
-        case .collapseDown, .collapseUp: "Button.Collapse"
+        case .collapse, .collapseDown, .collapseUp: "Button.Collapse"
         case .confirm: "Button.Confirm"
         case .connect: "Button.Connect"
         case .copy: "Button.Copy"
@@ -260,11 +267,12 @@ public extension StandardActionType {
         case .enter: "Button.Enter"
         case .execute: "Button.Execute"
         case .exit: "Button.Exit"
-        case .expandDown, .expandUp: "Button.Expand"
+        case .expand, .expandDown, .expandUp: "Button.Expand"
         case .export: "Button.Export"
         case .favorite: "Button.Favorite"
         case .filter: "Button.Filter"
         case .forward: "Button.Forward"
+        case .fullscreen: "Button.Fullscreen"
         case .generateBarcode: "Button.GenerateBarcode"
         case .generateQrCode: "Button.GenerateQrCode"
         case .gitBranch: "Button.GitBranch"
@@ -335,6 +343,7 @@ public extension StandardActionType {
         case .shareAsBarcode: "Button.ShareAsBarcode"
         case .shareAsQrCode: "Button.ShareAsQrCode"
         case .show: "Button.Show"
+        case .showDetails: "Button.ShowDetails"
         case .shuffle: "Button.Shuffle"
         case .sign: "Button.Sign"
         case .skip: "Button.Skip"

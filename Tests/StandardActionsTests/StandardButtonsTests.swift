@@ -2,6 +2,7 @@ import StandardActions
 import SwiftUI
 import Testing
 
+@MainActor
 class StandardActionsTests {
 
     func assertImage(

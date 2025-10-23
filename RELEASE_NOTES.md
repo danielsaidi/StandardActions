@@ -6,6 +6,12 @@ Until then, breaking changes can happen in any  version, and deprecated features
 
 
 
+## 1.0
+
+This version bumps the package to Swift 6.1.
+
+
+
 ## 0.9.6
 
 ### ✨ Features

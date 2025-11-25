@@ -7,7 +7,6 @@
     <img src="https://img.shields.io/badge/swift-6.1-orange.svg" alt="Swift 6.1" />
     <a href="https://danielsaidi.github.io/StandardActions"><img src="https://img.shields.io/badge/documentation-web-blue.svg" alt="Documentation" /></a>
     <a href="https://github.com/danielsaidi/StandardActions/blob/master/LICENSE"><img src="https://img.shields.io/github/license/danielsaidi/StandardActions" alt="MIT License" /></a>
-    <a href="https://github.com/sponsors/danielsaidi"><img src="https://img.shields.io/badge/sponsor-GitHub-red.svg" alt="Sponsor my work" /></a>
 </p>
 
 
@@ -24,7 +23,6 @@ StandardActions has a ``StandardActionType`` enum with **130+** common actions l
 Each ``StandardActionType`` has a localized ``.title``, an ``.image``, a ``.role``, and an optional ``.keyboardShortcut``. These properties will automatically be applied when you create type-based buttons, labels, links, and toggles.
 
 
-
 ## Installation
 
 StandardActions can be installed with the Swift Package Manager:
@@ -32,12 +30,6 @@ StandardActions can be installed with the Swift Package Manager:
 ```
 https://github.com/danielsaidi/StandardActions.git
 ```
-
-
-## Support My Work
-
-You can [become a sponsor][Sponsors] to help me dedicate more time on my various [open-source tools][OpenSource]. Every contribution, no matter the size, makes a real difference in keeping these tools free and actively developed.
-
 
 
 ## Getting Started
@@ -73,7 +65,6 @@ StandardActionListItem(
 You can also use URL extensions like ``.call(number:)`` and ``.email(address:)`` to generate URLs for common URL-based actions.
 
 
-
 ## Localization
 
 This library is localized in the following languages:
@@ -90,18 +81,19 @@ This library is localized in the following languages:
 You can add more locales to the `Localizable.xcstrings` file in the `Resources` folder, then localize them as described in [this blog post](https://danielsaidi.com/blog/2025/06/08/using-ai-and-cursor-to-localize-xcode-string-catalogs).
 
 
-
-
 ## Documentation
 
 The online [documentation][Documentation] has more information, articles, code examples, etc.
-
 
 
 ## Demo Application
 
 This repository will get a demo app after it reaches 100 stars.
 
+
+## Support My Work
+
+You can [become a sponsor][Sponsors] to help me dedicate more time on my various [open-source tools][OpenSource]. Every contribution, no matter the size, makes a real difference in keeping these tools free and actively developed.
 
 
 ## Contact
@@ -112,7 +104,6 @@ Feel free to reach out if you have questions, or want to contribute in any way:
 * E-mail: [daniel.saidi@gmail.com][Email]
 * Bluesky: [@danielsaidi@bsky.social][Bluesky]
 * Mastodon: [@danielsaidi@mastodon.social][Mastodon]
-
 
 
 ## License

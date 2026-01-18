@@ -56,11 +56,36 @@ public enum StandardActionType: String, CaseIterable, Identifiable, Sendable {
 
 public extension StandardActionType {
 
+    /// This view can to render a standard action image with
+    /// proper adjustments, if needed.
+    struct Icon: View {
+
+        public init(
+            _ type: StandardActionType
+        ) {
+            self.type = type
+        }
+
+        private let type: StandardActionType
+
+        public var body: some View {
+            switch type {
+            case .export, .share: type.image.offset(y: -2)
+            default: type.image
+            }
+        }
+    }
+}
+
+public extension StandardActionType {
+
     /// The button type's unique ID.
     var id: String { rawValue }
 
-    /// The image to use for the button type.
-    var image: Image { .init(systemName: imageName) }
+    /// The image symbol to use for the button type.
+    var image: Image {
+        .init(systemName: imageName)
+    }
 
     /// The image name to use for the button type.
     var imageName: String {
@@ -399,6 +424,7 @@ public extension View {
     }
 }
 
+@MainActor
 public extension Button {
 
     /// Create a ``StandardActionType``-based button.
@@ -407,13 +433,14 @@ public extension Button {
         title: LocalizedStringKey? = nil,
         bundle: Bundle? = nil,
         action: @escaping () -> Void
-    ) where Label == SwiftUI.Label<Text, Image?> {
+    ) where Label == SwiftUI.Label<Text, StandardActionType.Icon?> {
         self.init(role: type.role, action: action) {
             Label(type, title: title, bundle: bundle)
         }
     }
 }
 
+@MainActor
 public extension Label {
 
     /// Create a ``StandardActionType``-based label.
@@ -421,14 +448,15 @@ public extension Label {
         _ type: StandardActionType,
         title: LocalizedStringKey? = nil,
         bundle: Bundle? = nil
-    ) where Label == SwiftUI.Label<Text, Image?> {
+    ) where Label == SwiftUI.Label<Text, StandardActionType.Icon?> {
         self.init(
             title: { Text(type, title: title, bundle: bundle) },
-            icon: { type.image }
+            icon: { StandardActionType.Icon(type) }
         )
     }
 }
 
+@MainActor
 public extension Link {
 
     /// Create a ``StandardActionType``-based link.
@@ -437,7 +465,7 @@ public extension Link {
         title: LocalizedStringKey? = nil,
         bundle: Bundle? = nil,
         destination: URL
-    ) where Label == SwiftUI.Label<Text, Image?> {
+    ) where Label == SwiftUI.Label<Text, StandardActionType.Icon?> {
         self.init(destination: destination) {
             Label(type, title: title, bundle: bundle)
         }
@@ -475,7 +503,13 @@ public extension Text {
         var body: some View {
             NavigationView {
                 List {
-                    buttons().labelStyle(.titleAndIcon)
+                    Section {
+                        Button(.export) {}
+                    }
+
+                    Section {
+                        buttons().labelStyle(.titleAndIcon)
+                    }
                 }
                 .navigationTitle("Button Types")
                 .toolbar {

@@ -113,7 +113,7 @@ private extension StandardToggleType {
         case .isLearned: .learn
         case .isLiked: .like
         case .isLoggedIn: .logout
-        case .isLocked: .like
+        case .isLocked: .lock
         case .isMuted: .mute
         case .isPinned: .pin
         case .isPlayingWithPause: .play
@@ -147,13 +147,14 @@ private extension StandardToggleType {
     }
 }
 
+@MainActor
 public extension Toggle {
 
     /// Create a toggle for a certain ``StandardToggleType``.
     init(
         _ type: StandardToggleType,
         isOn: Binding<Bool>
-    ) where Label == SwiftUI.Label<Text, Image?> {
+    ) where Label == SwiftUI.Label<Text, StandardActionType.Icon?> {
         self.init(isOn: isOn) {
             Label(type.actionType(for: isOn))
         }

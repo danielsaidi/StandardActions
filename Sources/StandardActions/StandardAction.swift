@@ -35,15 +35,6 @@ public enum StandardAction {
     case openUrl(_ url: String)
 }
 
-public extension StandardAction {
-
-    @available(*, deprecated, renamed: "copyToPasteboard")
-    func copy(_ str: String) -> StandardAction { .copyStringToPasteboard(str) }
-
-    @available(*, deprecated, renamed: "copyImageToPasteboard")
-    func copyImage(_ img: ImageRepresentable) -> StandardAction { .copyImageToPasteboard(img) }
-}
-
 
 /// This view can be used to render any ``StandardAction``.
 ///

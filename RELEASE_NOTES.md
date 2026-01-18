@@ -6,6 +6,12 @@ Until then, breaking changes can happen in any minor version bump.
 
 
 
+## 1.0.1
+
+This version adjusts the vertical icon offset of some actions.
+
+
+
 ## 1.0
 
 This version bumps the package to Swift 6.1.

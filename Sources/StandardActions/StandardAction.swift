@@ -8,15 +8,16 @@
 
 import SwiftUI
 
-/// This enum defines common actions that have a standard behavior.
+/// This enum defines actions that have a standard behavior.
 ///
-/// You can use ``StandardActionControl`` to render an action control, or
-/// ``StandardActionListItem`` to render an action list item.
+/// You can use the ``StandardActionControl`` view to render
+/// a ``StandardAction`` control or ``StandardActionListItem``
+/// to render a standard list item.
 ///
-/// Each action will render a specific view for that particular action. For instance, a
-/// ``call(phoneNumber:)`` action will render a `Link` that makes the call,
-/// while a ``copy(_:)`` action will render a `Button` view that performs the
-/// copy operation.
+/// Each action type will render a view for that action. For
+/// instance, ``call(phoneNumber:)`` renders a `Link` button
+/// that makes a call, while ``copy(_:)`` renders a standard
+/// `Button` that performs the copy operation.
 public enum StandardAction {
 
     /// Call a phone number.
@@ -38,13 +39,14 @@ public enum StandardAction {
 
 /// This view can be used to render any ``StandardAction``.
 ///
-/// The ``StandardAction`` already implements `View`, so this view is just
-/// provided for extra discoverability.
+/// Since ``StandardAction`` already implements `View`, this
+/// view is just provided for extra discoverability.
 public struct StandardActionControl: View {
 
     /// Create a standard action control.
     ///
-    /// The additional action is only triggered for the actions that render a button.
+    /// The additional `action` is only used for the actions
+    /// that render a button.
     ///
     /// - Parameters:
     ///   - action: The action to trigger.
@@ -104,13 +106,14 @@ public struct StandardActionControl: View {
     }
 }
 
-/// This view renders a ``StandardAction`` for use in a list,
-/// with the standard action as a trailing button.
+/// This view renders a ``StandardAction`` list item, with a
+/// trailing button that performs the action.
 public struct StandardActionListItem: View {
 
     /// Create a standard action list item.
     ///
-    /// The additional action is only triggered for the actions that render a button.
+    /// The additional `action` is only used for the actions
+    /// that render a button. 
     ///
     /// - Parameters:
     ///   - action: The action to trigger.

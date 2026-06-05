@@ -10,12 +10,12 @@ import SwiftUI
 
 /// This enum defines standard button types.
 ///
-/// Each type defines a localized ``title``, an ``image``, a ``role``, and
-/// an optional ``keyboardShortcut``.
+/// Each type defines a localized ``title``, an ``image``, a
+/// ``role``, and an optional ``keyboardShortcut``.
 ///
-/// A ``SwiftUI/Button``, ``SwiftUI/Label`` and ``SwiftUI/Link``
-/// can all be created with a ``StandardActionType``. The custom initializer
-/// will automatically apply the localized title, icon, traits, etc. to the resulting views.
+/// The library extends `Button`, `Label` and `Link` with an
+/// initializer that takes a ``StandardActionType`` and uses
+/// it to apply a localized title, icon, traits, etc.
 public enum StandardActionType: String, CaseIterable, Identifiable, Sendable {
     case add, apply, archive, attach,
          back, bookmark, browse,

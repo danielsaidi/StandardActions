@@ -10,11 +10,12 @@ import SwiftUI
 
 /// This enum defines standard toggle types.
 ///
-/// Each type can be resolved to a ``actionType`` based on a binding or state.
+/// Each type can be resolved to a ``actionType`` based on a
+/// binding or state.
 ///
-/// A ``SwiftUI/Toggle`` can be created with a ``StandardToggleType``.
-/// This will automatically apply the related action type's localized title, icon, traits,
-/// etc. to the generated view.
+/// The library extends `Toggle` with a ``StandardActionType``
+/// based initializer, that uses the action to apply a title,
+/// icon, traits, etc.
 public enum StandardToggleType {
 
     /// Toggle a bookmarked state.

@@ -6,7 +6,7 @@
     <img src="https://img.shields.io/github/v/release/danielsaidi/StandardActions?color=%2300550&sort=semver" alt="Version" title="Version" />
     <img src="https://img.shields.io/badge/swift-6.1-orange.svg" alt="Swift 6.1" />
     <a href="https://danielsaidi.github.io/StandardActions"><img src="https://img.shields.io/badge/documentation-web-blue.svg" alt="Documentation" /></a>
-    <a href="https://github.com/danielsaidi/StandardActions/blob/master/LICENSE"><img src="https://img.shields.io/github/license/danielsaidi/StandardActions" alt="MIT License" /></a>
+    <a href="https://github.com/danielsaidi/StandardActions/blob/main/LICENSE"><img src="https://img.shields.io/github/license/danielsaidi/StandardActions" alt="MIT License" /></a>
 </p>
 
 

@@ -1,8 +1,14 @@
 # Release Notes
 
-[StandardActions](https://github.com/danielsaidi/StandardActions) will use semver after 1.0. 
+[StandardActions](https://github.com/danielsaidi/StandardActions) honors semantic versioning, with the following strategy:
 
-Until then, breaking changes can happen in any minor version bump.
+* Deprecations can happen at any time.
+* Deprecations are removed in `major` updates.
+* Breaking changes should only occur in `major` updates.
+* Breaking changes *can* occur in non-major updates, if the alternative is worse.
+
+Beta version tags are removed after the next minor or major version.
+
 
 
 

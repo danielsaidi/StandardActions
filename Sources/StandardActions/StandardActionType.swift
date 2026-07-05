@@ -472,9 +472,38 @@ public extension Link {
     }
 }
 
+@MainActor
+public extension NavigationLink {
+
+    /// Create a ``StandardActionType``-based navigation link.
+    init(
+        _ type: StandardActionType,
+        title: LocalizedStringKey? = nil,
+        bundle: Bundle? = nil,
+        destination: () -> Destination
+    ) where Label == SwiftUI.Label<Text, StandardActionType.Icon?> {
+        self.init(destination: destination) {
+            Label(type, title: title, bundle: bundle)
+        }
+    }
+
+    /// Create a ``StandardActionType``-based navigation link.
+    @available(iOS 16.0, macOS 15.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
+    init<Value: Hashable>(
+        _ type: StandardActionType,
+        title: LocalizedStringKey? = nil,
+        bundle: Bundle? = nil,
+        value: Value?
+    ) where Destination == Never, Label == SwiftUI.Label<Text, StandardActionType.Icon?> {
+        self.init(value: value) {
+            Label(type, title: title, bundle: bundle)
+        }
+    }
+}
+
 public extension Text {
 
-    /// Create a ``StandardActionType``-based text.
+    /// Create a ``StandardActionType``-based text element.
     init(
         _ type: StandardActionType,
         title: LocalizedStringKey? = nil,

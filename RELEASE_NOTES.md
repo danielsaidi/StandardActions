@@ -11,9 +11,16 @@ Beta version tags are removed after the next minor or major version.
 
 
 
-## 1.1.1
+## 2.0
 
-This version add a new `.reorder` action type.
+This version bumps the deployment targets and use localized string resources instead of keys.
+
+### ✨ Features
+
+* `StandardActionControl` now supports `LocalizedStringResource`.
+* `StandardActionListItem` now supports `LocalizedStringResource`.
+* `StandardActionType` has a new `.reorder` type.
+* `Text` and all other native types now support `LocalizedStringResource`.
 
 
 

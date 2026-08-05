@@ -1,4 +1,4 @@
-// swift-tools-version: 6.1
+// swift-tools-version: 6.2
 
 import PackageDescription
 
@@ -6,10 +6,10 @@ let package = Package(
     name: "StandardActions",
     defaultLocalization: "en",
     platforms: [
-        .iOS(.v15),
-        .tvOS(.v15),
-        .watchOS(.v8),
-        .macOS(.v12),
+        .iOS(.v16),
+        .macOS(.v15),
+        .tvOS(.v16),
+        .watchOS(.v9),
         .visionOS(.v1)
     ],
     products: [

@@ -261,144 +261,144 @@ public extension StandardActionType {
     }
 
     /// The title to use for the button type.
-    var title: LocalizedStringKey {
+    var title: LocalizedStringResource {
         switch self {
-        case .add: "Button.Add"
-        case .apply: "Button.Apply"
-        case .archive: "Button.Archive"
-        case .attach: "Button.Attach"
-        case .back: "Button.Back"
-        case .bookmark: "Button.Bookmark"
-        case .browse: "Button.Browse"
-        case .call: "Button.Call"
-        case .cancel: "Button.Cancel"
-        case .close: "Button.Close"
-        case .collapse, .collapseDown, .collapseUp: "Button.Collapse"
-        case .confirm: "Button.Confirm"
-        case .connect: "Button.Connect"
-        case .copy: "Button.Copy"
-        case .create: "Button.Create"
-        case .customize: "Button.Customize"
-        case .delete: "Button.Delete"
-        case .deselect: "Button.Deselect"
-        case .disconnect: "Button.Disconnect"
-        case .dismiss: "Button.Dismiss"
-        case .done: "Button.Done"
-        case .download: "Button.Download"
-        case .duplicate: "Button.Duplicate"
-        case .edit: "Button.Edit"
-        case .email: "Button.Email"
-        case .end: "Button.End"
-        case .enter: "Button.Enter"
-        case .execute: "Button.Execute"
-        case .exit: "Button.Exit"
-        case .expand, .expandDown, .expandUp: "Button.Expand"
-        case .export: "Button.Export"
-        case .favorite: "Button.Favorite"
-        case .filter: "Button.Filter"
-        case .forward: "Button.Forward"
-        case .fullscreen: "Button.Fullscreen"
-        case .generateBarcode: "Button.GenerateBarcode"
-        case .generateQrCode: "Button.GenerateQrCode"
-        case .gitBranch: "Button.GitBranch"
-        case .gitMerge: "Button.GitMerge"
-        case .gitPull: "Button.GitPull"
-        case .gitPush: "Button.GitPush"
-        case .help: "Button.Help"
-        case .hide: "Button.Hide"
-        case .import: "Button.Import"
-        case .info: "Button.Info"
-        case .install: "Button.Install"
-        case .learn: "Button.Learn"
-        case .like: "Button.Like"
-        case .load: "Button.Load"
-        case .lock: "Button.Lock"
-        case .login: "Button.Login"
-        case .logout: "Button.Logout"
-        case .lookup: "Button.Lookup"
-        case .menu: "Button.Menu"
-        case .minimize: "Button.Minimize"
-        case .mute: "Button.Mute"
-        case .new: "Button.New"
-        case .next: "Button.Next"
-        case .ok: "Button.OK"
-        case .open: "Button.Open"
-        case .openInSafari: "Button.OpenInSafari"
-        case .paste: "Button.Paste"
-        case .pause: "Button.Pause"
-        case .pickImageFromLibrary: "Button.PickFromLibrary"
-        case .pickImageWithCamera: "Button.PickWithCamera"
-        case .pin: "Button.Pin"
-        case .play: "Button.Play"
-        case .post: "Button.Post"
-        case .preview: "Button.Preview"
-        case .previous: "Button.Previous"
-        case .print: "Button.Print"
-        case .proceed: "Button.Proceed"
-        case .purchase: "Button.Purchase"
-        case .rate: "Button.Rate"
-        case .readMore: "Button.ReadMore"
-        case .record: "Button.Record"
-        case .redo: "Button.Redo"
-        case .refresh: "Button.Refresh"
-        case .reject: "Button.Reject"
-        case .reload: "Button.Reload"
-        case .remove: "Button.Remove"
-        case .removeBookmark: "Button.RemoveBookmark"
-        case .removeDownload: "Button.Downloaded"
-        case .removeFavorite: "Button.RemoveFavorite"
-        case .removeLike: "Button.RemoveLike"
-        case .rename: "Button.Rename"
-        case .reorder: "Button.Reorder"
-        case .reply: "Button.Reply"
-        case .report: "Button.Report"
-        case .reset: "Button.Reset"
-        case .resize: "Button.Resize"
-        case .restart: "Button.Restart"
-        case .restore: "Button.Restore"
-        case .resume: "Button.Resume"
-        case .retry: "Button.Retry"
-        case .return: "Button.Return"
-        case .save: "Button.Save"
-        case .search: "Button.Search"
-        case .scanDocument: "Button.ScanDocument"
-        case .select: "Button.Select"
-        case .send: "Button.Send"
-        case .settings: "Button.Settings"
-        case .share: "Button.Share"
-        case .shareAsBarcode: "Button.ShareAsBarcode"
-        case .shareAsQrCode: "Button.ShareAsQrCode"
-        case .show: "Button.Show"
-        case .showDetails: "Button.ShowDetails"
-        case .shuffle: "Button.Shuffle"
-        case .sign: "Button.Sign"
-        case .skip: "Button.Skip"
-        case .sort: "Button.Sort"
-        case .start: "Button.Start"
-        case .stop: "Button.Stop"
-        case .submit: "Button.Submit"
-        case .subscribe: "Button.Subscribe"
-        case .sync: "Button.Sync"
-        case .tag: "Button.Tag"
-        case .takePhoto: "Button.TakePhoto"
-        case .translate: "Button.Translate"
-        case .undo: "Button.Undo"
-        case .uninstall: "Button.Uninstall"
-        case .unlearn: "Button.Unlearn"
-        case .unlike: "Button.Unlike"
-        case .unlock: "Button.Unlock"
-        case .unmute: "Button.Unmute"
-        case .unpin: "Button.Unpin"
-        case .unsubscribe: "Button.Unsubscribe"
-        case .update: "Button.Update"
-        case .upload: "Button.Upload"
-        case .uploadImageFromCamera: "Button.UploadFromCamera"
-        case .uploadImageFromLibrary: "Button.UploadFromLibrary"
-        case .verify: "Button.Verify"
-        case .view: "Button.View"
-        case .zoom: "Button.Zoom"
-        case .zoomIn: "Button.ZoomIn"
-        case .zoomOut: "Button.ZoomOut"
+        case .add: .buttonAdd
+        case .apply: .buttonApply
+        case .archive: .buttonArchive
+        case .attach: .buttonAttach
+        case .back: .buttonBack
+        case .bookmark: .buttonBookmark
+        case .browse: .buttonBrowse
+        case .call: .buttonCall
+        case .cancel: .buttonCancel
+        case .close: .buttonClose
+        case .collapse, .collapseDown, .collapseUp: .buttonCollapse
+        case .confirm: .buttonConfirm
+        case .connect: .buttonConnect
+        case .copy: .buttonCopy
+        case .create: .buttonCreate
+        case .customize: .buttonCustomize
+        case .delete: .buttonDelete
+        case .deselect: .buttonDeselect
+        case .disconnect: .buttonDisconnect
+        case .dismiss: .buttonDismiss
+        case .done: .buttonDone
+        case .download: .buttonDownload
+        case .duplicate: .buttonDuplicate
+        case .edit: .buttonEdit
+        case .email: .buttonEmail
+        case .end: .buttonEnd
+        case .enter: .buttonEnter
+        case .execute: .buttonExecute
+        case .exit: .buttonExit
+        case .expand, .expandDown, .expandUp: .buttonExpand
+        case .export: .buttonExport
+        case .favorite: .buttonFavorite
+        case .filter: .buttonFilter
+        case .forward: .buttonForward
+        case .fullscreen: .buttonFullscreen
+        case .generateBarcode: .buttonGenerateBarcode
+        case .generateQrCode: .buttonGenerateQrCode
+        case .gitBranch: .buttonGitBranch
+        case .gitMerge: .buttonGitMerge
+        case .gitPull: .buttonGitPull
+        case .gitPush: .buttonGitPush
+        case .help: .buttonHelp
+        case .hide: .buttonHide
+        case .import: .buttonImport
+        case .info: .buttonInfo
+        case .install: .buttonInstall
+        case .learn: .buttonLearn
+        case .like: .buttonLike
+        case .load: .buttonLoad
+        case .lock: .buttonLock
+        case .login: .buttonLogin
+        case .logout: .buttonLogout
+        case .lookup: .buttonLookup
+        case .menu: .buttonMenu
+        case .minimize: .buttonMinimize
+        case .mute: .buttonMute
+        case .new: .buttonNew
+        case .next: .buttonNext
+        case .ok: .buttonOk
+        case .open: .buttonOpen
+        case .openInSafari: .buttonOpenInSafari
+        case .paste: .buttonPaste
+        case .pause: .buttonPause
+        case .pickImageFromLibrary: .buttonPickFromLibrary
+        case .pickImageWithCamera: .buttonPickWithCamera
+        case .pin: .buttonPin
+        case .play: .buttonPlay
+        case .post: .buttonPost
+        case .preview: .buttonPreview
+        case .previous: .buttonPrevious
+        case .print: .buttonPrint
+        case .proceed: .buttonProceed
+        case .purchase: .buttonPurchase
+        case .rate: .buttonRate
+        case .readMore: .buttonReadMore
+        case .record: .buttonRecord
+        case .redo: .buttonRedo
+        case .refresh: .buttonRefresh
+        case .reject: .buttonReject
+        case .reload: .buttonReload
+        case .remove: .buttonRemove
+        case .removeBookmark: .buttonRemoveBookmark
+        case .removeDownload: .buttonDownloaded
+        case .removeFavorite: .buttonRemoveFavorite
+        case .removeLike: .buttonRemoveLike
+        case .rename: .buttonRename
+        case .reorder: .buttonReorder
+        case .reply: .buttonReply
+        case .report: .buttonReport
+        case .reset: .buttonReset
+        case .resize: .buttonResize
+        case .restart: .buttonRestart
+        case .restore: .buttonRestore
+        case .resume: .buttonResume
+        case .retry: .buttonRetry
+        case .return: .buttonReturn
+        case .save: .buttonSave
+        case .search: .buttonSearch
+        case .scanDocument: .buttonScanDocument
+        case .select: .buttonSelect
+        case .send: .buttonSend
+        case .settings: .buttonSettings
+        case .share: .buttonShare
+        case .shareAsBarcode: .buttonShareAsBarcode
+        case .shareAsQrCode: .buttonShareAsQrCode
+        case .show: .buttonShow
+        case .showDetails: .buttonShowDetails
+        case .shuffle: .buttonShuffle
+        case .sign: .buttonSign
+        case .skip: .buttonSkip
+        case .sort: .buttonSort
+        case .start: .buttonStart
+        case .stop: .buttonStop
+        case .submit: .buttonSubmit
+        case .subscribe: .buttonSubscribe
+        case .sync: .buttonSync
+        case .tag: .buttonTag
+        case .takePhoto: .buttonTakePhoto
+        case .translate: .buttonTranslate
+        case .undo: .buttonUndo
+        case .uninstall: .buttonUninstall
+        case .unlearn: .buttonUnlearn
+        case .unlike: .buttonUnlike
+        case .unlock: .buttonUnlock
+        case .unmute: .buttonUnmute
+        case .unpin: .buttonUnpin
+        case .unsubscribe: .buttonUnsubscribe
+        case .update: .buttonUpdate
+        case .upload: .buttonUpload
+        case .uploadImageFromCamera: .buttonUploadFromCamera
+        case .uploadImageFromLibrary: .buttonUploadFromLibrary
+        case .verify: .buttonVerify
+        case .view: .buttonView
+        case .zoom: .buttonZoom
+        case .zoomIn: .buttonZoomIn
+        case .zoomOut: .buttonZoomOut
         }
     }
 }
@@ -432,12 +432,11 @@ public extension Button {
     /// Create a ``StandardActionType``-based button.
     init(
         _ type: StandardActionType,
-        title: LocalizedStringKey? = nil,
-        bundle: Bundle? = nil,
+        title: LocalizedStringResource? = nil,
         action: @escaping () -> Void
     ) where Label == SwiftUI.Label<Text, StandardActionType.Icon?> {
         self.init(role: type.role, action: action) {
-            Label(type, title: title, bundle: bundle)
+            Label(type, title: title)
         }
     }
 }
@@ -448,11 +447,10 @@ public extension Label {
     /// Create a ``StandardActionType``-based label.
     init(
         _ type: StandardActionType,
-        title: LocalizedStringKey? = nil,
-        bundle: Bundle? = nil
+        title: LocalizedStringResource? = nil
     ) where Label == SwiftUI.Label<Text, StandardActionType.Icon?> {
         self.init(
-            title: { Text(type, title: title, bundle: bundle) },
+            title: { Text(type, title: title) },
             icon: { StandardActionType.Icon(type) }
         )
     }
@@ -464,12 +462,11 @@ public extension Link {
     /// Create a ``StandardActionType``-based link.
     init(
         _ type: StandardActionType,
-        title: LocalizedStringKey? = nil,
-        bundle: Bundle? = nil,
+        title: LocalizedStringResource? = nil,
         destination: URL
     ) where Label == SwiftUI.Label<Text, StandardActionType.Icon?> {
         self.init(destination: destination) {
-            Label(type, title: title, bundle: bundle)
+            Label(type, title: title)
         }
     }
 }
@@ -478,27 +475,13 @@ public extension Link {
 public extension NavigationLink {
 
     /// Create a ``StandardActionType``-based navigation link.
-    init(
-        _ type: StandardActionType,
-        title: LocalizedStringKey? = nil,
-        bundle: Bundle? = nil,
-        destination: () -> Destination
-    ) where Label == SwiftUI.Label<Text, StandardActionType.Icon?> {
-        self.init(destination: destination) {
-            Label(type, title: title, bundle: bundle)
-        }
-    }
-
-    /// Create a ``StandardActionType``-based navigation link.
-    @available(iOS 16.0, macOS 15.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     init<Value: Hashable>(
         _ type: StandardActionType,
-        title: LocalizedStringKey? = nil,
-        bundle: Bundle? = nil,
+        title: LocalizedStringResource? = nil,
         value: Value?
     ) where Destination == Never, Label == SwiftUI.Label<Text, StandardActionType.Icon?> {
         self.init(value: value) {
-            Label(type, title: title, bundle: bundle)
+            Label(type, title: title)
         }
     }
 }
@@ -508,14 +491,9 @@ public extension Text {
     /// Create a ``StandardActionType``-based text element.
     init(
         _ type: StandardActionType,
-        title: LocalizedStringKey? = nil,
-        bundle: Bundle? = nil
+        title: LocalizedStringResource? = nil
     ) {
-        if let title {
-            self.init(title, bundle: bundle ?? .main)
-        } else {
-            self.init(type.title, bundle: .module)
-        }
+        self.init(title ?? type.title)
     }
 }
 

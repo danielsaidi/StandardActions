@@ -50,24 +50,20 @@ public struct StandardActionControl: View {
     ///
     /// - Parameters:
     ///   - action: The action to trigger.
-    ///   - title: An optional, custom title.
-    ///   - bundle: An optional, custom title bundle.
+    ///   - title: An optional, custom control title.
     ///   - additionalAction: An optional, additional action.
     public init(
         _ action: StandardAction,
-        title: LocalizedStringKey? = nil,
-        bundle: Bundle? = nil,
+        title: LocalizedStringResource? = nil,
         additionalAction: @escaping () -> Void = {}
     ) {
         self.action = action
         self.title = title
-        self.bundle = bundle
         self.additionalAction = additionalAction
     }
 
     private let action: StandardAction
-    private let title: LocalizedStringKey?
-    private let bundle: Bundle?
+    private let title: LocalizedStringResource?
     private let additionalAction: () -> Void
 
     public var body: some View {
@@ -89,7 +85,7 @@ public struct StandardActionControl: View {
         _ actionType: StandardActionType,
         action: @escaping () -> Void
     ) -> some View {
-        Button(actionType, title: title, bundle: bundle) {
+        Button(actionType, title: title) {
             action()
             additionalAction()
         }
@@ -101,7 +97,7 @@ public struct StandardActionControl: View {
         url: URL?
     ) -> some View {
         if let url {
-            Link(actionType, title: title, bundle: bundle, destination: url)
+            Link(actionType, title: title, destination: url)
         }
     }
 }
@@ -119,43 +115,40 @@ public struct StandardActionListItem: View {
     ///   - action: The action to trigger.
     ///   - title: An optional list item title.
     ///   - text: A list item text.
-    ///   - bundle: An optional, custom title bundle.
     ///   - additionalAction: An optional, additional action.
     public init(
         action: StandardAction?,
-        title: LocalizedStringKey? = nil,
-        text: LocalizedStringKey,
-        bundle: Bundle = .main,
+        title: LocalizedStringResource? = nil,
+        text: LocalizedStringResource,
         additionalAction: @escaping () -> Void = {}
     ) {
         self.title = title
         self.text = text
-        self.bundle = bundle
         self.action = action
         self.additionalAction = additionalAction
     }
 
     private let action: StandardAction?
-    private let title: LocalizedStringKey?
-    private let text: LocalizedStringKey
-    private let bundle: Bundle
+    private let title: LocalizedStringResource?
+    private let text: LocalizedStringResource
     private let additionalAction: () -> Void
 
     public var body: some View {
         HStack {
             VStack(alignment: .leading, spacing: 5) {
                 if let title {
-                    Text(title, bundle: bundle)
+                    Text(title)
                         .lineLimit(1)
                         .font(.footnote)
                         .foregroundColor(.secondary)
                 }
-                Text(text, bundle: bundle)
+                Text(text)
             }
             Spacer()
             if let action {
                 StandardActionControl(
                     action,
+                    title: title,
                     additionalAction: additionalAction
                 )
                 .labelStyle(.iconOnly)

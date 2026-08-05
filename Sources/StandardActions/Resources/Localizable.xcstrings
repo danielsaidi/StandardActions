@@ -2,6 +2,7 @@
   "sourceLanguage" : "en",
   "strings" : {
     "Button.Add" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -54,6 +55,7 @@
       }
     },
     "Button.Apply" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -106,6 +108,7 @@
       }
     },
     "Button.Archive" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -158,6 +161,7 @@
       }
     },
     "Button.Attach" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -210,6 +214,7 @@
       }
     },
     "Button.Back" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -262,6 +267,7 @@
       }
     },
     "Button.Bookmark" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -314,6 +320,7 @@
       }
     },
     "Button.Browse" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -366,6 +373,7 @@
       }
     },
     "Button.Call" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -418,6 +426,7 @@
       }
     },
     "Button.Cancel" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -470,6 +479,7 @@
       }
     },
     "Button.Close" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -522,6 +532,7 @@
       }
     },
     "Button.Collapse" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -574,6 +585,7 @@
       }
     },
     "Button.Confirm" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -626,6 +638,7 @@
       }
     },
     "Button.Connect" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -678,6 +691,7 @@
       }
     },
     "Button.Copy" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -730,6 +744,7 @@
       }
     },
     "Button.Create" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -782,6 +797,7 @@
       }
     },
     "Button.Customize" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -834,6 +850,7 @@
       }
     },
     "Button.Delete" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -886,6 +903,7 @@
       }
     },
     "Button.Deselect" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -938,6 +956,7 @@
       }
     },
     "Button.Disconnect" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -990,6 +1009,7 @@
       }
     },
     "Button.Dismiss" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -1042,6 +1062,7 @@
       }
     },
     "Button.Done" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -1094,6 +1115,7 @@
       }
     },
     "Button.Download" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -1146,6 +1168,7 @@
       }
     },
     "Button.Downloaded" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -1198,6 +1221,7 @@
       }
     },
     "Button.Duplicate" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -1250,6 +1274,7 @@
       }
     },
     "Button.Edit" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -1302,6 +1327,7 @@
       }
     },
     "Button.Email" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -1354,6 +1380,7 @@
       }
     },
     "Button.End" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -1406,6 +1433,7 @@
       }
     },
     "Button.Enter" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -1458,6 +1486,7 @@
       }
     },
     "Button.Execute" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -1510,6 +1539,7 @@
       }
     },
     "Button.Exit" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -1562,6 +1592,7 @@
       }
     },
     "Button.Expand" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -1614,6 +1645,7 @@
       }
     },
     "Button.Export" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -1666,6 +1698,7 @@
       }
     },
     "Button.Favorite" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -1718,6 +1751,7 @@
       }
     },
     "Button.Filter" : {
+      "extractionState": "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -1770,6 +1804,7 @@
       }
     },
     "Button.Forward" : {
+      "extractionState": "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -1822,6 +1857,7 @@
       }
     },
     "Button.Fullscreen" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -1874,6 +1910,7 @@
       }
     },
     "Button.GenerateBarcode" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -1926,6 +1963,7 @@
       }
     },
     "Button.GenerateQrCode" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -1978,6 +2016,7 @@
       }
     },
     "Button.GitBranch" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -2030,6 +2069,7 @@
       }
     },
     "Button.GitMerge" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -2082,6 +2122,7 @@
       }
     },
     "Button.GitPull" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -2134,6 +2175,7 @@
       }
     },
     "Button.GitPush" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -2186,6 +2228,7 @@
       }
     },
     "Button.Help" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -2238,6 +2281,7 @@
       }
     },
     "Button.Hide" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -2290,6 +2334,7 @@
       }
     },
     "Button.Import" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -2342,6 +2387,7 @@
       }
     },
     "Button.Info" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -2394,6 +2440,7 @@
       }
     },
     "Button.Install" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -2446,6 +2493,7 @@
       }
     },
     "Button.Learn" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -2498,6 +2546,7 @@
       }
     },
     "Button.Like" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -2550,6 +2599,7 @@
       }
     },
     "Button.Load" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -2602,6 +2652,7 @@
       }
     },
     "Button.Lock" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -2654,6 +2705,7 @@
       }
     },
     "Button.Login" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -2706,6 +2758,7 @@
       }
     },
     "Button.Logout" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -2758,6 +2811,7 @@
       }
     },
     "Button.Lookup" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -2810,6 +2864,7 @@
       }
     },
     "Button.Menu" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -2862,6 +2917,7 @@
       }
     },
     "Button.Minimize" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -2914,6 +2970,7 @@
       }
     },
     "Button.Mute" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -2966,6 +3023,7 @@
       }
     },
     "Button.New" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -3018,6 +3076,7 @@
       }
     },
     "Button.Next" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -3070,6 +3129,7 @@
       }
     },
     "Button.OK" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -3122,6 +3182,7 @@
       }
     },
     "Button.Open" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -3174,6 +3235,7 @@
       }
     },
     "Button.OpenInSafari" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -3226,6 +3288,7 @@
       }
     },
     "Button.Paste" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -3278,6 +3341,7 @@
       }
     },
     "Button.Pause" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -3330,6 +3394,7 @@
       }
     },
     "Button.PickFromLibrary" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -3382,6 +3447,7 @@
       }
     },
     "Button.PickWithCamera" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -3434,6 +3500,7 @@
       }
     },
     "Button.Pin" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -3486,6 +3553,7 @@
       }
     },
     "Button.Play" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -3538,6 +3606,7 @@
       }
     },
     "Button.Post" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -3590,6 +3659,7 @@
       }
     },
     "Button.Preview" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -3642,6 +3712,7 @@
       }
     },
     "Button.Previous" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -3694,6 +3765,7 @@
       }
     },
     "Button.Print" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -3746,6 +3818,7 @@
       }
     },
     "Button.Proceed" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -3798,6 +3871,7 @@
       }
     },
     "Button.Purchase" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -3850,6 +3924,7 @@
       }
     },
     "Button.Rate" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -3902,6 +3977,7 @@
       }
     },
     "Button.ReadMore" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -3954,6 +4030,7 @@
       }
     },
     "Button.Record" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -4006,6 +4083,7 @@
       }
     },
     "Button.Redo" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -4058,6 +4136,7 @@
       }
     },
     "Button.Refresh" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -4110,6 +4189,7 @@
       }
     },
     "Button.Reject" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -4162,6 +4242,7 @@
       }
     },
     "Button.Reload" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -4214,6 +4295,7 @@
       }
     },
     "Button.Remove" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -4266,6 +4348,7 @@
       }
     },
     "Button.RemoveBookmark" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -4318,6 +4401,7 @@
       }
     },
     "Button.RemoveFavorite" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -4370,6 +4454,7 @@
       }
     },
     "Button.RemoveLike" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -4422,6 +4507,7 @@
       }
     },
     "Button.Rename" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -4527,6 +4613,7 @@
       }
     },
     "Button.Reply" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -4579,6 +4666,7 @@
       }
     },
     "Button.Report" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -4631,6 +4719,7 @@
       }
     },
     "Button.Reset" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -4683,6 +4772,7 @@
       }
     },
     "Button.Resize" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -4735,6 +4825,7 @@
       }
     },
     "Button.Restart" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -4787,6 +4878,7 @@
       }
     },
     "Button.Restore" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -4839,6 +4931,7 @@
       }
     },
     "Button.Resume" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -4891,6 +4984,7 @@
       }
     },
     "Button.Retry" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -4943,6 +5037,7 @@
       }
     },
     "Button.Return" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -4995,6 +5090,7 @@
       }
     },
     "Button.Save" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -5047,6 +5143,7 @@
       }
     },
     "Button.ScanDocument" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -5099,6 +5196,7 @@
       }
     },
     "Button.Search" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -5151,6 +5249,7 @@
       }
     },
     "Button.Select" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -5203,6 +5302,7 @@
       }
     },
     "Button.Send" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -5255,6 +5355,7 @@
       }
     },
     "Button.Settings" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -5307,6 +5408,7 @@
       }
     },
     "Button.Share" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -5359,6 +5461,7 @@
       }
     },
     "Button.ShareAsBarcode" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -5411,6 +5514,7 @@
       }
     },
     "Button.ShareAsQrCode" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -5463,6 +5567,7 @@
       }
     },
     "Button.Show" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -5515,6 +5620,7 @@
       }
     },
     "Button.ShowDetails" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -5567,6 +5673,7 @@
       }
     },
     "Button.Shuffle" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -5619,6 +5726,7 @@
       }
     },
     "Button.Sign" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -5671,6 +5779,7 @@
       }
     },
     "Button.Skip" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -5723,6 +5832,7 @@
       }
     },
     "Button.Sort" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -5775,6 +5885,7 @@
       }
     },
     "Button.Start" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -5827,6 +5938,7 @@
       }
     },
     "Button.Stop" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -5879,6 +5991,7 @@
       }
     },
     "Button.Submit" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -5931,6 +6044,7 @@
       }
     },
     "Button.Subscribe" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -5983,6 +6097,7 @@
       }
     },
     "Button.Sync" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -6035,6 +6150,7 @@
       }
     },
     "Button.Tag" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -6087,6 +6203,7 @@
       }
     },
     "Button.TakePhoto" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -6139,6 +6256,7 @@
       }
     },
     "Button.Translate" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -6191,6 +6309,7 @@
       }
     },
     "Button.Undo" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -6243,6 +6362,7 @@
       }
     },
     "Button.Uninstall" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -6295,6 +6415,7 @@
       }
     },
     "Button.Unlearn" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -6347,6 +6468,7 @@
       }
     },
     "Button.Unlike" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -6399,6 +6521,7 @@
       }
     },
     "Button.Unlock" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -6451,6 +6574,7 @@
       }
     },
     "Button.Unmute" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -6503,6 +6627,7 @@
       }
     },
     "Button.Unpin" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -6555,6 +6680,7 @@
       }
     },
     "Button.Unsubscribe" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -6607,6 +6733,7 @@
       }
     },
     "Button.Update" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -6659,6 +6786,7 @@
       }
     },
     "Button.Upload" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -6711,6 +6839,7 @@
       }
     },
     "Button.UploadFromCamera" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -6763,6 +6892,7 @@
       }
     },
     "Button.UploadFromLibrary" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -6815,6 +6945,7 @@
       }
     },
     "Button.Verify" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -6867,6 +6998,7 @@
       }
     },
     "Button.View" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -6919,6 +7051,7 @@
       }
     },
     "Button.Zoom" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -6971,6 +7104,7 @@
       }
     },
     "Button.ZoomIn" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -7023,6 +7157,7 @@
       }
     },
     "Button.ZoomOut" : {
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {

@@ -23,6 +23,11 @@ https://github.com/danielsaidi/StandardActions.git
 ```
 
 
+## Supported Platforms
+
+StandardActions supports .iOS 16, .macOS 15, .tvOS 16, .watchOS 9, and .visionOS 1.
+
+
 ## Getting started
 
 You can create a ``SwiftUI/Button``, ``SwiftUI/Label`` and ``SwiftUI/Link`` for any ``StandardActionType``. This will automatically apply a localized title, icon, etc.

@@ -32,6 +32,11 @@ https://github.com/danielsaidi/StandardActions.git
 ```
 
 
+## Supported Platforms
+
+StandardActions supports .iOS 16, .macOS 15, .tvOS 16, .watchOS 9, and .visionOS 1.
+
+
 ## Getting Started
 
 You can create ``Button``, ``Label`` and ``Link`` views for any ``StandardActionType``. This will automatically apply a localized title, icon, etc.

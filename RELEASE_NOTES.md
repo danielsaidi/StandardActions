@@ -19,6 +19,7 @@ This version bumps the deployment targets and use localized string resources ins
 
 * `StandardActionControl` now supports `LocalizedStringResource`.
 * `StandardActionListItem` now supports `LocalizedStringResource`.
+* `StandardActionType` now implements `Hashable`.
 * `StandardActionType` has a new `.reorder` type.
 * `Text` and all other native types now support `LocalizedStringResource`.
 

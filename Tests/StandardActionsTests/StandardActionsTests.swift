@@ -13,12 +13,12 @@ class StandardActionsTests {
     }
 
     @Test
-    func StandardActionTypeDefinesCorrectNumberOfTypes() async throws {
-        #expect(StandardActionType.allCases.count == 139)
+    func definesCorrectNumberOfTypes() async throws {
+        #expect(StandardActionType.allCases.count == 140)
     }
 
     @Test
-    func StandardActionTypeDefinesImage() async throws {
+    func definesImage() async throws {
         try assertImage(for: .add, "plus")
         try assertImage(for: .removeLike, "heart.fill")
         try assertImage(for: .save, "checkmark")
@@ -28,12 +28,12 @@ class StandardActionsTests {
     }
 
     @Test
-    func nativeViewsHaveStandardActionTypeInitializers() {
+    func extendsNativeTypes() {
+        let url = URL(string: "https://example.com")!
         _ = Button(StandardActionType.copy) {}
         _ = Label(StandardActionType.copy)
-        _ = Link(
-            StandardActionType.copy,
-            destination: URL(string: "https://example.com")!
-        )
+        _ = Link(StandardActionType.copy, destination: url)
+        _ = NavigationLink(StandardActionType.copy, value: StandardActionType.add)
+        _ = Text(StandardActionType.copy)
     }
 }

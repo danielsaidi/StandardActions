@@ -16,7 +16,7 @@ import SwiftUI
 /// The library extends `Button`, `Label` and `Link` with an
 /// initializer that takes a ``StandardActionType`` and uses
 /// it to apply a localized title, icon, traits, etc.
-public enum StandardActionType: String, CaseIterable, Identifiable, Sendable {
+public enum StandardActionType: String, CaseIterable, Identifiable, Hashable, Sendable {
     case add, apply, archive, attach,
          back, bookmark, browse,
          cancel, call, close,

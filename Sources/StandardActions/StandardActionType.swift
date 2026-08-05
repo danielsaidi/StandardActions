@@ -41,7 +41,7 @@ public enum StandardActionType: String, CaseIterable, Identifiable, Sendable {
          print, proceed, purchase,
          rate, readMore, record, redo, refresh, reject, reload,
          remove, removeBookmark, removeDownload, removeFavorite, removeLike,
-         rename, reply, report, reset, resize, restart,
+         rename, reorder, reply, report, reset, resize, restart,
          restore, resume, retry, `return`,
          save, scanDocument, search, select, send, settings,
          share, shareAsBarcode, shareAsQrCode,
@@ -180,6 +180,7 @@ public extension StandardActionType {
         case .removeFavorite: "star.fill"
         case .removeLike: "heart.fill"
         case .rename: "pencil"
+        case .reorder: "list.bullet"
         case .reply: "arrowshape.turn.up.left"
         case .report: "flag"
         case .reset: "arrow.counterclockwise"
@@ -348,6 +349,7 @@ public extension StandardActionType {
         case .removeFavorite: "Button.RemoveFavorite"
         case .removeLike: "Button.RemoveLike"
         case .rename: "Button.Rename"
+        case .reorder: "Button.Reorder"
         case .reply: "Button.Reply"
         case .report: "Button.Report"
         case .reset: "Button.Reset"

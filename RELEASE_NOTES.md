@@ -12,6 +12,12 @@ Beta version tags are removed after the next minor or major version.
 
 
 
+## 1.1.1
+
+This version add a new `.reorder` action type.
+
+
+
 ## 1.1
 
 ### ✨ Features

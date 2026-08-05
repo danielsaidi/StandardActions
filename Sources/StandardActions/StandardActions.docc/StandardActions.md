@@ -23,12 +23,6 @@ https://github.com/danielsaidi/StandardActions.git
 ```
 
 
-## Support My Work
-
-You can [become a sponsor][Sponsors] to help me dedicate more time on my various [open-source tools][OpenSource]. Every contribution, no matter the size, makes a real difference in keeping these tools free and actively developed.
-
-
-
 ## Getting started
 
 You can create a ``SwiftUI/Button``, ``SwiftUI/Label`` and ``SwiftUI/Link`` for any ``StandardActionType``. This will automatically apply a localized title, icon, etc.

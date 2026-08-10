@@ -1751,7 +1751,7 @@
       }
     },
     "Button.Filter" : {
-      "extractionState": "manual",
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -1803,8 +1803,61 @@
         }
       }
     },
+    "Button.Flip" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Vend"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Umdrehen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flip"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Voltear"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Retourner"
+          }
+        },
+        "ka" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "გადაბრუნება"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Snu"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Vänd"
+          }
+        }
+      }
+    },
     "Button.Forward" : {
-      "extractionState": "manual",
+      "extractionState" : "manual",
       "localizations" : {
         "da" : {
           "stringUnit" : {
@@ -7210,5 +7263,5 @@
       }
     }
   },
-  "version" : "1.0"
+  "version" : "1.3"
 }

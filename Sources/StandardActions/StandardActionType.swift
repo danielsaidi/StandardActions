@@ -26,7 +26,7 @@ public enum StandardActionType: String, CaseIterable, Identifiable, Hashable, Se
          edit, email, end, enter, execute, exit,
          expand, expandDown, expandUp,
          export,
-         favorite, filter, forward, fullscreen,
+         favorite, filter, flip, forward, fullscreen,
          generateBarcode, generateQrCode,
          gitBranch, gitMerge, gitPull, gitPush,
          help, hide,
@@ -127,6 +127,7 @@ public extension StandardActionType {
         case .export: "square.and.arrow.up"
         case .favorite: "star"
         case .filter: "line.3.horizontal.decrease.circle"
+        case .flip: "rectangle.on.rectangle.angled"
         case .forward: "chevron.forward"
         case .fullscreen: "arrow.up.left.and.arrow.down.right.rectangle"
         case .generateBarcode: "barcode"
@@ -296,6 +297,7 @@ public extension StandardActionType {
         case .export: .buttonExport
         case .favorite: .buttonFavorite
         case .filter: .buttonFilter
+        case .flip: .buttonFlip
         case .forward: .buttonForward
         case .fullscreen: .buttonFullscreen
         case .generateBarcode: .buttonGenerateBarcode

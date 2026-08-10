@@ -11,6 +11,12 @@ Beta version tags are removed after the next minor or major version.
 
 
 
+## 2.0.1
+
+This version adds a `.flip` action.
+
+
+
 ## 2.0
 
 This version bumps the deployment targets and use localized string resources instead of keys.

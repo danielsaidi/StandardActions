@@ -14,7 +14,7 @@ class StandardActionsTests {
 
     @Test
     func definesCorrectNumberOfTypes() async throws {
-        #expect(StandardActionType.allCases.count == 140)
+        #expect(StandardActionType.allCases.count == 141)
     }
 
     @Test

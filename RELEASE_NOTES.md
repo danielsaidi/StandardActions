@@ -11,6 +11,16 @@ Beta version tags are removed after the next minor or major version.
 
 
 
+## 2.0.2
+
+This version makes it possible to trigger certain `StandardAction` values.
+
+### ✨ Features
+
+* `StandardAction` has a new, optional `action`.
+
+
+
 ## 2.0.1
 
 This version adds a `.flip` action.

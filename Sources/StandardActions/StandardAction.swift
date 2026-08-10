@@ -36,6 +36,31 @@ public enum StandardAction {
     case openUrl(_ url: String)
 }
 
+@MainActor
+public extension StandardAction {
+    
+    /// Whether the action has a standard action that can be
+    /// accessed with ``action``.
+    var hasAction: Bool {
+        action != nil
+    }
+    
+    /// The standard executable action for the type, if any.
+    var action: (() -> Void)? {
+        switch self {
+        case .call: nil
+        case .copyImageToPasteboard(let image): {
+            Pasteboard.copyImage(image)
+        }
+        case .copyStringToPasteboard(let string):  {
+            Pasteboard.copyString(string)
+        }
+        case .email: nil
+        case .openUrl: nil
+        }
+    }
+}
+
 
 /// This view can be used to render any ``StandardAction``.
 ///
@@ -71,9 +96,9 @@ public struct StandardActionControl: View {
         case .call(let number):
             link(.call, url: .call(number: number))
         case .copyImageToPasteboard(let image):
-            button(.copy) { copyImage(image) }
+            button(.copy) { action.action?() }
         case .copyStringToPasteboard(let string):
-            button(.copy) { copyString(string) }
+            button(.copy) { action.action?() }
         case .email(let address):
             link(.email, url: .email(address: address))
         case .openUrl(let url):
@@ -166,16 +191,16 @@ public extension StandardAction {
     #endif
 }
 
+#if os(iOS) || os(visionOS) || targetEnvironment(macCatalyst)
+private typealias Pasteboard = UIPasteboard
+#elseif os(macOS)
+private typealias Pasteboard = NSPasteboard
+#endif
+
 @MainActor
-private extension StandardActionControl {
+private extension Pasteboard {
 
-    #if os(iOS) || os(visionOS) || targetEnvironment(macCatalyst)
-    typealias Pasteboard = UIPasteboard
-    #elseif os(macOS)
-    typealias Pasteboard = NSPasteboard
-    #endif
-
-    func copyImage(_ image: StandardAction.ImageRepresentable) {
+    static func copyImage(_ image: StandardAction.ImageRepresentable) {
         #if os(macOS)
         Pasteboard.general.writeObjects([image])
         #elseif os(iOS) || os(visionOS) || targetEnvironment(macCatalyst)
@@ -183,7 +208,7 @@ private extension StandardActionControl {
         #endif
     }
 
-    func copyString(_ string: String) {
+    static func copyString(_ string: String) {
         #if os(macOS)
         Pasteboard.general.setString(string, forType: .string)
         #elseif os(iOS) || os(visionOS) || targetEnvironment(macCatalyst)
